@@ -18,15 +18,15 @@ Here are some ideas to get you started:
   
   **Languages and Tools:**  
   <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/python.png"></code>
-  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/images/java.png"></code>
-  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/images/css3.png"></code>
-  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/images/html.png"></code>
-  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/images/django.svg"></code>
-  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/images/js.png"></code>
-  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/images/reactjs.png"></code>
-  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/images/robotframework.png"></code>
-  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/images/selenium.png"></code>
-  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/images/cucumber.png"></code>
+  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/java.png"></code>
+  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/css3.png"></code>
+  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/html.png"></code>
+  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/django.svg"></code>
+  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/js.png"></code>
+  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/reactjs.png"></code>
+  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/robotframework.png"></code>
+  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/selenium.png"></code>
+  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/cucumber.png"></code>
   
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=shofiqtest)
 (https://anuraghazra.github.io/github-readme-stats)
