@@ -16,5 +16,18 @@ Here are some ideas to get you started:
    [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/mdshofiqul/)
   <a href="mailto:shofiqtest@gmail.com"> <img src="https://img.icons8.com/fluent/48/000000/gmail.png" width="3.5%"/> </a>
   
+  **Languages and Tools:**  
+
+  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/python.png"></code>
+  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/java.png"></code>
+  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/css3.png"></code>
+  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/html.png"></code>
+  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/django.png"></code>
+  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/images/javascript.png"></code>
+  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/react.png"></code>
+  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/robotframework.png"></code>
+  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/images/selenium.png"></code>
+  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/cucumber.png"></code>
+  
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=shofiqtest)
 (https://anuraghazra.github.io/github-readme-stats)
