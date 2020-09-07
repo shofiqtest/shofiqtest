@@ -1,6 +1,6 @@
 ### Hi there, I'm [Shofiq!](https://github.com/shofiqtest/shofiq.github-oi)👋
 
-I'm a software test engineer who is passionate about find the bug and test the software.
+I'm a software test engineer who is passionate about in quality assurance and general software development, accurately identifying all problems and bugs quickly and effectively.
 
 Here are some ideas to get you started:
 
