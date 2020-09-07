@@ -2,9 +2,6 @@
 
 I'm a software test engineer who is passionate about find the bug and test the software.
 
-<!--
-**shofiqtest/shofiqtest** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on Hosting Box
