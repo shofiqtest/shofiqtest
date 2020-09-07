@@ -17,16 +17,16 @@ Here are some ideas to get you started:
   <a href="mailto:shofiqtest@gmail.com"> <img src="https://img.icons8.com/fluent/48/000000/gmail.png" width="3.5%"/> </a>
   
   **Languages and Tools:**  
-  <code><img height="30" src="https://raw.github.com/shofiqtest/shofiqtest/blob/master/Images/python.png"></code>
-  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/blob/master/images/java.png"></code>
-  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/blob/master/images/css3.png"></code>
-  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/blob/master/images/html.png"></code>
-  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/blob/master/images/django.svg"></code>
-  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/blob/images/js.png"></code>
-  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/blob/master/images/reactjs.png"></code>
-  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/blob/master/images/robotframework.png"></code>
-  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/blob/images/selenium.png"></code>
-  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/blob/master/images/cucumber.png"></code>
+  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/python.png"></code>
+  <code><img height="40" src="https://githubusercontent.com/shofiqtest/shofiqtest/blob/master/images/java.png"></code>
+  <code><img height="40" src="https://githubusercontent.com/shofiqtest/shofiqtest/blob/master/images/css3.png"></code>
+  <code><img height="40" src="https://githubusercontent.com/shofiqtest/shofiqtest/blob/master/images/html.png"></code>
+  <code><img height="40" src="https://githubusercontent.com/shofiqtest/shofiqtest/blob/master/images/django.svg"></code>
+  <code><img height="40" src="https://githubusercontent.com/shofiqtest/shofiqtest/blob/images/js.png"></code>
+  <code><img height="40" src="https://githubusercontent.com/shofiqtest/shofiqtest/blob/master/images/reactjs.png"></code>
+  <code><img height="40" src="https://githubusercontent.com/shofiqtest/shofiqtest/blob/master/images/robotframework.png"></code>
+  <code><img height="40" src="https://githubusercontent.com/shofiqtest/shofiqtest/blob/images/selenium.png"></code>
+  <code><img height="40" src="https://githubusercontent.com/shofiqtest/shofiqtest/blob/master/images/cucumber.png"></code>
   
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=shofiqtest)
 (https://anuraghazra.github.io/github-readme-stats)
