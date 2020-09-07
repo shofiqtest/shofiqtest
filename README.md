@@ -17,7 +17,6 @@ Here are some ideas to get you started:
   <a href="mailto:shofiqtest@gmail.com"> <img src="https://img.icons8.com/fluent/48/000000/gmail.png" width="3.5%"/> </a>
   
   **Languages and Tools:**  
-
   <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/python.png"></code>
   <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/java.png"></code>
   <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/css3.png"></code>
