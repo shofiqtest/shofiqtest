@@ -23,8 +23,8 @@ Here are some ideas to get you started:
   <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/css3.png"></code>
   <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/html.png"></code>
   <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/django.svg"></code>
-  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/images/javascript.png"></code>
-  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/react.png"></code>
+  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/images/js.png"></code>
+  <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/reactjs.png"></code>
   <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/robotframework.png"></code>
   <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/images/selenium.png"></code>
   <code><img height="30" src="https://raw.githubusercontent.com/shofiqtest/shofiqtest/master/images/cucumber.png"></code>
