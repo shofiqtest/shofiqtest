@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 
 #### 📫 How to reach me:   
-  [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="4%"/>](https://www.linkedin.com/in/mdshofiqul/)
-  <a href="mailto:shofiqtest@gmail.com"> <img src="https://img.icons8.com/fluent/48/000000/gmail.png" width="4"/> </a>
+  [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/mdshofiqul/)
+  <a href="mailto:shofiqtest@gmail.com"> <img src="https://img.icons8.com/fluent/48/000000/gmail.png" width="3.5"/> </a>
   
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=shofiqtest)(https://anuraghazra.github.io/github-readme-stats)
