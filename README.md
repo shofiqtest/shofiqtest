@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there, I'm [Shofiq!](https://github.com/shofiqtest/shofiq.github-oi)👋
 
 I'm a software test engineer who is passionate about find the bug and test the software.
 
@@ -17,4 +17,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-[![Reactjs](https://github-readme-stats.vercel.app/api/pin/?username=shofiqtest)](https://github.com/facebook/react)
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=shofiqtest)(https://anuraghazra.github.io/github-readme-stats)
