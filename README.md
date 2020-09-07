@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+I'm a software test engineer who is passionate about find the bug and test the software.
+
 <!--
 **shofiqtest/shofiqtest** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,3 +16,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+[![Reactjs](https://github-readme-stats.vercel.app/api/pin/?username=shofiqtest)](https://github.com/facebook/react)
