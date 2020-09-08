@@ -30,7 +30,7 @@ Here are some ideas to get you started:
   **Testing Framework:**
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/robotframework.png"></code>
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/selenium.png"></code>
-  <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/cucumber.png"></code>
+  <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/cucumber.png"></code>
   
   **CD/CI Piplines**
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/teamcity.png"></code>
