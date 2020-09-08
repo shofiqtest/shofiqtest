@@ -28,5 +28,5 @@ Here are some ideas to get you started:
   <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/selenium.png"></code>
   <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/cucumber.png"></code>
   
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=shofiqtest)
-(https://anuraghazra.github.io/github-readme-stats)
+![shofiqtest's github stats](https://github-readme-stats.vercel.app/api?username=shofiqtest)
+
