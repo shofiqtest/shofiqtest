@@ -34,6 +34,7 @@ Here are some ideas to get you started:
   
   **CD/CI Piplines**
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/teamcity.png"></code>
+  <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/jenkins.jfif"></code>
   
   **Project Management Tool:**
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/jira.png"></code>
