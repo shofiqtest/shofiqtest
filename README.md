@@ -18,7 +18,7 @@ Here are some ideas to get you started:
   
   #### 👨🏻‍💻 Languages and Tools <br /> 
   
-  **Programming Knowledge:**
+  **Programming Knowledge:**<br /> 
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/python.png"></code>
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/java.png"></code>
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/css3.png"></code>
@@ -27,16 +27,16 @@ Here are some ideas to get you started:
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/js.png"></code>
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/reactjs.png"></code>
   
-  **Testing Framework:**
+  **Testing Framework:**<br /> 
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/robotframework.png"></code>
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/selenium.png"></code>
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/cucumber.png"></code>
   
-  **CD/CI Piplines**
+  **CD/CI Piplines**<br /> 
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/teamcity.png"></code>
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/jenkins.jfif"></code>
   
-  **Project Management Tool:**
+  **Project Management Tool:**<br /> 
   <code><img height="25" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/jira.png"></code>
   
 ![shofiqtest's github stats](https://github-readme-stats.vercel.app/api?username=shofiqtest)
