@@ -1,6 +1,6 @@
 ### Hi there, I'm [Shofiq!](https://github.com/shofiqtest/shofiq.github-oi)👋
 
-I'm a software test engineer who is passionate about in quality assurance and general software development, accurately identifying all problems and bugs quickly and effectively.
+I'm a ssoftware test developer who is passionate about in quality assurance and general software development, accurately identifying all problems and bugs quickly and effectively.
 
 Here are some ideas to get you started:
 
@@ -16,7 +16,9 @@ Here are some ideas to get you started:
    [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/mdshofiqul/)
   <a href="mailto:shofiqtest@gmail.com"> <img src="https://img.icons8.com/fluent/48/000000/gmail.png" width="3.5%"/> </a>
   
-  **Languages and Tools:**  
+  **Languages and Tools:**
+  
+  **Programming Knowledge:**
   <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/python.png"></code>
   <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/java.png"></code>
   <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/css3.png"></code>
@@ -24,9 +26,15 @@ Here are some ideas to get you started:
   <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/django.svg"></code>
   <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/js.png"></code>
   <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/reactjs.png"></code>
+  
+  **Testing Framework:**
   <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/robotframework.png"></code>
   <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/selenium.png"></code>
   <code><img height="40" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/cucumber.png"></code>
+  
+  **CD/CI Piplines**
+  
+  **Project Management Tool:**
   
 ![shofiqtest's github stats](https://github-readme-stats.vercel.app/api?username=shofiqtest)
 
