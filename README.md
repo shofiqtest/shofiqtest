@@ -4,13 +4,13 @@ I'm a Software test developer who is passionate about in quality assurance and g
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on Hosting Box
-- 🌱 I’m currently learning Java, Junit, TestNG
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
+- 🔭 I’m full time Freelancer 
+- 🌱 I’m currently Python, Robotframework, Selenium Library  
+- 👯 I’m looking to collaborate on Software Testing Project
+- 🤔 I’m looking for help with New Testing Tools & System
 - 💬 Ask me about ...
 - 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- ⚡ Fun fact: Swimming, Traveling
 
 ### 📫 How to reach me:   
    [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/mdshofiqul/)
