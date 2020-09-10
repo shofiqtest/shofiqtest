@@ -4,8 +4,8 @@ I'm a Software test developer who is passionate about in quality assurance and g
 
 Here are some ideas to get you started:
 
-- 🔭 I’m full time Freelancer 
-- 🌱 I’m currently Python, Robotframework, Selenium Library  
+- 🔭 I’m full time Hosting Box 
+- 🌱 I’m currently  
 - 👯 I’m looking to collaborate on Software Testing Project
 - 🤔 I’m looking for help with New Testing Tools & System
 - 💬 Ask me about ...
