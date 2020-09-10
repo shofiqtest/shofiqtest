@@ -10,7 +10,7 @@ Here are some ideas to get you started:
 - 🤔 I’m looking for help with New Testing Tools & System
 - 💬 Ask me about ...
 - 😄 Pronouns: ...
-- ⚡ Fun fact: Swimming, Traveling
+- ⚡ Fun fact: Machine Learning, Artificial intelligence
 
 ### 📫 How to reach me:   
    [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/mdshofiqul/)
