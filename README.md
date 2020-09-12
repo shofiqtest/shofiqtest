@@ -1,6 +1,6 @@
 ### Hi there, I'm [Shofiq!](https://github.com/shofiqtest/shofiq.github-oi)👋
 
-I'm a Software Developer who is passionate about in software development and test.
+I'm a Software Developer who is passionate about software development and test.
 
 Here are some ideas to get you started:
 
