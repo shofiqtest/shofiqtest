@@ -4,11 +4,12 @@ I'm a Software test developer who is passionate about in quality assurance and g
 
 Here are some ideas to get you started:
 
-- 🔭 I’m full time Hosting Box 
+- 🔭 I’m Am looking for New Scope in Software Development Position 
 - 🌱 I’m currently  
-- 👯 I’m looking to collaborate on Software Testing Project
+- 👯 I’m looking to collaborate on Software Development or Testing Project
 - 🤔 I’m looking for help with New Testing Tools & System
-- 💬 Ask me about ...
+- 💬 I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience.
+      I like to think, I like to dream; I like to talk, I like to listen. 
 - 😄 Pronouns: ...
 - ⚡ Fun fact: Machine Learning, Artificial intelligence
 
