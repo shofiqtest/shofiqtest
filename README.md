@@ -48,9 +48,6 @@ Here are some ideas to get you started:
   **Project Management Tool:**<br />
   <code><img height="25" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/jira.png"></code>
   
-  
-
-  
-  
-![shofiqtest's github stats](https://github-readme-stats.vercel.app/api?username=shofiqtest)
+ 
+ <br />![shofiqtest's github stats](https://github-readme-stats.vercel.app/api?username=shofiqtest)
 
