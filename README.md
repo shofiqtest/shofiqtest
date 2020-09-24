@@ -6,12 +6,12 @@ Here are some ideas to get you started:
 
 - 🔭 I’m Am looking for New Scope in Software Development Position 
 - 🌱 I’m currently  
-- 👯 I’m looking to collaborate on Software Development or Testing Project
-- 🤔 I’m looking for help with New Testing Tools & System
+- 👯 I’m looking to collaborate on Medical Application Development or Testing  Application 
+- 🤔 I’m looking for help with Software Development & System Application
 - 💬 I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience.
       I like to think, I like to dream; I like to talk, I like to listen. 
 - 😄 Pronouns: ...
-- ⚡ Fun fact: Machine Learning, Artificial intelligence
+- ⚡ Fun fact: Machine Learning, Artificial intelligence, Medical Industry
 
 ### 📫 How to reach me:   
    [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/mdshofiqul/)
