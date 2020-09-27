@@ -28,6 +28,7 @@ Here are some ideas to get you started:
   **Back-end**<br />
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/python.png"></code>
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/java.png"></code>
+  <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/cpp.png"></code>
   
   **Web Development Framework**<br />
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/django.svg"></code>
