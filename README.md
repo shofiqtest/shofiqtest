@@ -10,7 +10,7 @@ Here is some info about me:
 - 💬 I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience.
       I like to think, I like to dream; I like to talk and discuss about all kinds of topics with people. 
 - 😄 Pronouns: ...
-- ⚡ I love to study : Machine Learning, Artificial intelligence and Medical application in general. 
+- ⚡ I love to study: Machine Learning, Artificial intelligence and Medical application in general. 
 
 ### 📫 How to reach me:   
    [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/mdshofiqul/)
