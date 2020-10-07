@@ -1,10 +1,10 @@
 ### Hi there, I am [Shofiq!](https://github.com/shofiqtest/shofiq.github-oi)👋
 
-I am a Software Developer who is passionate about test automations and software development in general.
+I am a software developer who is passionate about test automations and software development in general.
 
 Here is some info about me:
 
-- 🔭 I am looking for new scope in software development position. 
+- 🔭 I am looking for a new scope in software development. 
 - 🌱 I am currently working on tDCS brain stimulation desktop based application project.  
 - 🤔 I am looking for opportunities to help you with your system Application & software development in general.
 - 💬 I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience.
