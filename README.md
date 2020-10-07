@@ -4,10 +4,10 @@ I am a Software Developer who is passionate about software development and testi
 
 Here are some ideas to get you started:
 
-- 🔭 I’m Am looking for New Scope in Software Development Position. 
-- 🌱 I’m currently working on tDCS Brain Simulation desktop based application project.  
-- 👯 I’m looking to collaborate on Medical Application Development or Testing  Application. 
-- 🤔 I’m looking for help with Software Development & System Application. 
+- 🔭 I am looking for New Scope in Software Development Position. 
+- 🌱 I am currently working on tDCS Brain Simulation desktop based application project.  
+- 👯 I am looking to collaborate on Medical Application Development or Testing  Application. 
+- 🤔 I amlooking for help with Software Development & System Application. 
 - 💬 I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience.
       I like to think, I like to dream; I like to talk, I like to listen. 
 - 😄 Pronouns: ...
