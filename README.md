@@ -8,8 +8,7 @@ Here is some info about me:
 - 🌱 I am currently working on tDCS brain stimulation desktop based application project.  
 - 🤔 I am looking for opportunities to help you with your system Application & software development in general.
 - 💬 I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience.
-      I like to think, I like to dream; I like to talk and discuss about all kinds of topics with people. 
-- 😄 Pronouns: i am still learning english, so i might have challenges with grammer and pronouncing but i keep getting better day by day only traning.
+      I like to think, I like to dream; I like to talk and discuss about all kinds of topics with people.
 - ⚡ I love to study: Machine Learning, Artificial intelligence and Medical applications in general. 
 
 ### 📫 How to reach me:   
