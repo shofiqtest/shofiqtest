@@ -1,6 +1,6 @@
 ### Hi there, I am [Shofiq!](https://github.com/shofiqtest/shofiq.github-oi)👋
 
-I am a software developer who is passionate about test automations and software development in general.
+I am a software engineer who is passionate about software development in C++ programming and test automation in general.
 
 Here is some info about me:
 
