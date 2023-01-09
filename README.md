@@ -22,7 +22,6 @@ Here is some info about me:
  
   **Back-end**<br />
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/cpp.png"></code>
-  <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/csharp.png"></code>
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/python.png"></code>
   <code><img height="30" src="https://github.com/shofiqtest/shofiqtest/blob/master/Images/java.png"></code>
   
