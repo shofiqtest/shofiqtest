@@ -4,9 +4,8 @@ I am a software engineer who is passionate about software development in C++ pro
 
 Here is some info about me:
 
-- 💬 I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience.
-      I like to think, I like to dream; I like to talk and discuss about all kinds of topics with people.
-- ⚡ I love to study: Operating System, Software Designing and Development . 
+- 💬 I am a dedicated Software Engineer with experience in embedded systems and software design, specializing in C++ programming for embedded environments. I am deeply passionate about applying my expertise to cutting-edge domains, such as 5G/6G O-RAN software development, image processing, and robotics. I have garnered valuable experience working with industry leaders like Nokia, with a focus on system-level optimization in real-time embedded settings. What differentiates me is my unique background that integrates knowledge from computer science, electrical engineering, and the biomedical field. This enables me to effectively bridge the gap between software and hardware. I am eager to bring my skills to your software team and contribute to our collective mission of advancing software innovation for the future.
+- ⚡ I love to study: Operating Systems, Software design, and Development. 
 
 ### 📫 How to reach me:   
    [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/mdshofiqul/)
