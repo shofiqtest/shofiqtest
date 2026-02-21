@@ -5,7 +5,7 @@ I am a software engineer who is passionate about software development in C++ pro
 Here is some info about me:
 
 - 💬 I am a dedicated Software Engineer with experience in embedded systems and software design, specializing in C++ programming for embedded environments. What differentiates me is my unique background, which integrates knowledge from the fields of Electrical, Computer, and Biomedical engineering. This enables me to bridge the gap between software and hardware effectively. I am eager to bring my skills to your software team and contribute to our collective mission of advancing software innovation for the future.
-- ⚡ I love to study: Quantum Computing, Software design & development, Optimisation 
+- ⚡ I love to study: RISC-V, Quantum Computing, Software design & development, Optimisation 
 
 ### 📫 How to reach me:   
    [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/mdshofiqul/)
