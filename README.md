@@ -4,8 +4,14 @@ I am a software engineer who is passionate about software development in C++ pro
 
 Here is some info about me:
 
-- 💬 I am a dedicated Software Engineer with experience in embedded systems and software design, specializing in C++ programming for embedded environments. What differentiates me is my unique background, which integrates knowledge from the fields of Electrical, Computer, and Biomedical engineering. This enables me to bridge the gap between software and hardware effectively. I am eager to bring my skills to your software team and contribute to our collective mission of advancing software innovation for the future.
-- ⚡ I love to study: RISC-V, Quantum Computing, Software design & development, Optimisation 
+- 💬 I’m a System-on-Chip (SoC) Software Engineer at Nokia, working at the intersection of high-performance embedded systems and modern C/C++ development. I design and develop core software components for ASIC-based platforms, contribute to automation frameworks using Bash, and build libraries that optimize system efficiency and hardware–software integration.
+
+My work involves close collaboration across hardware and FPGA teams, supporting Beamforming technology in 5G systems. I have a strong interest and exposure in processor architecture, including RISC-V–based systems, instruction-level optimization, and performance-aware embedded development.
+
+With a Master’s degree in Biomedical Engineering from the University of Oulu and another in Computer Science and Engineering, I bring both analytical depth and practical software expertise. I’m particularly interested in emerging computing paradigms, including RISC-V architecture innovation and quantum computing fundamentals, and how they may shape the future of high-performance and embedded systems.
+
+
+- ⚡ I enjoy working close to hardware, solving complex system challenges, and building reliable, maintainable software that scales.
 
 ### 📫 How to reach me:   
    [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/mdshofiqul/)
