@@ -13,7 +13,7 @@ Active upstream contributor — patches reviewed, accepted, and queued for mainl
 | `ASoC: nau8825: Fix typos in comments` | Sound / ASoC | ✅ Applied → Linux 7.2 |
 | `iio: adc: ti-ads1298: Three driver cleanups` | IIO / Medical ECG ADC | 📬 Under review |
 | `soc: ti: knav_qmss_queue: Implement resource cleanup` | SoC / TI Keystone | 📬 Under review |
-| `scsi: storvsc: Replace symbolic permissions with octal` | SCSI / Hyper-V | 📬 Under review |
+| `scsi: storvsc: Replace symbolic permissions with octal` | SCSI / Hyper-V | 📬 Reviewed-by Long Li (Microsoft) |
 | `power: supply: Fix typos in comments` | Power Supply | 📬 Acked-by Linus Walleij |
 | `xfs: Fix typo in comment` | XFS Filesystem | 📬 Reviewed-by Darrick J. Wong |
 | `scsi: scsi_scan: Fix typo in comment` | SCSI | 📬 Under review |
