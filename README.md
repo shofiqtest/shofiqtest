@@ -110,8 +110,8 @@ Applying domain knowledge to Linux kernel IIO health drivers:
 ## 🎓 Education
 
 - **M.HSc. Biomedical Engineering** — University of Oulu, Finland
-- **M.Sc. Computer Science & Engineering** — Islamic University, Bangladesh
-- **B.Sc. Electrical & Electronics Engineering** — IIUC, Bangladesh
+- **M.Sc. Computer Science & Engineering** — Islamic University, Kushtia, Bangladesh
+- **B.Sc. Electrical & Electronics Engineering** — International Islamic University Chittagong, Bangladesh
 
 ---
 
