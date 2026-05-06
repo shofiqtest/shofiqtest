@@ -1,69 +1,122 @@
-## Hi there, I'm Shofiq 👋
+# Hi there, I'm Shofiq 👋
 
-System-on-Chip (SoC) Software Engineer at Nokia, working on high-performance embedded systems, C/C++, and hardware–software integration.
-
----
-
-### 💡 What I do
-
-- Develop core software for ASIC-based platforms in 5G Beamforming systems  
-- Optimize performance at system and instruction level (C/C++)  
-- Collaborate closely with FPGA and hardware teams  
-- Build automation and tooling using Bash and Python  
+**Linux Kernel Contributor** · **SoC Software Engineer at Nokia** · **C/C++ Systems & Runtime**
 
 ---
 
-### ⚙️ Core expertise
+## 🐧 Linux Kernel Contributions
 
-- Embedded systems & low-level development (C/C++)  
-- Performance optimization & system-level debugging  
-- Processor architecture (RISC-V, instruction-level tuning)  
-- Linux-based development environments  
+Active upstream contributor — patches reviewed, accepted, and queued for mainline:
 
----
+| Patch | Subsystem | Status |
+|-------|-----------|--------|
+| `ASoC: nau8825: Fix typos in comments` | Sound / ASoC | ✅ Applied → Linux 7.2 |
+| `iio: adc: ti-ads1298: Three driver cleanups` | IIO / Medical ECG ADC | 📬 Under review |
+| `soc: ti: knav_qmss_queue: Implement resource cleanup` | SoC / TI Keystone | 📬 Under review |
+| `scsi: storvsc: Replace symbolic permissions with octal` | SCSI / Hyper-V | 📬 Under review |
+| `power: supply: Fix typos in comments` | Power Supply | 📬 Acked-by Linus Walleij |
+| `xfs: Fix typo in comment` | XFS Filesystem | 📬 Reviewed-by Darrick J. Wong |
+| `scsi: scsi_scan: Fix typo in comment` | SCSI | 📬 Under review |
 
-### 🚀 What I'm exploring
-
-Expanding into **cloud-native and distributed systems**:
-
-- Kubernetes & containerized systems  
-- Backend systems with Python (FastAPI)  
-- Observability & system reliability  
-
-👉 Recently built: Real-Time Patient Monitoring System on Kubernetes  
-🔗 https://github.com/shofiqtest/real-time-patient-monitoring-k8s  
+🔗 [All patches on lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
 
 ---
 
-### 🎓 Background
+## 💡 What I Do
 
-- M.Sc. Biomedical Engineering — University of Oulu  
-- M.Sc. Computer Science & Engineering  
-
----
-
-### ⚡ Interests
-
-- RISC-V & next-gen processor design  
-- High-performance embedded systems  
-- Distributed systems & platform engineering  
+- Write **upstream Linux kernel patches** — full workflow: `checkpatch`, `git send-email`, maintainer review cycles, v2/v3 iterations
+- Develop **performance-critical C/C++ runtime software** for SoC/FPGA platforms at Nokia (5G beamforming systems)
+- Design **thread-safe concurrent components**: lock-free queues, atomic operations, hardware abstraction layers
+- Contribute to **medical device drivers** (IIO health subsystem — ECG ADCs, pulse oximeters) backed by a Biomedical Engineering degree
 
 ---
 
-### 📫 Connect with me
+## ⚙️ Core Expertise
 
-[LinkedIn](https://www.linkedin.com/in/mdshofiqul/)  
-📧 shofiqtest@gmail.com  
-
----
-
-### 🛠️ Tech Stack
-
-**Languages:** C++, Python, Bash  
-**Systems:** Linux, Embedded Systems, SoC/ASIC  
-**Cloud & DevOps:** Kubernetes, Docker, Helm, CI/CD (Jenkins, GitHub Actions)  
-**Databases:** PostgreSQL, Redis  
+```
+Linux Kernel    ████████████████░░░░  Upstream contributor (IIO, SCSI, SoC, ASoC, XFS)
+C / C++17       ████████████████████  5+ years, Nokia SoC runtime systems
+Concurrency     ████████████████████  Lock-free, atomics, spinlocks, POSIX threads
+Performance     ████████████████░░░░  Profiling, cache optimization, benchmarking
+Embedded Linux  ████████████████░░░░  Yocto, Bitbake, cross-compilation, Wind River
+Python          ████████████░░░░░░░░  Automation, tooling, CI/CD pipelines
+```
 
 ---
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shofiqtest)
+## 🔬 Medical Device Background
+
+**M.HSc. Biomedical Engineering** (University of Oulu) + thesis at **Sooma Medical**
+
+Applying domain knowledge to Linux kernel IIO health drivers:
+
+- **TI ADS1298** — 8-channel medical ECG ADC driver (`drivers/iio/adc/`)
+- **MAX30102** — pulse oximeter / heart rate sensor (`drivers/iio/health/`)
+- **Melexis MLX90632** — medical-grade contactless IR thermometer
+
+---
+
+## 🚀 Featured Projects
+
+### ⚡ High-Performance C++ Event Engine
+> Lock-free MPMC queue · **8–12M events/sec** · **1–5μs latency** · Deployed on AKS
+
+[![Repo](https://img.shields.io/badge/GitHub-high--performance--event--engine-181717?logo=github)](https://github.com/shofiqtest/high-performance-event-engine)
+
+- Lock-free MPMC queue with 64-byte cache-line alignment and false sharing elimination
+- Atomic CAS operations, zero-copy design
+- Benchmarked with perf across 4 producer / 4 consumer threads
+
+### 🏥 Real-Time Patient Monitoring on Kubernetes
+> Distributed backend · FastAPI · TimescaleDB · Redis · Azure AKS
+
+[![Repo](https://img.shields.io/badge/GitHub-real--time--patient--monitoring--k8s-181717?logo=github)](https://github.com/shofiqtest/real-time-patient-monitoring-k8s)
+
+---
+
+## 🛠️ Tech Stack
+
+**Kernel & Systems**
+
+![Linux](https://img.shields.io/badge/Linux_Kernel-FCC624?logo=linux&logoColor=black)
+![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+
+**Build & Tooling**
+
+![CMake](https://img.shields.io/badge/CMake-064F8C?logo=cmake&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+
+**Kernel Workflow**
+
+![checkpatch](https://img.shields.io/badge/checkpatch-passing-brightgreen)
+![git send-email](https://img.shields.io/badge/git_send--email-workflow-orange)
+![lore.kernel.org](https://img.shields.io/badge/lore.kernel.org-contributor-blue)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shofiqtest&show_icons=true&theme=dark&hide_border=true&count_private=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shofiqtest&layout=compact&theme=dark&hide_border=true" height="165"/>
+</p>
+
+---
+
+## 🎓 Education
+
+- **M.HSc. Biomedical Engineering** — University of Oulu, Finland
+- **M.Sc. Computer Science & Engineering** — Islamic University, Bangladesh
+- **B.Sc. Electrical & Electronics Engineering** — IIUC, Bangladesh
+
+---
+
+## 📫 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Md_Shofiqul_Islam-0077B5?logo=linkedin)](https://www.linkedin.com/in/mdshofiqul/)
+[![Email](https://img.shields.io/badge/Email-shofiqtest@gmail.com-D14836?logo=gmail&logoColor=white)](mailto:shofiqtest@gmail.com)
+[![Kernel Patches](https://img.shields.io/badge/Kernel_Patches-lore.kernel.org-F8C517?logo=linux&logoColor=black)](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
