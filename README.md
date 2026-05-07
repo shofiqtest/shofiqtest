@@ -1,6 +1,6 @@
 # Hi there, I'm Shofiq 👋
 
-**Linux Kernel Contributor** · **SoC Software Engineer at Nokia** · **C/C++ Systems & Runtime**
+**Linux Kernel Contributor** · **Zephyr RTOS Contributor** · **SoC Software Engineer at Nokia** · **C/C++ Systems & Runtime**
 
 ---
 
@@ -23,6 +23,18 @@ Active upstream contributor — patches reviewed, accepted, and queued for mainl
 
 ---
 
+## 🦅 Zephyr RTOS Contributions
+
+Extending sensor drivers for medical IoT devices:
+
+| PR | Subsystem | Status |
+|----|-----------|--------|
+| [drivers: sensor: max30101: Add MAX30102 support](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Sensors / Devicetree | 📬 Under review |
+
+The MAX30102 is a pulse oximeter and heart rate sensor (Red + IR LEDs). Added as a second `DT_DRV_COMPAT` in the existing max30101 driver — new DT binding, runtime Green LED guard, shared Kconfig for triggers and die temperature.
+
+---
+
 ## 💡 What I Do
 
 - Write **upstream Linux kernel patches** — full workflow: `checkpatch`, `git send-email`, maintainer review cycles, v2/v3 iterations
@@ -36,6 +48,7 @@ Active upstream contributor — patches reviewed, accepted, and queued for mainl
 
 ```
 Linux Kernel    ████████████████░░░░  Upstream contributor (IIO, SCSI, SoC, ASoC, XFS, SCTP)
+Zephyr RTOS     ████████████░░░░░░░░  Sensor drivers, Devicetree bindings, west build system
 C / C++17       ████████████████████  5+ years, Nokia SoC runtime systems
 Concurrency     ████████████████████  Lock-free, atomics, spinlocks, POSIX threads
 Performance     ████████████████░░░░  Profiling, cache optimization, benchmarking
