@@ -17,7 +17,6 @@ Active upstream contributor — patches reviewed, accepted, and queued for mainl
 | `power: supply: Fix typos in comments` | Power Supply | 📬 Acked-by Linus Walleij |
 | `xfs: Fix typo in comment` | XFS Filesystem | 📬 Reviewed-by Darrick J. Wong |
 | `scsi: scsi_scan: Fix typo in comment` | SCSI | 📬 Under review |
-| `block: blk-merge: Replace == false comparisons with !` | Block Layer | 📬 Under review |
 | `sctp: Fix typo in comment` | Networking / SCTP | 📬 Under review |
 
 🔗 [All patches on lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
@@ -36,7 +35,7 @@ Active upstream contributor — patches reviewed, accepted, and queued for mainl
 ## ⚙️ Core Expertise
 
 ```
-Linux Kernel    ████████████████░░░░  Upstream contributor (IIO, SCSI, SoC, ASoC, XFS, block, SCTP)
+Linux Kernel    ████████████████░░░░  Upstream contributor (IIO, SCSI, SoC, ASoC, XFS, SCTP)
 C / C++17       ████████████████████  5+ years, Nokia SoC runtime systems
 Concurrency     ████████████████████  Lock-free, atomics, spinlocks, POSIX threads
 Performance     ████████████████░░░░  Profiling, cache optimization, benchmarking
