@@ -11,12 +11,14 @@ Active upstream contributor — patches reviewed, accepted, and queued for mainl
 | Patch | Subsystem | Status |
 |-------|-----------|--------|
 | `ASoC: nau8825: Fix typos in comments` | Sound / ASoC | ✅ Applied → Linux 7.2 |
-| `iio: adc: ti-ads1298: Three driver cleanups` | IIO / Medical ECG ADC | 📬 Under review |
+| `iio: adc: ti-ads1298: Three driver cleanups` | IIO / Medical ECG ADC | 📬 Acked-by Mike Looijmans (driver author) |
 | `soc: ti: knav_qmss_queue: Implement resource cleanup` | SoC / TI Keystone | 📬 Under review |
 | `scsi: storvsc: Replace symbolic permissions with octal` | SCSI / Hyper-V | 📬 Reviewed-by Long Li (Microsoft) |
 | `power: supply: Fix typos in comments` | Power Supply | 📬 Acked-by Linus Walleij |
 | `xfs: Fix typo in comment` | XFS Filesystem | 📬 Reviewed-by Darrick J. Wong |
 | `scsi: scsi_scan: Fix typo in comment` | SCSI | 📬 Under review |
+| `block: blk-merge: Replace == false comparisons with !` | Block Layer | 📬 Under review |
+| `sctp: Fix typo in comment` | Networking / SCTP | 📬 Under review |
 
 🔗 [All patches on lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
 
@@ -34,7 +36,7 @@ Active upstream contributor — patches reviewed, accepted, and queued for mainl
 ## ⚙️ Core Expertise
 
 ```
-Linux Kernel    ████████████████░░░░  Upstream contributor (IIO, SCSI, SoC, ASoC, XFS)
+Linux Kernel    ████████████████░░░░  Upstream contributor (IIO, SCSI, SoC, ASoC, XFS, block, SCTP)
 C / C++17       ████████████████████  5+ years, Nokia SoC runtime systems
 Concurrency     ████████████████████  Lock-free, atomics, spinlocks, POSIX threads
 Performance     ████████████████░░░░  Profiling, cache optimization, benchmarking
