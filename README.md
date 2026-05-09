@@ -4,20 +4,31 @@
 
 ---
 
+## 📫 Contact — Open to Senior Linux / Embedded Roles in Europe & Remote
+
+> **Recruiters:** best way to reach me is email or LinkedIn below.
+
+[![Email](https://img.shields.io/badge/Email-shofiqtest%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shofiqtest@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Md_Shofiqul_Islam-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mdshofiqul/)
+[![Kernel Patches](https://img.shields.io/badge/Kernel_Patches-lore.kernel.org-F8C517?style=for-the-badge&logo=linux&logoColor=black)](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
+
+📍 Espoo, Finland · Open to relocation (Ireland, EU) or fully remote
+
+---
+
 ## 🐧 Linux Kernel Contributions
 
 Active upstream contributor — patches reviewed, accepted, and queued for mainline:
 
 | Patch | Subsystem | Status |
 |-------|-----------|--------|
-| `ASoC: nau8825: Fix typos in comments` | Sound / ASoC | ✅ Applied → Linux 7.2 |
-| `iio: adc: ti-ads1298: Three driver cleanups` | IIO / Medical ECG ADC | 📬 v3 sent — reviewed by Jonathan Cameron |
-| `soc: ti: knav_qmss_queue: Implement resource cleanup` | SoC / TI Keystone | 📬 Under review |
-| `scsi: storvsc: Replace symbolic permissions with octal` | SCSI / Hyper-V | 📬 Reviewed-by Long Li (Microsoft) |
+| `sctp: Fix typo in comment` | Networking / SCTP | ✅ **Merged → netdev/net-next** ([c7ea0d2b4d76](https://git.kernel.org/netdev/net-next/c/c7ea0d2b4d76)) applied by Jakub Kicinski |
+| `ASoC: nau8825: Fix typos in comments` | Sound / ASoC | ✅ Applied → Linux 7.2 (broonie/sound.git) |
+| `iio: adc: ti-ads1298: Three driver cleanups` | IIO / Medical ECG ADC | ✅ Merged → iio/togreg (Acked-by Mike Looijmans) |
+| `soc: ti: knav_qmss_queue: Implement resource cleanup` | SoC / TI Keystone | 📬 v2 — Suggested-by Nishanth Menon (TI) |
+| `scsi: storvsc: Replace symbolic permissions with octal` | SCSI / Hyper-V | 📬 v2 — Reviewed-by Long Li (Microsoft) |
 | `power: supply: Fix typos in comments` | Power Supply | 📬 Acked-by Linus Walleij |
 | `xfs: Fix typo in comment` | XFS Filesystem | 📬 Reviewed-by Darrick J. Wong |
-| `scsi: scsi_scan: Fix typo in comment` | SCSI | 📬 Under review |
-| `sctp: Fix typo in comment` | Networking / SCTP | 📬 Under review |
 
 🔗 [All patches on lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
 
@@ -47,7 +58,7 @@ The MAX30102 is a pulse oximeter and heart rate sensor (Red + IR LEDs). Added as
 ## ⚙️ Core Expertise
 
 ```
-Linux Kernel    ████████████████░░░░  Upstream contributor (IIO, SCSI, SoC, ASoC, XFS, SCTP)
+Linux Kernel    ████████████████░░░░  Upstream contributor (Networking, IIO, SCSI, SoC, ASoC, XFS, SCTP)
 Zephyr RTOS     ████████████░░░░░░░░  Sensor drivers, Devicetree bindings, west build system
 C / C++17       ████████████████████  5+ years, Nokia SoC runtime systems
 Concurrency     ████████████████████  Lock-free, atomics, spinlocks, POSIX threads
@@ -126,11 +137,3 @@ Applying domain knowledge to Linux kernel IIO health drivers:
 - **M.HSc. Biomedical Engineering** — University of Oulu, Finland
 - **M.Sc. Computer Science & Engineering** — Islamic University, Kushtia, Bangladesh
 - **B.Sc. Electrical & Electronics Engineering** — International Islamic University Chittagong, Bangladesh
-
----
-
-## 📫 Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Md_Shofiqul_Islam-0077B5?logo=linkedin)](https://www.linkedin.com/in/mdshofiqul/)
-[![Email](https://img.shields.io/badge/Email-shofiqtest@gmail.com-D14836?logo=gmail&logoColor=white)](mailto:shofiqtest@gmail.com)
-[![Kernel Patches](https://img.shields.io/badge/Kernel_Patches-lore.kernel.org-F8C517?logo=linux&logoColor=black)](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
