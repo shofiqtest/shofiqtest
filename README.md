@@ -2,15 +2,32 @@
   <img src="./assets/profile-card.svg" alt="Md Shofiqul Islam - Linux kernel and embedded systems profile card" width="100%" />
 </p>
 
+## Linux Kernel Contributions
+
+Active upstream contributor across networking, sound, IIO, SoC, SCSI, power supply, and XFS. Public patch history is available on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam) and [spinics.net](https://www.spinics.net/lists/kernel/).
+
+| Patch | Subsystem | Current status |
+| --- | --- | --- |
+| [`sctp: Fix typo in comment`](https://git.kernel.org/netdev/net-next/c/c7ea0d2b4d76) | Networking / SCTP | Merged to `netdev/net-next` by Jakub Kicinski |
+| `ASoC: nau8825: Fix typos in comments` | Sound / ASoC | Applied to `broonie/sound.git`, queued for Linux 7.2 |
+| [`iio: adc: ti-ads1298: Add parentheses around macro parameter`](https://www.spinics.net/lists/kernel/msg6191377.html) | IIO / Medical ADC | v2 under maintainer review |
+| [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://www.spinics.net/lists/kernel/msg6192178.html) | IIO / Medical ADC | v2 under maintainer review |
+| [`iio: adc: ti-ads1298: Remove unnecessary CONFIG2 write during init`](https://www.spinics.net/lists/kernel/msg6192186.html) | IIO / Medical ADC | v2 reviewed positively; waiting on series follow-up |
+| [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://www.spinics.net/lists/kernel/msg6189942.html) | SoC / TI Keystone | v2 submitted; `Suggested-by: Nishanth Menon` |
+| [`scsi: storvsc: Replace symbolic permissions with octal`](https://www.spinics.net/lists/kernel/msg6188547.html) | SCSI / Hyper-V | v2 submitted after review feedback |
+| [`scsi: scsi_scan: Fix typo in comment`](https://www.spinics.net/lists/kernel/msg6189223.html) | SCSI core | v2 submitted after review feedback |
+| [`power: supply: Fix typos in comments`](https://www.spinics.net/lists/kernel/msg6189221.html) | Power Supply | v2 submitted with `Acked-by: Linus Walleij` |
+| [`xfs: Fix typo in comment`](https://www.spinics.net/lists/kernel/msg6190059.html) | XFS Filesystem | v2 submitted with `Reviewed-by: Darrick J. Wong` |
+
 ## Zephyr RTOS Contributions
 
-I work on embedded Linux and RTOS driver development, with recent focus on sensor drivers, board bring-up, and upstream-quality C code.
+I work on embedded Linux and RTOS driver development, with recent focus on sensor drivers, board bring-up, Devicetree bindings, Kconfig, and upstream-quality C code.
 
-| Area | Work |
-| --- | --- |
-| Sensor drivers | Maxim `MAX30101` / `MAX30102` style driver work |
-| Embedded C | Runtime, register-level driver code, debugging, and test overlays |
-| Upstream process | Patch review, coding style cleanup, maintainable driver structure |
+| Contribution | Area | Current status |
+| --- | --- | --- |
+| [`drivers: sensor: max30101: Add MAX30102 support`](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Sensor driver, I2C, Devicetree binding, Kconfig, build coverage | Open; changes requested; CI checks green |
+| `maxim,max30102` compatible support | Maxim pulse oximeter / heart-rate sensor family | Under review in PR #108697 |
+| `tests/drivers/build_all/sensor/i2c.dtsi` coverage | Zephyr sensor build test matrix | Added in response to maintainer review |
 
 ## Systems I Like Working On
 
@@ -19,7 +36,7 @@ I work on embedded Linux and RTOS driver development, with recent focus on senso
 | Kernel and BSP | Linux kernel, device drivers, DTS, Kconfig, Makefiles |
 | Embedded and RTOS | Zephyr RTOS, C, C++, sensor interfaces, I2C/SPI |
 | Runtime and platform | SoC software, debugging, CI, performance-minded systems work |
-| Cloud-adjacent engineering | Kubernetes, Docker, monitoring, automation |
+| Cloud-adjacent engineering | Docker, Kubernetes, Azure AKS, monitoring, automation |
 
 ## Tools I Use
 
@@ -34,6 +51,7 @@ I work on embedded Linux and RTOS driver development, with recent focus on senso
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white">
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+  <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white">
   <img alt="QEMU" src="https://img.shields.io/badge/QEMU-FF6600?style=flat-square&logo=qemu&logoColor=white">
   <img alt="checkpatch" src="https://img.shields.io/badge/checkpatch-passing-brightgreen?style=flat-square">
   <img alt="git send-email" src="https://img.shields.io/badge/git_send--email-active-orange?style=flat-square">
