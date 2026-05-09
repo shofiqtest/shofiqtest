@@ -17,9 +17,6 @@ Patches reviewed and applied by subsystem maintainers including **Jakub Kicinski
 - ✅ **ASoC patch merged** → queued for Linux 7.2
 - ✅ **IIO 3-patch series merged** → `iio/togreg`
 
-### ⚡ What I Build at Nokia
-Performance-critical **C/C++ runtime** for 5G beamforming on Linux ARM SoC/FPGA — hard real-time, lock-free concurrency, high-throughput data pipelines.
-
 </td>
 <td valign="top" align="center" width="40%">
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1a2e,100:0a3d62&height=200&section=header&text=%3C%2F%3E%0ALinus%20Torvalds%20%3A%20Talk%20is%20cheap.%0AShow%20me%20the%20code.&fontSize=13&fontColor=7ec8e3&animation=fadeIn&fontAlignY=50" width="100%" height="200"/>
