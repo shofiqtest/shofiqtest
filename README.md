@@ -1,6 +1,20 @@
-<p align="center">
-  <img src="./assets/profile-card.svg" alt="Md Shofiqul Islam - Linux kernel and embedded systems profile card" width="100%" />
-</p>
+<div align="center">
+
+# Hi there, I'm Shofiq
+
+**Linux Kernel Contributor** - **Zephyr RTOS Contributor** - **SoC Software Engineer at Nokia**  
+**C/C++** - **Embedded Linux** - **Systems & Runtime** - **Docker** - **Kubernetes**
+
+<a href="mailto:shofiqtest@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shofiqtest%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/mdshofiqul/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Md%20Shofiqul%20Islam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://lore.kernel.org/all/?q=Md+Shofiqul+Islam"><img alt="Kernel patches" src="https://img.shields.io/badge/Kernel%20Patches-lore.kernel.org-F8C517?style=for-the-badge&logo=linux&logoColor=black"></a>
+<a href="https://github.com/shofiqtest"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-shofiqtest-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+
+Espoo, Finland - Open to senior Linux / embedded roles in Europe and remote
+
+</div>
+
+---
 
 ## Linux Kernel Contributions
 
@@ -9,7 +23,7 @@ Active upstream contributor across networking, sound, IIO, SoC, SCSI, power supp
 | Patch | Subsystem | Current status |
 | --- | --- | --- |
 | [`sctp: Fix typo in comment`](https://git.kernel.org/netdev/net-next/c/c7ea0d2b4d76) | Networking / SCTP | Merged to `netdev/net-next` by Jakub Kicinski |
-| `ASoC: nau8825: Fix typos in comments` | Sound / ASoC | Applied to `broonie/sound.git`, queued for Linux 7.2 |
+| [`ASoC: nau8825: Fix typos in comments`](https://lore.kernel.org/all/?q=%22ASoC%3A+nau8825%3A+Fix+typos+in+comments%22) | Sound / ASoC | Applied to `broonie/sound.git`, queued for Linux 7.2 |
 | [`iio: adc: ti-ads1298: Add parentheses around macro parameter`](https://www.spinics.net/lists/kernel/msg6191377.html) | IIO / Medical ADC | v2 under maintainer review |
 | [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://www.spinics.net/lists/kernel/msg6192178.html) | IIO / Medical ADC | v2 under maintainer review |
 | [`iio: adc: ti-ads1298: Remove unnecessary CONFIG2 write during init`](https://www.spinics.net/lists/kernel/msg6192186.html) | IIO / Medical ADC | v2 reviewed positively; waiting on series follow-up |
