@@ -10,7 +10,7 @@
 <a href="https://lore.kernel.org/all/?q=Md+Shofiqul+Islam"><img alt="Kernel patches" src="https://img.shields.io/badge/Kernel%20Patches-lore.kernel.org-F8C517?style=for-the-badge&logo=linux&logoColor=black"></a>
 <a href="https://github.com/shofiqtest"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-shofiqtest-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 
-Espoo, Finland - Open to senior Linux / embedded roles in Europe and remote
+Espoo, Finland - Open to Linux / embedded roles in Europe and remote
 
 </div>
 
