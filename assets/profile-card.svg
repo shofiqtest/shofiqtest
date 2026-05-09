@@ -48,29 +48,7 @@
     <circle cx="1480" cy="74" r="1.2" fill="#8b5cf6"/>
   </g>
 
-  <g transform="translate(72 68)">
-    <circle cx="152" cy="152" r="126" fill="#081426" stroke="#38bdf8" stroke-width="3" filter="url(#softGlow)"/>
-    <circle cx="152" cy="152" r="112" fill="#d8fbff"/>
-    <circle cx="152" cy="130" r="60" fill="#111827"/>
-    <path d="M63 244c14-52 50-84 89-84s75 32 89 84" fill="#f8fafc"/>
-    <circle cx="152" cy="143" r="55" fill="#f1f5f9"/>
-    <path d="M92 122c10-56 51-75 94-62 30 9 49 31 55 63-27-24-58-31-96-26-21 3-39 11-53 25z" fill="#0f172a"/>
-    <path d="M109 155c19 27 65 29 86 0" fill="none" stroke="#111827" stroke-width="4" stroke-linecap="round"/>
-    <circle cx="133" cy="137" r="5" fill="#111827"/>
-    <circle cx="174" cy="137" r="5" fill="#111827"/>
-    <circle cx="260" cy="240" r="22" fill="#0f172a" stroke="#7c3aed" stroke-width="3"/>
-    <circle cx="260" cy="240" r="10" fill="#2dd4bf"/>
-
-    <text x="152" y="356" text-anchor="middle" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="36" font-weight="800" fill="url(#nameGradient)">Md Shofiqul Islam</text>
-    <text x="152" y="392" text-anchor="middle" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="19" fill="#cbd5e1">shofiqtest - he/him</text>
-
-    <rect x="16" y="424" width="320" height="112" rx="14" fill="#071427" stroke="#334155"/>
-    <text x="42" y="462" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#f8fafc">Upstream Linux Kernel Contributor</text>
-    <text x="42" y="492" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="16" fill="#cbd5e1">Zephyr RTOS driver author</text>
-    <text x="42" y="520" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="16" fill="#cbd5e1">SoC software engineer at Nokia</text>
-  </g>
-
-  <g transform="translate(466 86)">
+  <g transform="translate(86 86)">
     <text x="0" y="0" font-family="Consolas, Menlo, monospace" font-size="16" fill="#94a3b8">shofiqtest / README.md</text>
     <text x="0" y="72" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="48" font-weight="800" fill="#f8fafc">Hi there, I am Shofiq</text>
     <text x="0" y="116" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22" fill="#cbd5e1">Linux Kernel Contributor - Zephyr RTOS Contributor - SoC Software Engineer</text>
