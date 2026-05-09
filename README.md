@@ -26,7 +26,7 @@ Patches reviewed and applied by subsystem maintainers including **Jakub Kicinski
 
 ---
 
-## 📬 Contact — Open to Senior Linux / Embedded Roles in Europe & Remote
+## 📬 Contact — Open to Linux / Embedded Roles in Europe & Remote
 
 > **Recruiters & Hiring Teams:** best way to reach me is **email or LinkedIn** below.
 
