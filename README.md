@@ -10,7 +10,7 @@
 <a href="https://lore.kernel.org/all/?q=Md+Shofiqul+Islam"><img alt="Kernel patches" src="https://img.shields.io/badge/Kernel%20Patches-lore.kernel.org-F8C517?style=for-the-badge&logo=linux&logoColor=black"></a>
 <a href="https://github.com/shofiqtest"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-shofiqtest-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 
-Espoo, Finland - Open to Linux / embedded roles in Europe and remote
+Espoo, Finland — Open to Linux / embedded roles in Europe and remote
 
 </div>
 
@@ -18,31 +18,29 @@ Espoo, Finland - Open to Linux / embedded roles in Europe and remote
 
 ## Linux Kernel Contributions
 
-Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supply, and XFS. Public patch history is available on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam) and [spinics.net](https://www.spinics.net/lists/kernel/).
+Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supply, and XFS. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
 
-| Patch | Subsystem | Current status |
+| Patch | Subsystem | Status |
 | --- | --- | --- |
-| [`iio: accel: adxl3xx: Add timestamps to FIFO data`](https://lore.kernel.org/linux-iio/20260510082556.3867-1-shofiqtest@gmail.com/) | IIO / Accelerometers (ADXL313, ADXL345, ADXL367, ADXL372, ADXL380) | **Patch series [0/5] sent** — under review by Jonathan Cameron |
-| [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://www.spinics.net/lists/kernel/msg6192178.html) | IIO / Medical ADC | **v2 sent** — reviewed by David Lechner & Andy Shevchenko |
-| [`iio: adc: ti-ads1298: Add parentheses around macro parameter`](https://www.spinics.net/lists/kernel/msg6191377.html) | IIO / Medical ADC | v4 sent — Acked-by Mike Looijmans |
-| [`iio: adc: ti-ads1298: Remove unnecessary CONFIG2 write during init`](https://www.spinics.net/lists/kernel/msg6192186.html) | IIO / Medical ADC | v4 sent — cover letter added (requested by Andy Shevchenko) |
-| [`sctp: Fix typo in comment`](https://git.kernel.org/netdev/net-next/c/c7ea0d2b4d76) | Networking / SCTP | Merged to `netdev/net-next` by Jakub Kicinski |
-| [`ASoC: nau8825: Fix typos in comments`](https://lore.kernel.org/all/?q=%22ASoC%3A+nau8825%3A+Fix+typos+in+comments%22) | Sound / ASoC | Applied to `broonie/sound.git`, queued for Linux 7.2 |
-| [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://www.spinics.net/lists/kernel/msg6189942.html) | SoC / TI Keystone | v2 submitted; `Suggested-by: Nishanth Menon` |
-| [`scsi: storvsc: Replace symbolic permissions with octal`](https://www.spinics.net/lists/kernel/msg6188547.html) | SCSI / Hyper-V | v2 submitted after review feedback |
-| [`scsi: scsi_scan: Fix typo in comment`](https://www.spinics.net/lists/kernel/msg6189223.html) | SCSI core | v2 submitted after review feedback |
-| [`power: supply: Fix typos in comments`](https://www.spinics.net/lists/kernel/msg6189221.html) | Power Supply | v2 submitted with `Acked-by: Linus Walleij` |
-| [`xfs: Fix typo in comment`](https://www.spinics.net/lists/kernel/msg6190059.html) | XFS Filesystem | v2 submitted with `Reviewed-by: Darrick J. Wong` |
+| [`iio: accel: adxl3xx: Add timestamps to FIFO data`](https://lore.kernel.org/linux-iio/20260510082556.3867-1-shofiqtest@gmail.com/) | IIO / Accelerometers — ADXL313, ADXL345, ADXL367, ADXL372, ADXL380 | **[PATCH 0/5] sent** — awaiting review by Jonathan Cameron |
+| [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://lore.kernel.org/linux-iio/?q=ti-ads1298+timeout+shofiqtest) | IIO / Medical ADC | **v2 sent** — feedback from David Lechner & Andy Shevchenko addressed |
+| [`iio: adc: ti-ads1298: Add parentheses around macro parameter`](https://www.spinics.net/lists/kernel/msg6191377.html) | IIO / Medical ADC | v4 sent — reviewed by Stepan Ionichev |
+| [`iio: adc: ti-ads1298: Remove unnecessary CONFIG2 write during init`](https://www.spinics.net/lists/kernel/msg6192186.html) | IIO / Medical ADC | v4 sent — reviewed by David Lechner |
+| [`sctp: Fix typo in comment`](https://git.kernel.org/netdev/net-next/c/c7ea0d2b4d76) | Networking / SCTP | ✅ **Merged** — `netdev/net-next` by Jakub Kicinski |
+| [`ASoC: nau8825: Fix typos in comments`](https://git.kernel.org/broonie/sound/c/5f1752afb464) | Sound / ASoC | ✅ **Merged** — `broonie/sound for-7.2`, queued for Linux 7.2 |
+| [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://www.spinics.net/lists/kernel/msg6189942.html) | SoC / TI Keystone | v2 sent — `Suggested-by: Nishanth Menon`; awaiting maintainer |
+| [`scsi: storvsc: Replace symbolic permissions with octal`](https://www.spinics.net/lists/kernel/msg6188547.html) | SCSI / Hyper-V | v2 sent — `Reviewed-by: Long Li` |
+| [`power: supply: Fix typos in comments`](https://www.spinics.net/lists/kernel/msg6189221.html) | Power Supply | v2 sent — `Acked-by: Linus Walleij` |
+| [`xfs: Fix typo in comment`](https://www.spinics.net/lists/kernel/msg6190059.html) | XFS Filesystem | v2 sent — `Reviewed-by: Darrick J. Wong` |
+| [`scsi: scsi_scan: Fix typo in comment`](https://www.spinics.net/lists/kernel/msg6189223.html) | SCSI core | v2 sent — awaiting maintainer |
 
 ## Zephyr RTOS Contributions
 
-I work on embedded Linux and RTOS driver development, with recent focus on sensor drivers, board bring-up, Devicetree bindings, Kconfig, and upstream-quality C code.
-
-| Contribution | Area | Current status |
+| Contribution | Area | Status |
 | --- | --- | --- |
-| [`drivers: sensor: max3010x: MAX30101/MAX30102 driver`](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Sensor driver, I2C, Devicetree binding, Kconfig, build coverage | Open — renamed to `max3010x` family per reviewer; CI checks green |
-| `maxim,max3010x-common` shared DT binding | Maxim pulse oximeter / heart-rate sensor family | Extracted into shared binding in response to maintainer review |
-| `tests/drivers/build_all/sensor/i2c.dtsi` coverage | Zephyr sensor build test matrix | Added in response to maintainer review |
+| [`drivers: sensor: max3010x: MAX30101/MAX30102 driver`](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Sensor driver, I2C, Devicetree binding, Kconfig, build coverage | Open — `max3010x` family rename done per reviewer; CI green |
+| `maxim,max3010x-common` shared DT binding | Maxim pulse oximeter / heart-rate sensor family | Extracted into shared binding per maintainer review |
+| `tests/drivers/build_all/sensor/i2c.dtsi` coverage | Zephyr sensor build test matrix | Added per maintainer review |
 
 ## Systems I Like Working On
 
@@ -76,15 +74,15 @@ I work on embedded Linux and RTOS driver development, with recent focus on senso
 
 ## Education
 
-- **M.HSc. Biomedical Engineering** - University of Oulu, Finland (2016-2021)
-- **M.Sc. Computer Science & Engineering** - Islamic University, Bangladesh (2014-2015)
-- **B.Sc. Electrical & Electronics Engineering** - IIUC, Bangladesh (2008-2013)
+- **M.HSc. Biomedical Engineering** — University of Oulu, Finland (2016–2021)
+- **M.Sc. Computer Science & Engineering** — Islamic University, Bangladesh (2014–2015)
+- **B.Sc. Electrical & Electronics Engineering** — IIUC, Bangladesh (2008–2013)
 
 ## Certifications
 
-- Linux for Engineers - The Linux Foundation
-- Introduction to RISC-V (LFD110) - The Linux Foundation
-- Generative AI and Large Language Models - Coursera
+- Linux for Engineers — The Linux Foundation
+- Introduction to RISC-V (LFD110) — The Linux Foundation
+- Generative AI and Large Language Models — Coursera
 
 ## Featured Projects
 
