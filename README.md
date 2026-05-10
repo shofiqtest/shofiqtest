@@ -22,8 +22,8 @@ Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supp
 
 | Patch | Subsystem | Status |
 | --- | --- | --- |
-| [`iio: accel: adxl3xx: Add timestamps to FIFO data`](https://lore.kernel.org/linux-iio/20260510082556.3867-1-shofiqtest@gmail.com/) | IIO / Accelerometers — ADXL313, ADXL345, ADXL367, ADXL372, ADXL380 | **[PATCH 0/5] sent** — awaiting review by Jonathan Cameron |
-| [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://lore.kernel.org/linux-iio/?q=ti-ads1298+timeout+shofiqtest) | IIO / Medical ADC | **v2 sent** — feedback from David Lechner & Andy Shevchenko addressed |
+| [`iio: accel: adxl3xx: Add timestamps to FIFO data`](https://lore.kernel.org/linux-iio/20260510082556.3867-1-shofiqtest@gmail.com/) | IIO / Accelerometers — ADXL313, ADXL345, ADXL367, ADXL372, ADXL380 | **[PATCH 0/5] under review** — HW testing & ABI questions raised by Andy Shevchenko; v2 with `IIO_CHAN_SOFT_TIMESTAMP` planned |
+| [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://lore.kernel.org/linux-iio/?q=ti-ads1298+timeout+shofiqtest) | IIO / Medical ADC | **v4 sent** — `Acked-by: Mike Looijmans`; multi-round review by Andy Shevchenko & David Lechner addressed |
 | [`iio: adc: ti-ads1298: Add parentheses around macro parameter`](https://www.spinics.net/lists/kernel/msg6191377.html) | IIO / Medical ADC | v4 sent — reviewed by Stepan Ionichev |
 | [`iio: adc: ti-ads1298: Remove unnecessary CONFIG2 write during init`](https://www.spinics.net/lists/kernel/msg6192186.html) | IIO / Medical ADC | v4 sent — reviewed by David Lechner |
 | [`sctp: Fix typo in comment`](https://git.kernel.org/netdev/net-next/c/c7ea0d2b4d76) | Networking / SCTP | ✅ **Merged** — `netdev/net-next` by Jakub Kicinski |
