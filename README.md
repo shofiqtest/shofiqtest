@@ -18,15 +18,16 @@ Espoo, Finland - Open to Linux / embedded roles in Europe and remote
 
 ## Linux Kernel Contributions
 
-Active upstream contributor across networking, sound, IIO, SoC, SCSI, power supply, and XFS. Public patch history is available on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam) and [spinics.net](https://www.spinics.net/lists/kernel/).
+Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supply, and XFS. Public patch history is available on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam) and [spinics.net](https://www.spinics.net/lists/kernel/).
 
 | Patch | Subsystem | Current status |
 | --- | --- | --- |
+| [`iio: accel: adxl3xx: Add timestamps to FIFO data`](https://lore.kernel.org/linux-iio/20260510082556.3867-1-shofiqtest@gmail.com/) | IIO / Accelerometers (ADXL313, ADXL345, ADXL367, ADXL372, ADXL380) | **Patch series [0/5] sent** — under review by Jonathan Cameron |
+| [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://www.spinics.net/lists/kernel/msg6192178.html) | IIO / Medical ADC | **v2 sent** — reviewed by David Lechner & Andy Shevchenko |
+| [`iio: adc: ti-ads1298: Add parentheses around macro parameter`](https://www.spinics.net/lists/kernel/msg6191377.html) | IIO / Medical ADC | v4 sent — Acked-by Mike Looijmans |
+| [`iio: adc: ti-ads1298: Remove unnecessary CONFIG2 write during init`](https://www.spinics.net/lists/kernel/msg6192186.html) | IIO / Medical ADC | v4 sent — cover letter added (requested by Andy Shevchenko) |
 | [`sctp: Fix typo in comment`](https://git.kernel.org/netdev/net-next/c/c7ea0d2b4d76) | Networking / SCTP | Merged to `netdev/net-next` by Jakub Kicinski |
 | [`ASoC: nau8825: Fix typos in comments`](https://lore.kernel.org/all/?q=%22ASoC%3A+nau8825%3A+Fix+typos+in+comments%22) | Sound / ASoC | Applied to `broonie/sound.git`, queued for Linux 7.2 |
-| [`iio: adc: ti-ads1298: Add parentheses around macro parameter`](https://www.spinics.net/lists/kernel/msg6191377.html) | IIO / Medical ADC | v4 sent — Acked-by Mike Looijmans |
-| [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://www.spinics.net/lists/kernel/msg6192178.html) | IIO / Medical ADC | v4 sent — Acked-by Mike Looijmans |
-| [`iio: adc: ti-ads1298: Remove unnecessary CONFIG2 write during init`](https://www.spinics.net/lists/kernel/msg6192186.html) | IIO / Medical ADC | v4 sent — cover letter added (requested by Andy Shevchenko) |
 | [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://www.spinics.net/lists/kernel/msg6189942.html) | SoC / TI Keystone | v2 submitted; `Suggested-by: Nishanth Menon` |
 | [`scsi: storvsc: Replace symbolic permissions with octal`](https://www.spinics.net/lists/kernel/msg6188547.html) | SCSI / Hyper-V | v2 submitted after review feedback |
 | [`scsi: scsi_scan: Fix typo in comment`](https://www.spinics.net/lists/kernel/msg6189223.html) | SCSI core | v2 submitted after review feedback |
@@ -39,8 +40,8 @@ I work on embedded Linux and RTOS driver development, with recent focus on senso
 
 | Contribution | Area | Current status |
 | --- | --- | --- |
-| [`drivers: sensor: max30101: Add MAX30102 support`](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Sensor driver, I2C, Devicetree binding, Kconfig, build coverage | Open; changes requested; CI checks green |
-| `maxim,max30102` compatible support | Maxim pulse oximeter / heart-rate sensor family | Under review in PR #108697 |
+| [`drivers: sensor: max3010x: MAX30101/MAX30102 driver`](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Sensor driver, I2C, Devicetree binding, Kconfig, build coverage | Open — renamed to `max3010x` family per reviewer; CI checks green |
+| `maxim,max3010x-common` shared DT binding | Maxim pulse oximeter / heart-rate sensor family | Extracted into shared binding in response to maintainer review |
 | `tests/drivers/build_all/sensor/i2c.dtsi` coverage | Zephyr sensor build test matrix | Added in response to maintainer review |
 
 ## Systems I Like Working On
