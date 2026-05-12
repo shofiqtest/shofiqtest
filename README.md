@@ -2,7 +2,7 @@
 
 # Hi there, I'm Shofiq
 
-**Linux Kernel Contributor** - **Zephyr RTOS Contributor** - **SoC Software Engineer**  
+**Linux Kernel Contributor** - **Zephyr RTOS Contributor** - **Quantum Computing Contributor** - **SoC Software Engineer**  
 **C/C++** - **Embedded Linux** - **Systems & Runtime** - **Docker** - **Kubernetes**
 
 <a href="mailto:shofiqtest@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shofiqtest%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
@@ -33,6 +33,12 @@ Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supp
 | [`scsi: storvsc: Replace symbolic permissions with octal`](https://www.spinics.net/lists/kernel/msg6188547.html) | SCSI / Hyper-V | 🔄 v2 sent — `Reviewed-by: Long Li` (Microsoft) · awaiting maintainer |
 | [`power: supply: Fix typos in comments`](https://www.spinics.net/lists/kernel/msg6189221.html) | Power Supply | 🔄 v2 sent — `Acked-by: Linus Walleij` · awaiting maintainer |
 | [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://www.spinics.net/lists/kernel/msg6189942.html) | SoC / TI Keystone | 🔄 v2 sent — `Suggested-by: Nishanth Menon` (TI) · awaiting maintainer |
+
+## Quantum Computing Contributions
+
+| Contribution | Project | Status |
+| --- | --- | --- |
+| [`docs: add Advantage2 mention alongside Advantage in overview`](https://github.com/dwavesystems/dwave-ocean-sdk/pull/453) | D-Wave Ocean SDK — quantum annealing platform docs | 🔄 Open — `LGTM` by Joel Pasvolsky · 17/17 checks passed · awaiting merge |
 
 ## Zephyr RTOS Contributions
 
