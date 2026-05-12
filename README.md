@@ -1,74 +1,103 @@
-# Md Shofiqul Islam
+<div align="center">
 
-**Linux Kernel Contributor · SoC Software Engineer · C/C++ · Telco & Embedded Systems**
+# Hi there, I'm Shofiq
 
-Espoo, Finland &nbsp;|&nbsp; [linkedin.com/in/mdshofiqul](https://linkedin.com/in/mdshofiqul) &nbsp;|&nbsp; [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam) &nbsp;|&nbsp; shofiqtest@gmail.com
+**Linux Kernel Contributor** - **Zephyr RTOS Contributor** - **SoC Software Engineer**  
+**C/C++** - **Embedded Linux** - **Systems & Runtime** - **Docker** - **Kubernetes**
 
----
+<a href="mailto:shofiqtest@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shofiqtest%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/mdshofiqul/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Md%20Shofiqul%20Islam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://lore.kernel.org/all/?q=Md+Shofiqul+Islam"><img alt="Kernel patches" src="https://img.shields.io/badge/Kernel%20Patches-lore.kernel.org-F8C517?style=for-the-badge&logo=linux&logoColor=black"></a>
+<a href="https://github.com/shofiqtest"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-shofiqtest-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 
-## About
+Espoo, Finland — Open to Linux / embedded roles in Europe and remote
 
-SoC Software Engineer with 5+ years building performance-critical C/C++ software for 5G beamforming platforms on Linux at Nokia. Active upstream Linux kernel contributor with **10 patches** across **7 subsystems** — 6 merged into mainline, 4 awaiting maintainer pickup. Deep expertise in real-time embedded Linux, latency-sensitive data plane engineering, and kernel-level performance tuning.
-
-Currently open to new opportunities in Linux systems, Telco, and embedded software engineering across Europe.
+</div>
 
 ---
 
 ## Linux Kernel Contributions
 
-All patches visible at [lore.kernel.org/all/?q=Md+Shofiqul+Islam](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
+Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supply, and XFS — **11 patches, 7 subsystems, 7 merged**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
 
 | Patch | Subsystem | Status |
-|---|---|---|
-| `iio: adc: ti-ads1298` — Remove incorrect test signal init (functional bug fix) | IIO | ✅ Applied — Jonathan Cameron · iio/togreg |
-| `iio: adc: ti-ads1298` — Fix incorrect timeout comment | IIO | ✅ Merged — mainline |
-| `iio: accel: adxl345/313/367/380` — Add timestamp to FIFO data | IIO | ✅ Merged — mainline |
-| `ASoC: nau8825` — Fix typos in comments | ASoC | ✅ Merged — broonie/sound.git |
-| `net/sctp` — Fix typo in comment | SCTP | ✅ Merged — netdev/net-next · applied by Jakub Kicinski · [`c7ea0d2b4d76`](https://git.kernel.org/netdev/net-next/c/c7ea0d2b4d76) |
-| `xfs` — Fix typo in comment | XFS | ✅ Accepted — Carlos Maiolino · [`509fdeb3326b`](https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux.git) |
-| `scsi: scsi_scan` — Fix spelling in comment | SCSI | 🔄 Reviewed-by Bart Van Assche · awaiting maintainer |
-| `scsi: storvsc` — Replace symbolic permissions with octal | SCSI | 🔄 Reviewed-by Long Li (Microsoft) · awaiting maintainer |
-| `power: supply` — Fix typos in comments | Power | 🔄 Acked-by Linus Walleij · awaiting maintainer |
-| `soc: ti: knav_qmss_queue` — Implement resource cleanup in remove() | SoC / TI | 🔄 v2 submitted · Suggested-by Nishanth Menon (TI) |
+| --- | --- | --- |
+| [`iio: accel: adxl3xx: Add timestamps to FIFO data`](https://lore.kernel.org/linux-iio/20260510082556.3867-1-shofiqtest@gmail.com/) | IIO / Accelerometers — ADXL313, ADXL345, ADXL367, ADXL380 | ✅ **Merged** — applied by Jonathan Cameron · iio/togreg |
+| [`iio: adc: ti-ads1298: Remove incorrect test signal init`](https://www.spinics.net/lists/kernel/msg6192186.html) | IIO / Medical ADC | ✅ **Applied** — functional bug fix · Jonathan Cameron · confirmed by Mike Looijmans & David Lechner |
+| [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://lore.kernel.org/linux-iio/?q=ti-ads1298+timeout+shofiqtest) | IIO / Medical ADC | ✅ **Applied** — Jonathan Cameron · iio/togreg |
+| [`iio: adc: ti-ads1298: Add parentheses around macro parameter`](https://www.spinics.net/lists/kernel/msg6191377.html) | IIO / Medical ADC | ✅ **Applied** — Jonathan Cameron · iio/togreg |
+| [`sctp: Fix typo in comment`](https://git.kernel.org/netdev/net-next/c/c7ea0d2b4d76) | Networking / SCTP | ✅ **Merged** — `netdev/net-next` · applied by Jakub Kicinski · [`c7ea0d2b4d76`](https://git.kernel.org/netdev/net-next/c/c7ea0d2b4d76) |
+| [`ASoC: nau8825: Fix typos in comments`](https://git.kernel.org/broonie/sound/c/5f1752afb464) | Sound / ASoC | ✅ **Merged** — `broonie/sound for-7.2` · queued for Linux 7.2 |
+| [`xfs: Fix typo in comment`](https://www.spinics.net/lists/kernel/msg6190059.html) | XFS Filesystem | ✅ **Accepted** — Carlos Maiolino · `for-next` · [`509fdeb3326b`](https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux.git) |
+| [`scsi: scsi_scan: Fix typo in comment`](https://www.spinics.net/lists/kernel/msg6189223.html) | SCSI core | 🔄 v2 sent — `Reviewed-by: Bart Van Assche` · awaiting maintainer |
+| [`scsi: storvsc: Replace symbolic permissions with octal`](https://www.spinics.net/lists/kernel/msg6188547.html) | SCSI / Hyper-V | 🔄 v2 sent — `Reviewed-by: Long Li` (Microsoft) · awaiting maintainer |
+| [`power: supply: Fix typos in comments`](https://www.spinics.net/lists/kernel/msg6189221.html) | Power Supply | 🔄 v2 sent — `Acked-by: Linus Walleij` · awaiting maintainer |
+| [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://www.spinics.net/lists/kernel/msg6189942.html) | SoC / TI Keystone | 🔄 v2 sent — `Suggested-by: Nishanth Menon` (TI) · awaiting maintainer |
 
----
+## Zephyr RTOS Contributions
 
-## Projects
+| Contribution | Area | Status |
+| --- | --- | --- |
+| [`drivers: sensor: max3010x: MAX30101/MAX30102 driver`](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Sensor driver, I2C, Devicetree binding, Kconfig, build coverage | Open — fixup commit squashed per maintainer review; CI green |
+| `maxim,max3010x-common` shared DT binding | Maxim pulse oximeter / heart-rate sensor family | Extracted into shared binding per maintainer review |
+| `tests/drivers/build_all/sensor/i2c.dtsi` coverage | Zephyr sensor build test matrix | Added per maintainer review |
 
-### [High-Performance Event Processing Engine (C++)](https://github.com/shofiqtest/high-performance-event-engine)
-Lock-free MPMC ring buffer built with C++17 atomics. Cache-line aligned, zero-copy hot path, `std::variant` dispatch.
+## Systems I Like Working On
 
-- **8–12M events/sec** at **1–5 µs** latency (4 producers / 4 consumers)
-- **15–20M events/sec** at **2–8 µs** latency (8 producers / 8 consumers)
-- Dmitry Vyukov bounded queue algorithm · CAS operations · false-sharing elimination
+| Domain | Tools and technologies |
+| --- | --- |
+| Kernel and BSP | Linux kernel, device drivers, DTS, Kconfig, Makefiles |
+| Embedded and RTOS | Zephyr RTOS, C, C++, sensor interfaces, I2C/SPI |
+| Runtime and platform | SoC software, debugging, CI, performance-minded systems work |
+| Cloud-adjacent engineering | Docker, Kubernetes, Azure AKS, monitoring, automation |
 
-`C++17` `std::atomic` `Lock-Free` `CMake` `Cache-Line Alignment`
+## Tools I Use
 
----
+<p>
+  <img alt="Linux Kernel" src="https://img.shields.io/badge/Linux_Kernel-FCC624?style=flat-square&logo=linux&logoColor=black">
+  <img alt="C" src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white">
+  <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white">
+  <img alt="Zephyr" src="https://img.shields.io/badge/Zephyr_RTOS-0F172A?style=flat-square">
+  <img alt="CMake" src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white">
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+  <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white">
+  <img alt="QEMU" src="https://img.shields.io/badge/QEMU-FF6600?style=flat-square&logo=qemu&logoColor=white">
+  <img alt="checkpatch" src="https://img.shields.io/badge/checkpatch-passing-brightgreen?style=flat-square">
+  <img alt="git send-email" src="https://img.shields.io/badge/git_send--email-active-orange?style=flat-square">
+  <img alt="lore.kernel.org" src="https://img.shields.io/badge/lore.kernel.org-contributor-blue?style=flat-square">
+  <img alt="sparse" src="https://img.shields.io/badge/sparse-clean-brightgreen?style=flat-square">
+</p>
 
-### [Zephyr RTOS: MAX30102 Sensor Driver](https://github.com/zephyrproject-rtos/zephyr/pull/108697)
-Upstream I2C optical heart-rate sensor driver for the Zephyr sensor subsystem. Full Kconfig integration, DTS binding, and CI build verification (498/498 steps).
+## Education
 
-`C` `Zephyr RTOS` `I2C` `Sensor Subsystem` `DeviceTree`
+- **M.HSc. Biomedical Engineering** — University of Oulu, Finland (2016–2021)
+- **M.Sc. Computer Science & Engineering** — Islamic University, Bangladesh (2014–2015)
+- **B.Sc. Electrical & Electronics Engineering** — IIUC, Bangladesh (2008–2013)
 
----
+## Certifications
 
-## Skills
+- Linux for Engineers — The Linux Foundation
+- Introduction to RISC-V (LFD110) — The Linux Foundation
+- Generative AI and Large Language Models — Coursera
 
-```
-Languages:   C · C++ · Python · Bash · ARM Assembly
-Kernel:      Linux kernel upstream · device drivers · IIO · SCSI · XFS · Power · SoC/TI · networking stack
-Telco / 5G:  Nokia 5G SoC · RF/L1 · NFV · O-RAN · real-time data plane
-Performance: CPU pinning · NUMA affinity · perf · ftrace · ASan/TSan · lock-free structures
-Build:       Yocto/BitBake · CMake · Git · Gerrit · Jenkins
-Containers:  Docker · Podman · Linux namespaces/cgroups (kernel level)
-```
+## Featured Projects
 
----
+| Project | What it shows |
+| --- | --- |
+| [Real-Time Patient Monitoring on Kubernetes](https://github.com/shofiqtest/real-time-patient-monitoring-k8s) | Cloud-native monitoring architecture |
+| Embedded driver work | Low-level C, hardware-facing debugging, upstream workflow |
 
-## Background
+## GitHub Snapshot
 
-- **Nokia** — SoC Software Engineer, Espoo (2023–2026) · RF/L1 Software Engineer, Oulu (2022–2023)
-- **Etteplan** — Software Test & Automation Engineer, Tampere (2021–2022)
-- M.Sc. Biomedical Engineering — University of Oulu, Finland
-- M.Sc. Computer Science & Engineering — Islamic University, Bangladesh
+<p align="center">
+  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=shofiqtest&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shofiqtest&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=shofiqtest&theme=tokyonight&hide_border=true" />
+</p>
