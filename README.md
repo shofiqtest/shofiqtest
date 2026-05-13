@@ -38,7 +38,7 @@ Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supp
 
 | Contribution | Project | Status |
 | --- | --- | --- |
-| [`docs: add Advantage2 mention alongside Advantage in overview`](https://github.com/dwavesystems/dwave-ocean-sdk/pull/453) | D-Wave Ocean SDK — quantum annealing platform docs | 🔄 Open — `LGTM` by Joel Pasvolsky · 17/17 checks passed · awaiting merge |
+| [`docs: add Advantage2 mention alongside Advantage in overview`](https://github.com/dwavesystems/dwave-ocean-sdk/pull/453) | D-Wave Ocean SDK — quantum annealing platform docs | ✅ **Merged** — merged by Joel Pasvolsky · PR #453 · `cd94d3c` |
 
 ## Zephyr RTOS Contributions
 
