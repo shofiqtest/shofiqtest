@@ -2,7 +2,7 @@
 
 # Hi there, I'm Shofiq
 
-**Linux Kernel Contributor** - **Zephyr RTOS Contributor** - **Quantum Computing Contributor** - **SoC Software Engineer**  
+**Linux Kernel Contributor** - **Zephyr RTOS Contributor** - **Quantum Computing Contributor** - **SONiC Contributor** - **DPDK Contributor** - **SoC Software Engineer**  
 **C/C++** - **Embedded Linux** - **Systems & Runtime** - **Docker** - **Kubernetes**
 
 <a href="mailto:shofiqtest@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shofiqtest%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
@@ -34,6 +34,29 @@ Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supp
 | [`power: supply: Fix typos in comments`](https://www.spinics.net/lists/kernel/msg6189221.html) | Power Supply | 🔄 v2 sent — `Acked-by: Linus Walleij` · awaiting maintainer |
 | [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://www.spinics.net/lists/kernel/msg6189942.html) | SoC / TI Keystone | 🔄 v2 sent — `Suggested-by: Nishanth Menon` (TI) · awaiting maintainer |
 
+## Networking & Data Center Open Source
+
+### SONiC (Software for Open Networking in the Cloud)
+
+SONiC is the open-source Linux-based NOS powering data-center switches at Microsoft, Cisco, Arista, and others.
+
+| Patch | Component | Status |
+| --- | --- | --- |
+| [`pfcwd: fix TypeError crash in interval() on partial PFC_WD entries`](https://github.com/sonic-net/sonic-utilities/pull/4541) | PFC Watchdog CLI — `pfcwd/main.py` · `sonic-net/sonic-utilities` | 🔄 **Open** — DCO ✅ · EasyCLA ✅ · [PR #4541](https://github.com/sonic-net/sonic-utilities/pull/4541) |
+
+`pfc_stat_history_cmd` creates partial `PFC_WD` entries with no `detection_time`/`restoration_time`. `interval()` called `int(None)` unconditionally, crashing and permanently blocking polling-interval updates. Fix guards before conversion, skips incomplete entries, and consolidates redundant DB reads. Includes regression test.
+
+### DPDK (Data Plane Development Kit)
+
+DPDK is the high-performance packet-processing framework used in data centers, 5G, and networking infrastructure — same `git send-email` workflow as the Linux kernel.
+
+| Patch | Component | Status |
+| --- | --- | --- |
+| [`bus/fslmc: fix ignored return value in fslmc_bus_unplug`](https://inbox.dpdk.org/dev/20260513203725.1905-2-shofiqtest@gmail.com/) | NXP DPAA2 bus driver — `drivers/bus/fslmc/fslmc_bus.c` | 🔄 **Under review** — `dev@dpdk.org` · CC: Hemant Agrawal, Sachin Saxena (NXP) |
+| [`dma/dpaa2: fix dpaa2_qdma_remove always returning success`](https://inbox.dpdk.org/dev/20260513203725.1905-3-shofiqtest@gmail.com/) | NXP DPAA2 DMA driver — `drivers/dma/dpaa2/dpaa2_qdma.c` | 🔄 **Under review** — `dev@dpdk.org` · CC: Gagandeep Singh, Hemant Agrawal (NXP) |
+
+`fslmc_bus_unplug()` discarded `drv->remove()` return value, always reporting success. `dpaa2_qdma_remove()` logged errors but returned `0`, hiding failures from callers. Fixes [Bugzilla #1914](https://bugs.dpdk.org/show_bug.cgi?id=1914). Both patches tagged `Cc: stable@dpdk.org`.
+
 ## Quantum Computing Contributions
 
 | Contribution | Project | Status |
@@ -55,6 +78,7 @@ Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supp
 | Kernel and BSP | Linux kernel, device drivers, DTS, Kconfig, Makefiles |
 | Embedded and RTOS | Zephyr RTOS, C, C++, sensor interfaces, I2C/SPI |
 | Runtime and platform | SoC software, debugging, CI, performance-minded systems work |
+| Networking and DC | DPDK, SONiC, data-centre switch software, high-performance packet processing |
 | Cloud-adjacent engineering | Docker, Kubernetes, Azure AKS, monitoring, automation |
 
 ## Tools I Use
@@ -66,6 +90,8 @@ Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supp
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
   <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white">
   <img alt="Zephyr" src="https://img.shields.io/badge/Zephyr_RTOS-0F172A?style=flat-square">
+  <img alt="DPDK" src="https://img.shields.io/badge/DPDK-contributor-555555?style=flat-square">
+  <img alt="SONiC" src="https://img.shields.io/badge/SONiC-contributor-0078D4?style=flat-square">
   <img alt="CMake" src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white">
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white">
