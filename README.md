@@ -31,7 +31,7 @@ Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supp
 | [`scsi: scsi_scan: Fix typo in comment`](https://www.spinics.net/lists/kernel/msg6189223.html) | SCSI core | 🔄 v2 sent — `Reviewed-by: Bart Van Assche` · awaiting maintainer |
 | [`scsi: storvsc: Replace symbolic permissions with octal`](https://www.spinics.net/lists/kernel/msg6188547.html) | SCSI / Hyper-V | 🔄 v2 sent — `Reviewed-by: Long Li` (Microsoft) · awaiting maintainer |
 | [`power: supply: Fix typos in comments`](https://www.spinics.net/lists/kernel/msg6189221.html) | Power Supply | 🔄 v2 sent — `Acked-by: Linus Walleij` · awaiting maintainer |
-| [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://www.spinics.net/lists/kernel/msg6189942.html) | SoC / TI Keystone | 🔄 v2 sent — `Suggested-by: Nishanth Menon` (TI) · awaiting maintainer |
+| [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://www.spinics.net/lists/kernel/msg6189942.html) | SoC / TI Keystone | 🔄 v2 sent — `Suggested-by: Nishanth Menon` (TI) · maintainer pinged May 14 |
 | [`mfd: si476x-i2c: Fix spelling mistakes in comments`](https://lore.kernel.org/linux-mfd/20260514181954.1442-1-shofiqtest@gmail.com/) | MFD / Silicon Labs Si476x radio | 🔄 **Under review** — v2 with `Signed-off-by` submitted · awaiting Lee Jones |
 
 ## Networking & Data Center Open Source
