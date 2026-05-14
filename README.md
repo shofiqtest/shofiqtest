@@ -22,7 +22,6 @@ Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supp
 
 | Patch | Subsystem | Status |
 | --- | --- | --- |
-| [`iio: accel: adxl3xx: Add timestamps to FIFO data`](https://lore.kernel.org/linux-iio/20260510082556.3867-1-shofiqtest@gmail.com/) | IIO / Accelerometers — ADXL313, ADXL345, ADXL367, ADXL372, ADXL380 | ❌ **Dropped** — Jonathan Cameron: FIFO timestamp requires per-sample approximation algorithm and real-hardware validation; no hardware available |
 | [`iio: adc: ti-ads1298: Remove incorrect test signal init`](https://www.spinics.net/lists/kernel/msg6192186.html) | IIO / Medical ADC | ✅ **Applied** — functional bug fix · Jonathan Cameron · confirmed by Mike Looijmans & David Lechner |
 | [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://lore.kernel.org/linux-iio/?q=ti-ads1298+timeout+shofiqtest) | IIO / Medical ADC | ✅ **Applied** — Jonathan Cameron · iio/togreg |
 | [`iio: adc: ti-ads1298: Add parentheses around macro parameter`](https://www.spinics.net/lists/kernel/msg6191377.html) | IIO / Medical ADC | ✅ **Applied** — Jonathan Cameron · iio/togreg |
