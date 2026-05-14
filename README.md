@@ -18,11 +18,11 @@ Espoo, Finland — Open to Linux / embedded roles in Europe and remote
 
 ## Linux Kernel Contributions
 
-Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supply, and XFS — **11 patches, 7 subsystems, 7 merged**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
+Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supply, XFS, and MFD — **12 patches, 8 subsystems, 6 merged**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
 
 | Patch | Subsystem | Status |
 | --- | --- | --- |
-| [`iio: accel: adxl3xx: Add timestamps to FIFO data`](https://lore.kernel.org/linux-iio/20260510082556.3867-1-shofiqtest@gmail.com/) | IIO / Accelerometers — ADXL313, ADXL345, ADXL367, ADXL380 | ✅ **Merged** — applied by Jonathan Cameron · iio/togreg |
+| [`iio: accel: adxl3xx: Add timestamps to FIFO data`](https://lore.kernel.org/linux-iio/20260510082556.3867-1-shofiqtest@gmail.com/) | IIO / Accelerometers — ADXL313, ADXL345, ADXL367, ADXL372, ADXL380 | ❌ **Dropped** — Jonathan Cameron: FIFO timestamp requires per-sample approximation algorithm and real-hardware validation; no hardware available |
 | [`iio: adc: ti-ads1298: Remove incorrect test signal init`](https://www.spinics.net/lists/kernel/msg6192186.html) | IIO / Medical ADC | ✅ **Applied** — functional bug fix · Jonathan Cameron · confirmed by Mike Looijmans & David Lechner |
 | [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://lore.kernel.org/linux-iio/?q=ti-ads1298+timeout+shofiqtest) | IIO / Medical ADC | ✅ **Applied** — Jonathan Cameron · iio/togreg |
 | [`iio: adc: ti-ads1298: Add parentheses around macro parameter`](https://www.spinics.net/lists/kernel/msg6191377.html) | IIO / Medical ADC | ✅ **Applied** — Jonathan Cameron · iio/togreg |
@@ -33,6 +33,7 @@ Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supp
 | [`scsi: storvsc: Replace symbolic permissions with octal`](https://www.spinics.net/lists/kernel/msg6188547.html) | SCSI / Hyper-V | 🔄 v2 sent — `Reviewed-by: Long Li` (Microsoft) · awaiting maintainer |
 | [`power: supply: Fix typos in comments`](https://www.spinics.net/lists/kernel/msg6189221.html) | Power Supply | 🔄 v2 sent — `Acked-by: Linus Walleij` · awaiting maintainer |
 | [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://www.spinics.net/lists/kernel/msg6189942.html) | SoC / TI Keystone | 🔄 v2 sent — `Suggested-by: Nishanth Menon` (TI) · awaiting maintainer |
+| [`mfd: si476x-i2c: Fix spelling mistakes in comments`](https://lore.kernel.org/linux-mfd/20260514181954.1442-1-shofiqtest@gmail.com/) | MFD / Silicon Labs Si476x radio | 🔄 **Under review** — v2 with `Signed-off-by` submitted · awaiting Lee Jones |
 
 ## Networking & Data Center Open Source
 
