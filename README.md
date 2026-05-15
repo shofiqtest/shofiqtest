@@ -106,9 +106,9 @@ DPDK is the high-performance packet-processing framework used in data centers, 5
 
 ## Education
 
-- **M.HSc. Biomedical Engineering** — University of Oulu, Finland (2016–2021)
-- **M.Sc. Computer Science & Engineering** — Islamic University, Bangladesh (2014–2015)
-- **B.Sc. Electrical & Electronics Engineering** — IIUC, Bangladesh (2008–2013)
+- **M.HSc. Biomedical Engineering** — [University of Oulu](https://www.oulu.fi/en/), Finland (2016–2021)
+- **M.Sc. Computer Science & Engineering** — [Islamic University](https://www.iu.ac.bd/), Kushtia, Bangladesh (2014–2015)
+- **B.Sc. Electrical & Electronics Engineering** — [International Islamic University Chittagong](https://www.iiuc.ac.bd/), Bangladesh (2008–2013)
 
 ## Certifications
 
