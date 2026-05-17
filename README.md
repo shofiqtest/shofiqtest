@@ -78,8 +78,8 @@ Diagnosed and fixed an SPL SRAM overflow (112 bytes) caused by LDB display clock
 | Contribution | Area | Status |
 | --- | --- | --- |
 | [`drivers: sensor: max3010x: MAX30101/MAX30102 driver`](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Sensor driver, I2C, Devicetree binding, Kconfig, build coverage | ✅ **Merged** — merged by Benjamin Cabé · approved by Jilay Pandya & Maureen Helm · [PR #108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697) |
-| `maxim,max3010x-common` shared DT binding | Maxim pulse oximeter / heart-rate sensor family | ✅ **Merged** — extracted into shared binding per maintainer review |
-| `tests/drivers/build_all/sensor/i2c.dtsi` coverage | Zephyr sensor build test matrix | ✅ **Merged** — added per maintainer review |
+| [`maxim,max3010x-common` shared DT binding](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Maxim pulse oximeter / heart-rate sensor family | ✅ **Merged** — extracted into shared binding per maintainer review · [PR #108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697) |
+| [`tests/drivers/build_all/sensor/i2c.dtsi` coverage](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Zephyr sensor build test matrix | ✅ **Merged** — added per maintainer review · [PR #108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697) |
 
 ## Systems I Like Working On
 
