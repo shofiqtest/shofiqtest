@@ -133,13 +133,3 @@ Diagnosed and fixed an SPL SRAM overflow (112 bytes) caused by LDB display clock
 | [Real-Time Patient Monitoring on Kubernetes](https://github.com/shofiqtest/real-time-patient-monitoring-k8s) | Cloud-native monitoring architecture |
 | Embedded driver work | Low-level C, hardware-facing debugging, upstream workflow |
 
-## GitHub Snapshot
-
-<p align="center">
-  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=shofiqtest&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shofiqtest&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=shofiqtest&theme=tokyonight&hide_border=true" />
-</p>
