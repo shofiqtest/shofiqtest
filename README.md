@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi there, I'm Shofiq 👋
+# Hi there, I'm Shofiq 👋😊
 
 **Linux Kernel Contributor** - **U-Boot Contributor** - **Zephyr RTOS Contributor (merged)** - **Quantum Computing Contributor** - **SONiC Contributor** - **DPDK Contributor** - **SoC Software Engineer**  
 **C/C++** - **Embedded Linux** - **Systems & Runtime** - **Docker** - **Kubernetes**
