@@ -2,7 +2,7 @@
 
 # Hi there, I'm Shofiq
 
-**Linux Kernel Contributor** - **Zephyr RTOS Contributor** - **Quantum Computing Contributor** - **SONiC Contributor** - **DPDK Contributor** - **SoC Software Engineer**  
+**Linux Kernel Contributor** - **U-Boot Contributor** - **Zephyr RTOS Contributor** - **Quantum Computing Contributor** - **SONiC Contributor** - **DPDK Contributor** - **SoC Software Engineer**  
 **C/C++** - **Embedded Linux** - **Systems & Runtime** - **Docker** - **Kubernetes**
 
 <a href="mailto:shofiqtest@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shofiqtest%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
@@ -57,6 +57,16 @@ DPDK is the high-performance packet-processing framework used in data centers, 5
 | [`dma/dpaa2: fix dpaa2_qdma_remove always returning success`](https://inbox.dpdk.org/dev/20260513203725.1905-3-shofiqtest@gmail.com/) | NXP DPAA2 DMA driver — `drivers/dma/dpaa2/dpaa2_qdma.c` | 🔄 **Under review** — `dev@dpdk.org` · CC: Gagandeep Singh, Hemant Agrawal (NXP) |
 
 `fslmc_bus_unplug()` discarded `drv->remove()` return value, always reporting success. `dpaa2_qdma_remove()` logged errors but returned `0`, hiding failures from callers. Fixes [Bugzilla #1914](https://bugs.dpdk.org/show_bug.cgi?id=1914). Both patches tagged `Cc: stable@dpdk.org`.
+
+### U-Boot (i.MX6Q bootloader — GE Healthcare medical device platform)
+
+U-Boot is the bootloader used in embedded Linux systems including NXP i.MX6Q-based medical devices (patient monitors, ultrasound, imaging).
+
+| Contribution | Component | Status |
+| --- | --- | --- |
+| SPL overflow fix for `clk: imx6q` patch series | `drivers/clk/imx/clk-imx6q.c` — guard `of_assigned_ldb_sels()` and `imx6q_init_ldb_clks()` with `!CONFIG_SPL_BUILD` | 🔄 **Sent to maintainer** — fix for CI failure reported by Fabio Estevam · CC: Brian Ruley (GE Healthcare Finland) |
+
+Diagnosed and fixed an SPL SRAM overflow (112 bytes) caused by LDB display clock initialisation code being pulled into SPL via `imx6q_clk_probe()`. SPL never initialises a display — guarding the two functions reduces SPL text by ~688 bytes and unblocks the patch series.
 
 ## Quantum Computing Contributions
 
