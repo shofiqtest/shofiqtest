@@ -18,7 +18,7 @@ Espoo, Finland — Open to Linux / embedded roles in Europe and remote
 
 ## Linux Kernel Contributions
 
-Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supply, XFS, and MFD — **13 patches, 8 subsystems, 9 merged**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
+Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supply, XFS, and MFD — **12 patches, 8 subsystems, 9 merged**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
 
 | Patch | Subsystem | Status |
 | --- | --- | --- |
@@ -33,7 +33,6 @@ Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supp
 | [`power: supply: Fix typos in comments`](https://www.spinics.net/lists/kernel/msg6189221.html) | Power Supply | 🔄 v2 sent — `Acked-by: Linus Walleij` · awaiting maintainer |
 | [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://www.spinics.net/lists/kernel/msg6189942.html) | SoC / TI Keystone | ✅ **Applied** — `ti-drivers-soc-next` · Nishanth Menon · commit `10a1969353b2` · queued for linux-next |
 | [`mfd: si476x-i2c: Fix spelling mistakes in comments`](https://lore.kernel.org/linux-mfd/20260514181954.1442-1-shofiqtest@gmail.com/) | MFD / Silicon Labs Si476x radio | 🔄 **Under review** — v2 with `Signed-off-by` submitted · awaiting Lee Jones |
-| [`iio: accel: adxl372: Add timestamp to FIFO data`](https://lore.kernel.org/linux-iio/20260516211935.36773-1-shofiqtest@gmail.com/) | IIO / MEMS accelerometer | 🔄 **Under review** — v2 · `IIO_DECLARE_BUFFER_WITH_TS` + `iio_push_to_buffers_with_ts()` · per David Lechner review |
 
 ## Networking & Data Center Open Source
 
