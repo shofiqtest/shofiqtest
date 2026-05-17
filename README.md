@@ -2,8 +2,8 @@
 
 # Hi there, I'm Shofiq
 
-**Nokia SoC Software Engineer** &nbsp;·&nbsp; C/C++ &nbsp;·&nbsp; Embedded Linux &nbsp;·&nbsp; Real-Time Systems  
-Upstream contributor: **Linux Kernel** &nbsp;·&nbsp; **DPDK** &nbsp;·&nbsp; **SONiC** &nbsp;·&nbsp; **Zephyr RTOS** &nbsp;·&nbsp; **D-Wave Ocean SDK**
+**Linux Kernel Contributor** - **U-Boot Contributor** - **Zephyr RTOS Contributor (merged)** - **Quantum Computing Contributor** - **SONiC Contributor** - **DPDK Contributor** - **SoC Software Engineer**  
+**C/C++** - **Embedded Linux** - **Systems & Runtime** - **Docker** - **Kubernetes**
 
 <a href="mailto:shofiqtest@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shofiqtest%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/mdshofiqul/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Md%20Shofiqul%20Islam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
@@ -18,7 +18,7 @@ Espoo, Finland — Open to Linux / embedded roles in Europe and remote
 
 ## Linux Kernel Contributions
 
-Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supply, and XFS — **10 patches, 7 subsystems, 6 merged**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
+Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supply, XFS, and MFD — **13 patches, 8 subsystems, 9 merged**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
 
 | Patch | Subsystem | Status |
 | --- | --- | --- |
@@ -28,10 +28,12 @@ Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supp
 | [`sctp: Fix typo in comment`](https://git.kernel.org/netdev/net-next/c/c7ea0d2b4d76) | Networking / SCTP | ✅ **Merged** — `netdev/net-next` · applied by Jakub Kicinski · [`c7ea0d2b4d76`](https://git.kernel.org/netdev/net-next/c/c7ea0d2b4d76) |
 | [`ASoC: nau8825: Fix typos in comments`](https://git.kernel.org/broonie/sound/c/5f1752afb464) | Sound / ASoC | ✅ **Merged** — `broonie/sound for-7.2` · queued for Linux 7.2 |
 | [`xfs: Fix typo in comment`](https://www.spinics.net/lists/kernel/msg6190059.html) | XFS Filesystem | ✅ **Accepted** — Carlos Maiolino · `for-next` · [`509fdeb3326b`](https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux.git) |
-| [`scsi: scsi_scan: Fix typo in comment`](https://www.spinics.net/lists/kernel/msg6189223.html) | SCSI core | 🔄 v2 sent — `Reviewed-by: Bart Van Assche` · awaiting maintainer |
-| [`scsi: storvsc: Replace symbolic permissions with octal`](https://www.spinics.net/lists/kernel/msg6188547.html) | SCSI / Hyper-V | 🔄 v2 sent — `Reviewed-by: Long Li` (Microsoft) · awaiting maintainer |
+| [`scsi: scsi_scan: Fix typo in comment`](https://www.spinics.net/lists/kernel/msg6189223.html) | SCSI core | ✅ **Applied** — `7.2/scsi-staging` · Martin K. Petersen · `Reviewed-by: Bart Van Assche` |
+| [`scsi: storvsc: Replace symbolic permissions with octal`](https://www.spinics.net/lists/kernel/msg6188547.html) | SCSI / Hyper-V | ✅ **Applied** — `7.2/scsi-staging` · Martin K. Petersen · `Reviewed-by: Long Li` (Microsoft) |
 | [`power: supply: Fix typos in comments`](https://www.spinics.net/lists/kernel/msg6189221.html) | Power Supply | 🔄 v2 sent — `Acked-by: Linus Walleij` · awaiting maintainer |
-| [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://www.spinics.net/lists/kernel/msg6189942.html) | SoC / TI Keystone | 🔄 v2 sent — `Suggested-by: Nishanth Menon` (TI) · awaiting maintainer |
+| [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://www.spinics.net/lists/kernel/msg6189942.html) | SoC / TI Keystone | ✅ **Applied** — `ti-drivers-soc-next` · Nishanth Menon · commit `10a1969353b2` · queued for linux-next |
+| [`mfd: si476x-i2c: Fix spelling mistakes in comments`](https://lore.kernel.org/linux-mfd/20260514181954.1442-1-shofiqtest@gmail.com/) | MFD / Silicon Labs Si476x radio | 🔄 **Under review** — v2 with `Signed-off-by` submitted · awaiting Lee Jones |
+| [`iio: accel: adxl372: Add timestamp to FIFO data`](https://lore.kernel.org/linux-iio/20260516211935.36773-1-shofiqtest@gmail.com/) | IIO / MEMS accelerometer | 🔄 **Under review** — v2 · `IIO_DECLARE_BUFFER_WITH_TS` + `iio_push_to_buffers_with_ts()` · per David Lechner review |
 
 ## Networking & Data Center Open Source
 
@@ -56,6 +58,16 @@ DPDK is the high-performance packet-processing framework used in data centers, 5
 
 `fslmc_bus_unplug()` discarded `drv->remove()` return value, always reporting success. `dpaa2_qdma_remove()` logged errors but returned `0`, hiding failures from callers. Fixes [Bugzilla #1914](https://bugs.dpdk.org/show_bug.cgi?id=1914). Both patches tagged `Cc: stable@dpdk.org`.
 
+### U-Boot (i.MX6Q bootloader — GE Healthcare medical device platform)
+
+U-Boot is the bootloader used in embedded Linux systems including NXP i.MX6Q-based medical devices (patient monitors, ultrasound, imaging).
+
+| Contribution | Component | Status |
+| --- | --- | --- |
+| [SPL overflow fix for `clk: imx6q` patch series](https://lore.kernel.org/all/CAOMZO5De=9ECdSZ=VxvhrAJxRX7vpHu65hCueUn7VChmBnYPxQ@mail.gmail.com/) | `drivers/clk/imx/clk-imx6q.c` — guard `of_assigned_ldb_sels()` and `imx6q_init_ldb_clks()` with `!CONFIG_SPL_BUILD` | 🔄 **Sent to maintainer** — fix for CI failure reported by Fabio Estevam · CC: Brian Ruley (GE Healthcare) |
+
+Diagnosed and fixed an SPL SRAM overflow (112 bytes) caused by LDB display clock initialisation code being pulled into SPL via `imx6q_clk_probe()`. SPL never initialises a display — guarding the two functions reduces SPL text by ~688 bytes and unblocks the patch series.
+
 ## Quantum Computing Contributions
 
 | Contribution | Project | Status |
@@ -66,9 +78,9 @@ DPDK is the high-performance packet-processing framework used in data centers, 5
 
 | Contribution | Area | Status |
 | --- | --- | --- |
-| [`drivers: sensor: max3010x: MAX30101/MAX30102 driver`](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Sensor driver, I2C, Devicetree binding, Kconfig, build coverage | Open — fixup commit squashed per maintainer review; CI green |
-| `maxim,max3010x-common` shared DT binding | Maxim pulse oximeter / heart-rate sensor family | Extracted into shared binding per maintainer review |
-| `tests/drivers/build_all/sensor/i2c.dtsi` coverage | Zephyr sensor build test matrix | Added per maintainer review |
+| [`drivers: sensor: max3010x: MAX30101/MAX30102 driver`](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Sensor driver, I2C, Devicetree binding, Kconfig, build coverage | ✅ **Merged** — merged by Benjamin Cabé · approved by Jilay Pandya & Maureen Helm · [PR #108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697) |
+| `maxim,max3010x-common` shared DT binding | Maxim pulse oximeter / heart-rate sensor family | ✅ **Merged** — extracted into shared binding per maintainer review |
+| `tests/drivers/build_all/sensor/i2c.dtsi` coverage | Zephyr sensor build test matrix | ✅ **Merged** — added per maintainer review |
 
 ## Systems I Like Working On
 
@@ -105,9 +117,9 @@ DPDK is the high-performance packet-processing framework used in data centers, 5
 
 ## Education
 
-- **M.HSc. Biomedical Engineering** — University of Oulu, Finland (2016–2021)
-- **M.Sc. Computer Science & Engineering** — Islamic University, Bangladesh (2014–2015)
-- **B.Sc. Electrical & Electronics Engineering** — IIUC, Bangladesh (2008–2013)
+- **M.HSc. Biomedical Engineering** — [University of Oulu](https://www.oulu.fi/en/), Finland (2016–2021)
+- **M.Sc. Computer Science & Engineering** — [Islamic University](https://www.iu.ac.bd/), Kushtia, Bangladesh (2014–2015)
+- **B.Sc. Electrical & Electronics Engineering** — [International Islamic University Chittagong](https://www.iiuc.ac.bd/), Bangladesh (2008–2013)
 
 ## Certifications
 
