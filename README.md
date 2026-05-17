@@ -64,7 +64,7 @@ U-Boot is the bootloader used in embedded Linux systems including NXP i.MX6Q-bas
 
 | Contribution | Component | Status |
 | --- | --- | --- |
-| [SPL overflow fix for `clk: imx6q` patch series](https://lore.kernel.org/all/CAOMZO5De=9ECdSZ=VxvhrAJxRX7vpHu65hCueUn7VChmBnYPxQ@mail.gmail.com/) | `drivers/clk/imx/clk-imx6q.c` — guard `of_assigned_ldb_sels()` and `imx6q_init_ldb_clks()` with `!CONFIG_SPL_BUILD` | 🔄 **Sent to maintainer** — fix for CI failure reported by Fabio Estevam · CC: Brian Ruley (GE Healthcare Finland) |
+| [SPL overflow fix for `clk: imx6q` patch series](https://lore.kernel.org/all/CAOMZO5De=9ECdSZ=VxvhrAJxRX7vpHu65hCueUn7VChmBnYPxQ@mail.gmail.com/) | `drivers/clk/imx/clk-imx6q.c` — guard `of_assigned_ldb_sels()` and `imx6q_init_ldb_clks()` with `!CONFIG_SPL_BUILD` | 🔄 **Sent to maintainer** — fix for CI failure reported by Fabio Estevam · CC: Brian Ruley (GE Healthcare) |
 
 Diagnosed and fixed an SPL SRAM overflow (112 bytes) caused by LDB display clock initialisation code being pulled into SPL via `imx6q_clk_probe()`. SPL never initialises a display — guarding the two functions reduces SPL text by ~688 bytes and unblocks the patch series.
 
