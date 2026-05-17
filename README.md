@@ -2,7 +2,7 @@
 
 # Hi there, I'm Shofiq
 
-**Linux Kernel Contributor** - **U-Boot Contributor** - **Zephyr RTOS Contributor** - **Quantum Computing Contributor** - **SONiC Contributor** - **DPDK Contributor** - **SoC Software Engineer**  
+**Linux Kernel Contributor** - **U-Boot Contributor** - **Zephyr RTOS Contributor (merged)** - **Quantum Computing Contributor** - **SONiC Contributor** - **DPDK Contributor** - **SoC Software Engineer**  
 **C/C++** - **Embedded Linux** - **Systems & Runtime** - **Docker** - **Kubernetes**
 
 <a href="mailto:shofiqtest@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shofiqtest%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
@@ -78,9 +78,9 @@ Diagnosed and fixed an SPL SRAM overflow (112 bytes) caused by LDB display clock
 
 | Contribution | Area | Status |
 | --- | --- | --- |
-| [`drivers: sensor: max3010x: MAX30101/MAX30102 driver`](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Sensor driver, I2C, Devicetree binding, Kconfig, build coverage | Open — fixup commit squashed per maintainer review; CI green |
-| `maxim,max3010x-common` shared DT binding | Maxim pulse oximeter / heart-rate sensor family | Extracted into shared binding per maintainer review |
-| `tests/drivers/build_all/sensor/i2c.dtsi` coverage | Zephyr sensor build test matrix | Added per maintainer review |
+| [`drivers: sensor: max3010x: MAX30101/MAX30102 driver`](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Sensor driver, I2C, Devicetree binding, Kconfig, build coverage | ✅ **Merged** — merged by Benjamin Cabé · approved by Jilay Pandya & Maureen Helm · [PR #108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697) |
+| `maxim,max3010x-common` shared DT binding | Maxim pulse oximeter / heart-rate sensor family | ✅ **Merged** — extracted into shared binding per maintainer review |
+| `tests/drivers/build_all/sensor/i2c.dtsi` coverage | Zephyr sensor build test matrix | ✅ **Merged** — added per maintainer review |
 
 ## Systems I Like Working On
 
