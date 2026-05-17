@@ -2,8 +2,8 @@
 
 # Hi there, I'm Shofiq
 
-**Linux Kernel Contributor** - **Zephyr RTOS Contributor** - **Quantum Computing Contributor** - **SONiC Contributor** - **DPDK Contributor** - **SoC Software Engineer**  
-**C/C++** - **Embedded Linux** - **Systems & Runtime** - **Docker** - **Kubernetes**
+**Nokia SoC Software Engineer** &nbsp;·&nbsp; C/C++ &nbsp;·&nbsp; Embedded Linux &nbsp;·&nbsp; Real-Time Systems  
+Upstream contributor: **Linux Kernel** &nbsp;·&nbsp; **DPDK** &nbsp;·&nbsp; **SONiC** &nbsp;·&nbsp; **Zephyr RTOS** &nbsp;·&nbsp; **D-Wave Ocean SDK**
 
 <a href="mailto:shofiqtest@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shofiqtest%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/mdshofiqul/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Md%20Shofiqul%20Islam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
@@ -18,11 +18,10 @@ Espoo, Finland — Open to Linux / embedded roles in Europe and remote
 
 ## Linux Kernel Contributions
 
-Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supply, and XFS — **11 patches, 7 subsystems, 7 merged**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
+Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supply, and XFS — **10 patches, 7 subsystems, 6 merged**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
 
 | Patch | Subsystem | Status |
 | --- | --- | --- |
-| [`iio: accel: adxl3xx: Add timestamps to FIFO data`](https://lore.kernel.org/linux-iio/20260510082556.3867-1-shofiqtest@gmail.com/) | IIO / Accelerometers — ADXL313, ADXL345, ADXL367, ADXL380 | ✅ **Merged** — applied by Jonathan Cameron · iio/togreg |
 | [`iio: adc: ti-ads1298: Remove incorrect test signal init`](https://www.spinics.net/lists/kernel/msg6192186.html) | IIO / Medical ADC | ✅ **Applied** — functional bug fix · Jonathan Cameron · confirmed by Mike Looijmans & David Lechner |
 | [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://lore.kernel.org/linux-iio/?q=ti-ads1298+timeout+shofiqtest) | IIO / Medical ADC | ✅ **Applied** — Jonathan Cameron · iio/togreg |
 | [`iio: adc: ti-ads1298: Add parentheses around macro parameter`](https://www.spinics.net/lists/kernel/msg6191377.html) | IIO / Medical ADC | ✅ **Applied** — Jonathan Cameron · iio/togreg |
