@@ -18,7 +18,7 @@ Espoo, Finland — Open to Linux / embedded roles in Europe and remote
 
 ## Linux Kernel Contributions
 
-Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supply, XFS, and MFD — **12 patches, 8 subsystems, 9 merged**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
+Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supply, XFS, MFD, and DRM/Accel — **13 patches, 9 subsystems, 9 merged**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
 
 | Patch | Subsystem | Status |
 | --- | --- | --- |
