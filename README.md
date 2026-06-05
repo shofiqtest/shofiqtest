@@ -59,20 +59,20 @@ DPDK is the high-performance packet-processing framework used in data centers, 5
 
 `fslmc_bus_unplug()` discarded `drv->remove()` return value, always reporting success. `dpaa2_qdma_remove()` logged errors but returned `0`, hiding failures from callers. Fixes [Bugzilla #1914](https://bugs.dpdk.org/show_bug.cgi?id=1914). Both patches tagged `Cc: stable@dpdk.org`.
 
-### U-Boot (i.MX6Q bootloader — GE Healthcare medical device platform)
+### U-Boot (NXP i.MX6Q bootloader)
 
-U-Boot is the bootloader used in embedded Linux systems including NXP i.MX6Q-based medical devices (patient monitors, ultrasound, imaging).
+U-Boot is the bootloader used in embedded Linux systems on NXP i.MX6Q-based platforms.
 
 | Contribution | Component | Status |
 | --- | --- | --- |
-| [SPL overflow fix for `clk: imx6q` patch series](https://lore.kernel.org/all/CAOMZO5De=9ECdSZ=VxvhrAJxRX7vpHu65hCueUn7VChmBnYPxQ@mail.gmail.com/) | `drivers/clk/imx/clk-imx6q.c` — guard `of_assigned_ldb_sels()` and `imx6q_init_ldb_clks()` with `!CONFIG_SPL_BUILD` | ✅ **Sent** — fix for CI failure reported by Fabio Estevam · CC: Brian Ruley (GE Healthcare) |
-| [`imx6: clock: fix clk0/clk1 swap in select_ldb_di_clock_source()`](https://lore.kernel.org/u-boot/20260518215445.175753-2-shofiqtest@gmail.com/) | `arch/arm/mach-imx/mx6/clock.c` — `clk0` and `clk1` were written to the wrong registers; silent until now because all callers passed the same value for both | 🔄 **Under review** — [PATCH 1/2] · sent to Brian Ruley (GE Healthcare) & `u-boot@lists.denx.de` |
-| [`imx6: guard LDB clock init with appropriate video config`](https://lore.kernel.org/u-boot/20260518215445.175753-3-shofiqtest@gmail.com/) | `drivers/clk/imx/clk-imx6q.c`, `board/aristainetos/aristainetos.c`, `board/ge/b1x5v2/b1x5v2.c` — fix guard mismatch (`!CONFIG_SPL_BUILD` vs `CONFIG_SPL_VIDEO`) per Brian Ruley's review feedback | 🔄 **Under review** — [PATCH 2/2] · sent to Brian Ruley (GE Healthcare) & `u-boot@lists.denx.de` |
+| [SPL overflow fix for `clk: imx6q` patch series](https://lore.kernel.org/all/CAOMZO5De=9ECdSZ=VxvhrAJxRX7vpHu65hCueUn7VChmBnYPxQ@mail.gmail.com/) | `drivers/clk/imx/clk-imx6q.c` — guard `of_assigned_ldb_sels()` and `imx6q_init_ldb_clks()` with `!CONFIG_SPL_BUILD` | ✅ **Sent** — fix for CI failure reported by Fabio Estevam · sent to `u-boot@lists.denx.de` |
+| [`imx6: clock: fix clk0/clk1 swap in select_ldb_di_clock_source()`](https://lore.kernel.org/u-boot/20260518215445.175753-2-shofiqtest@gmail.com/) | `arch/arm/mach-imx/mx6/clock.c` — `clk0` and `clk1` were written to the wrong registers; silent until now because all callers passed the same value for both | 🔄 **Under review** — [PATCH 1/2] · sent to `u-boot@lists.denx.de` |
+| [`imx6: guard LDB clock init with appropriate video config`](https://lore.kernel.org/u-boot/20260518215445.175753-3-shofiqtest@gmail.com/) | `drivers/clk/imx/clk-imx6q.c`, `board/aristainetos/aristainetos.c`, `board/ge/b1x5v2/b1x5v2.c` — fix guard mismatch (`!CONFIG_SPL_BUILD` vs `CONFIG_SPL_VIDEO`)  | 🔄 **Under review** — [PATCH 2/2] · sent to `u-boot@lists.denx.de` |
 
-During code review of Brian Ruley's `[PATCH v2 3/7] imx6: clock: allow different clock sources for ldb` series:
+During review of the imx6q LDB clock patch series:
 
 - Found `clk0`/`clk1` written to `LDB_DI1`/`LDB_DI0` respectively — reversed. Silent because all callers passed the same value for both arguments.
-- Fixed guard mismatch in `clk-imx6q.c`: `imx6q_init_ldb_clks()` was defined only for `CONFIG_SPL_VIDEO` but called for `!CONFIG_SPL_BUILD`, causing a build failure on non-SPL boards using `CONFIG_VIDEO_IPUV3`. Updated to `!CONFIG_SPL_BUILD || CONFIG_SPL_VIDEO` on both definition and call site, per Brian's suggestion that SPL builds with video legitimately need LDB clock init.
+- Fixed guard mismatch in `clk-imx6q.c`: `imx6q_init_ldb_clks()` was defined only for `CONFIG_SPL_VIDEO` but called for `!CONFIG_SPL_BUILD`, causing a build failure on non-SPL boards using `CONFIG_VIDEO_IPUV3`. Updated to `!CONFIG_SPL_BUILD || CONFIG_SPL_VIDEO` on both definition and call site, for SPL builds with video that legitimately need LDB clock init.
 - Added missing guards in `aristainetos.c` (`CONFIG_VIDEO_IPUV3`, no SPL) and `b1x5v2.c` (`CONFIG_SPL_VIDEO`) to avoid calling `select_ldb_di_clock_source()` without video configured.
 
 ## Quantum Computing Contributions
