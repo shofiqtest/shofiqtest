@@ -2,7 +2,7 @@
 
 # Hi there, I'm Shofiq 👋😊
 
-**Linux Kernel Contributor** - **U-Boot Contributor** - **Zephyr RTOS Contributor (merged)** - **Quantum Computing Contributor** - **SONiC Contributor** - **DPDK Contributor** - **SoC Software Engineer**  
+**Linux Kernel Contributor** - **U-Boot (patches in review)** - **Zephyr RTOS Contributor (merged)** - **SONiC Contributor** - **DPDK Contributor** - **SoC Software Engineer**  
 **C/C++** - **Embedded Linux** - **Systems & Runtime** - **Docker** - **Kubernetes**
 
 <a href="mailto:shofiqtest@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shofiqtest%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
@@ -18,7 +18,7 @@ Espoo, Finland — Open to Linux / embedded roles in Europe and remote
 
 ## Linux Kernel Contributions
 
-Active upstream contributor across IIO, networking, sound, SoC, SCSI, power supply, XFS, MFD, and DRM/Accel — **15 patches, 9 subsystems, 9 merged**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
+Active upstream contributor across IIO, networking (SCTP), sound (ASoC), SoC (TI Keystone), SCSI, power supply, XFS, MFD, and DRM/Accel — **13 kernel patches submitted, 9 applied to maintainer trees**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
 
 | Patch | Subsystem | Status |
 | --- | --- | --- |
@@ -93,7 +93,7 @@ During code review of Brian Ruley's `[PATCH v2 3/7] imx6: clock: allow different
 
 | Domain | Tools and technologies |
 | --- | --- |
-| Kernel and BSP | Linux kernel, device drivers, DTS, Kconfig, Makefiles |
+| Kernel and BSP | Linux kernel, device drivers, DTS, Kconfig, Makefiles, Yocto/BitBake BSP |
 | Embedded and RTOS | Zephyr RTOS, C, C++, sensor interfaces, I2C/SPI |
 | Runtime and platform | SoC software, debugging, CI, performance-minded systems work |
 | Networking and DC | DPDK, SONiC, data-centre switch software, high-performance packet processing |
