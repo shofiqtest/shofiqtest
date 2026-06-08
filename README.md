@@ -2,7 +2,7 @@
 
 # Hi there, I'm Shofiq 👋😊
 
-**Linux Kernel Contributor** - **U-Boot (patches in review)** - **Zephyr RTOS Contributor (merged)** - **SONiC Contributor** - **DPDK Contributor** - **SoC Software Engineer**  
+**Linux Kernel Contributor** - **Yocto/OE Contributor** - **U-Boot (patches in review)** - **Zephyr RTOS Contributor (merged)** - **SONiC Contributor** - **DPDK Contributor** - **SoC Software Engineer**  
 **C/C++** - **Embedded Linux** - **Systems & Runtime** - **Docker** - **Kubernetes**
 
 <a href="mailto:shofiqtest@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shofiqtest%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
@@ -88,6 +88,12 @@ During review of the imx6q LDB clock patch series:
 | [`drivers: sensor: max3010x: MAX30101/MAX30102 driver`](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Sensor driver, I2C, Devicetree binding, Kconfig, build coverage | ✅ **Merged** — merged by Benjamin Cabé · approved by Jilay Pandya & Maureen Helm · [PR #108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697) |
 | [`maxim,max3010x-common` shared DT binding](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Maxim pulse oximeter / heart-rate sensor family | ✅ **Merged** — extracted into shared binding per maintainer review · [PR #108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697) |
 | [`tests/drivers/build_all/sensor/i2c.dtsi` coverage](https://github.com/zephyrproject-rtos/zephyr/pull/108697) | Zephyr sensor build test matrix | ✅ **Merged** — added per maintainer review · [PR #108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697) |
+
+## Yocto / OpenEmbedded Contributions
+
+| Patch | Layer | Status |
+| --- | --- | --- |
+| [`libusb1: upgrade 1.0.29 -> 1.0.30`](https://lists.openembedded.org/g/openembedded-core) | `openembedded-core` · `meta/recipes-support/libusb` | 🔄 **Submitted** — sent to `openembedded-core@lists.openembedded.org` · v1.0.30 released 2026-05-17 · hotplug fixes, new APIs, descriptor memory safety |
 
 ## Systems I Like Working On
 
