@@ -23,7 +23,7 @@ Active upstream contributor across IIO, networking (SCTP), sound (ASoC), SoC (TI
 | Patch | Subsystem | Status |
 | --- | --- | --- |
 | [`iio: adc: ti-ads1298: Remove incorrect test signal init`](https://www.spinics.net/lists/kernel/msg6192186.html) | IIO / Medical ADC | ✅ **Applied** — functional bug fix · Jonathan Cameron · confirmed by Mike Looijmans & David Lechner |
-| [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://lore.kernel.org/linux-iio/?q=ti-ads1298+timeout+shofiqtest) | IIO / Medical ADC | ✅ **Applied** — Jonathan Cameron · iio/togreg |
+| [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://lore.kernel.org/linux-iio/?q=ti-ads1298+timeout+shofiqtest) | IIO / Medical ADC | ✅ **In linux-next** — Greg Kroah-Hartman · char-misc-testing → linux-next · queued for mainline |
 | [`iio: adc: ti-ads1298: Add parentheses around macro parameter`](https://www.spinics.net/lists/kernel/msg6191377.html) | IIO / Medical ADC | ✅ **Applied** — Jonathan Cameron · iio/togreg |
 | [`sctp: Fix typo in comment`](https://git.kernel.org/netdev/net-next/c/c7ea0d2b4d76) | Networking / SCTP | ✅ **Merged** — `netdev/net-next` · applied by Jakub Kicinski · [`c7ea0d2b4d76`](https://git.kernel.org/netdev/net-next/c/c7ea0d2b4d76) |
 | [`ASoC: nau8825: Fix typos in comments`](https://git.kernel.org/broonie/sound/c/5f1752afb464) | Sound / ASoC | ✅ **Merged** — `broonie/sound for-7.2` · queued for Linux 7.2 |
