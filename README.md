@@ -18,7 +18,7 @@ Espoo, Finland — Open to Linux / embedded roles in Europe and remote
 
 ## Linux Kernel Contributions
 
-Active upstream contributor across IIO, networking (SCTP), sound (ASoC), SoC (TI Keystone), SCSI, power supply, XFS, MFD, and DRM/Accel — **13 kernel patches submitted, 9 applied to maintainer trees**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
+Active upstream contributor across IIO, networking (SCTP), sound (ASoC), SoC (TI Keystone), SCSI, power supply, XFS, MFD, and DRM/Accel — **13 kernel patches submitted, 11 in linux-next or mainline**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
 
 | Patch | Subsystem | Status |
 | --- | --- | --- |
@@ -30,9 +30,9 @@ Active upstream contributor across IIO, networking (SCTP), sound (ASoC), SoC (TI
 | [`xfs: Fix typo in comment`](https://www.spinics.net/lists/kernel/msg6190059.html) | XFS Filesystem | ✅ **Accepted** — Carlos Maiolino · `for-next` · [`509fdeb3326b`](https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux.git) |
 | [`scsi: scsi_scan: Fix typo in comment`](https://lore.kernel.org/linux-scsi/20260506094504.25381-1-shofiqtest@gmail.com/) | SCSI core | ✅ **Merged** — [`036218473a84`](https://git.kernel.org/mkp/scsi/c/036218473a84) · `7.2/scsi-queue` · Martin K. Petersen · `Reviewed-by: Bart Van Assche` |
 | [`scsi: storvsc: Replace symbolic permissions with octal`](https://lore.kernel.org/linux-scsi/20260506004948.18017-1-shofiqtest@gmail.com/) | SCSI / Hyper-V | ✅ **Merged** — [`73322071418e`](https://git.kernel.org/mkp/scsi/c/73322071418e) · `7.2/scsi-queue` · Martin K. Petersen · `Reviewed-by: Long Li` (Microsoft) |
-| [`power: supply: Fix typos in comments`](https://www.spinics.net/lists/kernel/msg6189221.html) | Power Supply | 🔄 v2 sent — `Acked-by: Linus Walleij` · awaiting maintainer |
+| [`power: supply: ab8500_fg: Fix typos in comments`](https://www.spinics.net/lists/kernel/msg6189221.html) | Power Supply | ✅ **In linux-next** — `Acked-by: Linus Walleij` · queued for mainline |
 | [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://www.spinics.net/lists/kernel/msg6189942.html) | SoC / TI Keystone | ✅ **Applied** — `ti-drivers-soc-next` · Nishanth Menon · commit `10a1969353b2` · queued for linux-next |
-| [`mfd: si476x-i2c: Fix spelling mistakes in comments`](https://lore.kernel.org/linux-mfd/20260514181954.1442-1-shofiqtest@gmail.com/) | MFD / Silicon Labs Si476x radio | 🔄 **Under review** — v2 with `Signed-off-by` submitted · awaiting Lee Jones |
+| [`mfd: si476x-i2c: Fix spelling mistakes in comments`](https://lore.kernel.org/linux-mfd/20260514181954.1442-1-shofiqtest@gmail.com/) | MFD / Silicon Labs Si476x radio | ✅ **In linux-next** — Lee Jones · queued for mainline |
 | [`drm/accel/amdxdna: add debugfs support`](https://lore.kernel.org/dri-devel/20260519203236.252068-1-shofiqtest@gmail.com/) | DRM Accel / AMD Ryzen AI NPU | 🔄 **Under review** — sent to Lizhi Hou, Jincheng Wang, Craig Topper · `dri-devel@lists.freedesktop.org` · implements official driver TODO |
 | [`drm/accel/ivpu: send exact IPC message size instead of union size`](https://lore.kernel.org/dri-devel/177922807295.254725.11654057638908709302@gmail.com/) | DRM Accel / Intel VPU NPU | 🔄 **Under review** — sent to Maciej Falkowski, Karol Wachowski · `dri-devel@lists.freedesktop.org` · resolves driver TODO in IPC layer |
 
