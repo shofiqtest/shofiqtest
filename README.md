@@ -18,7 +18,7 @@ Espoo, Finland — Open to Linux / embedded roles in Europe and remote
 
 ## Linux Kernel Contributions
 
-Active upstream contributor across IIO, networking (SCTP), sound (ASoC), SoC (TI Keystone), SCSI, power supply, XFS, MFD, and DRM/Accel — **13 kernel patches submitted, 11 in linux-next or mainline**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
+Active upstream contributor across IIO, DT bindings, networking (SCTP), sound (ASoC), SoC (TI Keystone), SCSI, power supply, XFS, MFD, and DRM/Accel — **14 kernel patches submitted, 11 in linux-next or mainline**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
 
 | Patch | Subsystem | Status |
 | --- | --- | --- |
@@ -33,6 +33,7 @@ Active upstream contributor across IIO, networking (SCTP), sound (ASoC), SoC (TI
 | [`power: supply: ab8500_fg: Fix typos in comments`](https://www.spinics.net/lists/kernel/msg6189221.html) | Power Supply | ✅ **In linux-next** — `Acked-by: Linus Walleij` · queued for mainline |
 | [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://www.spinics.net/lists/kernel/msg6189942.html) | SoC / TI Keystone | ✅ **Applied** — `ti-drivers-soc-next` · Nishanth Menon · commit `10a1969353b2` · queued for linux-next |
 | [`mfd: si476x-i2c: Fix spelling mistakes in comments`](https://lore.kernel.org/linux-mfd/20260514181954.1442-1-shofiqtest@gmail.com/) | MFD / Silicon Labs Si476x radio | ✅ **In linux-next** — Lee Jones · queued for mainline |
+| [`dt-bindings: iio: accel: Convert lis302 binding to YAML schema`](https://lore.kernel.org/linux-iio/20260609214753.4479-1-shofiqtest@gmail.com/) | DT Bindings / IIO / STMicroelectronics LIS302DL accelerometer | 🔄 **Under review** — sent to linux-iio@vger.kernel.org · cc: Jonathan Cameron, Rob Herring, Krzysztof Kozlowski · converts `.txt` binding to validated YAML schema; corrects `st,click-thresh` → `st,click-threshold` property name |
 | [`drm/accel/amdxdna: add debugfs support`](https://lore.kernel.org/dri-devel/20260519203236.252068-1-shofiqtest@gmail.com/) | DRM Accel / AMD Ryzen AI NPU | 🔄 **Under review** — sent to Lizhi Hou, Jincheng Wang, Craig Topper · `dri-devel@lists.freedesktop.org` · implements official driver TODO |
 | [`drm/accel/ivpu: send exact IPC message size instead of union size`](https://lore.kernel.org/dri-devel/177922807295.254725.11654057638908709302@gmail.com/) | DRM Accel / Intel VPU NPU | 🔄 **Under review** — sent to Maciej Falkowski, Karol Wachowski · `dri-devel@lists.freedesktop.org` · resolves driver TODO in IPC layer |
 
@@ -146,4 +147,3 @@ During review of the imx6q LDB clock patch series:
 | --- | --- |
 | [Real-Time Patient Monitoring on Kubernetes](https://github.com/shofiqtest/real-time-patient-monitoring-k8s) | Cloud-native monitoring architecture |
 | Embedded driver work | Low-level C, hardware-facing debugging, upstream workflow |
-
