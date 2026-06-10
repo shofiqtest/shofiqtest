@@ -96,6 +96,20 @@ During review of the imx6q LDB clock patch series:
 | --- | --- | --- |
 | [`libusb1: upgrade 1.0.29 -> 1.0.30`](https://lists.openembedded.org/g/openembedded-core) | `openembedded-core` · `meta/recipes-support/libusb` | 🔄 **Submitted** — sent to `openembedded-core@lists.openembedded.org` · v1.0.30 released 2026-05-17 · hotplug fixes, new APIs, descriptor memory safety |
 
+
+## Medical Device Software Portfolio
+
+IEC 62304-aligned software engineering artefacts based on the MAX30101/MAX30102 Zephyr RTOS driver (merged upstream, [PR #108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697)) — demonstrating medical device software development discipline applied to a real, publicly verifiable driver.
+
+| Document | Standard | Description |
+|---|---|---|
+| [Software Requirements Specification](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/SRS_MAX30101_Driver.md) | IEC 62304 §5.2 | 12 shall-statements: functional, performance, interface and safety requirements |
+| [Software Design Specification](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/SDS_MAX30101_Driver.md) | IEC 62304 §5.4 | Architecture, component design, interfaces, timing, concurrency |
+| [SOUP Record](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/SOUP_Record_MAX30101_Driver.md) | IEC 62304 §8 | SOUP management for all Zephyr RTOS dependencies with risk classification and monitoring plan |
+| [FMEA](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/FMEA_MAX30101_Driver.md) | ISO 14971:2019 | 8 failure modes with severity, probability, risk level and mitigations |
+
+Full requirements → design → risk traceability chain. Repository: [embedded-medical-software-portfolio](https://github.com/shofiqtest/embedded-medical-software-portfolio)
+
 ## Systems I Like Working On
 
 | Domain | Tools and technologies |
@@ -146,4 +160,5 @@ During review of the imx6q LDB clock patch series:
 | Project | What it shows |
 | --- | --- |
 | [Real-Time Patient Monitoring on Kubernetes](https://github.com/shofiqtest/real-time-patient-monitoring-k8s) | Cloud-native monitoring architecture |
+| [IEC 62304 Medical Device Portfolio](https://github.com/shofiqtest/embedded-medical-software-portfolio) | SRS, SDS, SOUP record, FMEA — IEC 62304 & ISO 14971 artefacts based on merged Zephyr driver |
 | Embedded driver work | Low-level C, hardware-facing debugging, upstream workflow |
