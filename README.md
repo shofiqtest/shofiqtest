@@ -55,8 +55,8 @@ DPDK is the high-performance packet-processing framework used in data centers, 5
 
 | Patch | Component | Status |
 | --- | --- | --- |
-| [`bus/fslmc: fix ignored return value in fslmc_bus_unplug`](https://inbox.dpdk.org/dev/20260513203725.1905-2-shofiqtest@gmail.com/) | NXP DPAA2 bus driver — `drivers/bus/fslmc/fslmc_bus.c` | 🔁 **Acked** — `Acked-by: Hemant Agrawal` (NXP) · awaiting merge |
-| [`dma/dpaa2: fix dpaa2_qdma_remove always returning success`](https://inbox.dpdk.org/dev/20260513203725.1905-3-shofiqtest@gmail.com/) | NXP DPAA2 DMA driver — `drivers/dma/dpaa2/dpaa2_qdma.c` | 🔁 **Acked** — `Acked-by: Hemant Agrawal` (NXP) · awaiting merge |
+| [`bus/fslmc: fix ignored return value in fslmc_bus_unplug`](https://inbox.dpdk.org/dev/20260513203725.1905-2-shofiqtest@gmail.com/) | NXP DPAA2 bus driver — `drivers/bus/fslmc/fslmc_bus.c` | ✅ **Merged** — `Acked-by: Hemant Agrawal` (NXP) · Series applied by David Marchand (Red Hat) |
+| [`dma/dpaa2: fix dpaa2_qdma_remove always returning success`](https://inbox.dpdk.org/dev/20260513203725.1905-3-shofiqtest@gmail.com/) | NXP DPAA2 DMA driver — `drivers/dma/dpaa2/dpaa2_qdma.c` | ✅ **Merged** — `Acked-by: Hemant Agrawal` (NXP) · Series applied by David Marchand (Red Hat) |
 
 `fslmc_bus_unplug()` discarded `drv->remove()` return value, always reporting success. `dpaa2_qdma_remove()` logged errors but returned `0`, hiding failures from callers. Fixes [Bugzilla #1914](https://bugs.dpdk.org/show_bug.cgi?id=1914). Both patches tagged `Cc: stable@dpdk.org`.
 
