@@ -1,181 +1,199 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" font-family="Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620" width="920" height="620" font-family="'Segoe UI',system-ui,sans-serif">
 
-  <!-- BACKGROUND -->
-  <rect width="1120" height="790" fill="#0d1117"/>
+  <!-- Background -->
+  <rect width="920" height="620" fill="#0d1117" rx="10"/>
 
-  <!-- HEADER BAR -->
-  <rect x="0" y="0" width="1120" height="80" fill="#161b22"/>
-  <text x="560" y="30" text-anchor="middle" fill="white" font-size="21" font-weight="bold">Md Shofiqul Islam — Linux Kernel Expertise Map</text>
-  <text x="560" y="52" text-anchor="middle" fill="#58a6ff" font-size="13">SoC Software Engineer at Nokia · Linux Kernel Contributor · 14 Patches · 9 Subsystems</text>
+  <!-- ── HEADER ── -->
+  <rect x="0" y="0" width="920" height="62" fill="#161b22" rx="10"/>
+  <rect x="0" y="52" width="920" height="10" fill="#161b22"/>
+  <text x="460" y="24" text-anchor="middle" fill="#f0f6fc" font-size="17" font-weight="700" letter-spacing="0.5">Linux Kernel — Contribution Map</text>
+  <text x="460" y="46" text-anchor="middle" fill="#8b949e" font-size="11">Md Shofiqul Islam  ·  14 patches  ·  9 subsystems  ·  11 merged or in linux-next</text>
 
-  <!-- LEGEND -->
-  <rect x="100" y="63" width="14" height="13" fill="#f0883e" rx="2"/>
-  <text x="118" y="74" fill="#f0883e" font-size="11" font-weight="bold">CORE EXPERTISE</text>
-  <rect x="290" y="63" width="14" height="13" fill="#e3b341" rx="2"/>
-  <text x="308" y="74" fill="#e3b341" font-size="11" font-weight="bold">PROFICIENT</text>
-  <rect x="440" y="63" width="14" height="13" fill="#3fb950" rx="2"/>
-  <text x="458" y="74" fill="#3fb950" font-size="11" font-weight="bold">SOLID KNOWLEDGE</text>
-  <rect x="638" y="63" width="14" height="13" fill="#58a6ff" rx="2"/>
-  <text x="656" y="74" fill="#58a6ff" font-size="11" font-weight="bold">HARDWARE LAYER</text>
-  <rect x="808" y="63" width="14" height="13" fill="#a371f7" rx="2"/>
-  <text x="826" y="74" fill="#a371f7" font-size="11" font-weight="bold">MY UPSTREAM PATCHES</text>
+  <!-- ── LEGEND ── -->
+  <rect x="10" y="68" width="900" height="26" fill="#0d1117"/>
+  <rect x="30" y="73" width="12" height="12" fill="#238636" rx="2"/>
+  <text x="47" y="83" fill="#3fb950" font-size="10" font-weight="600">Merged / Applied</text>
+  <rect x="165" y="73" width="12" height="12" fill="#1f4d2e" rx="2" stroke="#2ea043" stroke-width="1"/>
+  <text x="182" y="83" fill="#56d364" font-size="10" font-weight="600">In linux-next</text>
+  <rect x="290" y="73" width="12" height="12" fill="#1f3358" rx="2" stroke="#388bfd" stroke-width="1"/>
+  <text x="307" y="83" fill="#79c0ff" font-size="10" font-weight="600">Under Review</text>
+  <rect x="415" y="73" width="12" height="12" fill="#1c2128" rx="2" stroke="#30363d" stroke-width="1"/>
+  <text x="432" y="83" fill="#484f58" font-size="10">Not contributed</text>
 
-  <!-- ═══════════════ LEFT PANEL — KERNEL STACK ═══════════════ -->
-  <text x="270" y="105" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="bold" letter-spacing="2">LINUX KERNEL ARCHITECTURE</text>
+  <!-- ── USER SPACE ── -->
+  <rect x="10" y="100" width="900" height="30" fill="#1c2128" rx="4" stroke="#30363d" stroke-width="1"/>
+  <text x="460" y="120" text-anchor="middle" fill="#6e7681" font-size="11" font-weight="600" letter-spacing="1">USER SPACE</text>
 
-  <!-- USERSPACE -->
-  <rect x="25" y="112" width="490" height="50" fill="#1c2128" stroke="#30363d" stroke-width="1" rx="4"/>
-  <text x="270" y="135" text-anchor="middle" fill="#c9d1d9" font-size="13" font-weight="bold">USERSPACE</text>
-  <text x="270" y="153" text-anchor="middle" fill="#6e7681" font-size="10">Applications · systemd · init · glibc · POSIX</text>
+  <!-- ── SYSCALL INTERFACE ── -->
+  <rect x="10" y="135" width="900" height="22" fill="#161b22" rx="3" stroke="#21262d" stroke-width="1"/>
+  <text x="460" y="150" text-anchor="middle" fill="#58a6ff" font-size="10" font-weight="600" letter-spacing="2">SYSTEM CALL INTERFACE</text>
 
-  <!-- YOCTO / BSP — CORE -->
-  <rect x="25" y="167" width="490" height="52" fill="#1a240f" stroke="#f0883e" stroke-width="2" rx="4"/>
-  <text x="270" y="190" text-anchor="middle" fill="#f0883e" font-size="13" font-weight="bold">YOCTO / BitBake / BSP</text>
-  <text x="270" y="208" text-anchor="middle" fill="#c9d1d9" font-size="10">meta-layers · machine configs · defconfig fragments · cross-compilation · Wind River</text>
+  <!-- ── CORE KERNEL ── -->
+  <text x="14" y="173" fill="#6e7681" font-size="9" font-weight="700" letter-spacing="1">CORE KERNEL</text>
+  <rect x="10"   y="178" width="216" height="28" fill="#161b22" rx="3" stroke="#21262d" stroke-width="1"/>
+  <text x="118"  y="196" text-anchor="middle" fill="#6e7681" font-size="10">Process Scheduler</text>
+  <rect x="231"  y="178" width="216" height="28" fill="#161b22" rx="3" stroke="#21262d" stroke-width="1"/>
+  <text x="339"  y="196" text-anchor="middle" fill="#6e7681" font-size="10">Memory Management</text>
+  <rect x="452"  y="178" width="216" height="28" fill="#161b22" rx="3" stroke="#21262d" stroke-width="1"/>
+  <text x="560"  y="196" text-anchor="middle" fill="#6e7681" font-size="10">Virtual File System (VFS)</text>
+  <rect x="673"  y="178" width="237" height="28" fill="#161b22" rx="3" stroke="#21262d" stroke-width="1"/>
+  <text x="791"  y="196" text-anchor="middle" fill="#6e7681" font-size="10">IPC / Signals / Timers</text>
 
-  <!-- SYSTEM CALL INTERFACE -->
-  <rect x="25" y="224" width="490" height="36" fill="#161b22" stroke="#30363d" stroke-width="1" rx="4"/>
-  <text x="270" y="246" text-anchor="middle" fill="#8b949e" font-size="12" font-weight="bold">SYSTEM CALL INTERFACE</text>
+  <!-- ── SUBSYSTEMS SECTION ── -->
+  <text x="14" y="222" fill="#6e7681" font-size="9" font-weight="700" letter-spacing="1">SUBSYSTEMS</text>
 
-  <!-- DEBUGGING TOOLS — PROFICIENT -->
-  <rect x="25" y="265" width="490" height="52" fill="#1f1c0a" stroke="#e3b341" stroke-width="2" rx="4"/>
-  <text x="270" y="288" text-anchor="middle" fill="#e3b341" font-size="13" font-weight="bold">DEBUGGING TOOLS</text>
-  <text x="270" y="306" text-anchor="middle" fill="#c9d1d9" font-size="10">perf · ftrace · KASAN · lockdep · GDB · dynamic_debug · dmesg · /proc · /sys</text>
+  <!-- NETWORKING / SCTP — MERGED -->
+  <rect x="10" y="227" width="143" height="70" fill="#0f2a1a" rx="4" stroke="#238636" stroke-width="1.5"/>
+  <text x="81"  y="244" text-anchor="middle" fill="#3fb950" font-size="10" font-weight="700">NETWORKING</text>
+  <rect x="20"  y="250" width="40" height="13" fill="#238636" rx="2"/>
+  <text x="40"  y="260" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">MERGED</text>
+  <text x="81"  y="264" text-anchor="middle" fill="#56d364" font-size="9">SCTP</text>
+  <text x="81"  y="276" text-anchor="middle" fill="#56d364" font-size="8">Fix typo in comment</text>
+  <text x="81"  y="289" text-anchor="middle" fill="#3fb950" font-size="8">netdev / Jakub Kicinski</text>
 
-  <!-- POWER MANAGEMENT — SOLID -->
-  <rect x="25" y="322" width="490" height="52" fill="#0d1f0f" stroke="#3fb950" stroke-width="2" rx="4"/>
-  <text x="270" y="345" text-anchor="middle" fill="#3fb950" font-size="13" font-weight="bold">POWER MANAGEMENT</text>
-  <text x="270" y="363" text-anchor="middle" fill="#c9d1d9" font-size="10">Runtime PM · suspend/resume · clock gating · power domains · cpufreq · DVFS</text>
+  <!-- FILESYSTEM / XFS — MERGED -->
+  <rect x="158" y="227" width="143" height="70" fill="#0f2a1a" rx="4" stroke="#238636" stroke-width="1.5"/>
+  <text x="229" y="244" text-anchor="middle" fill="#3fb950" font-size="10" font-weight="700">FILESYSTEM</text>
+  <rect x="168" y="250" width="40" height="13" fill="#238636" rx="2"/>
+  <text x="188" y="260" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">MERGED</text>
+  <text x="229" y="264" text-anchor="middle" fill="#56d364" font-size="9">XFS</text>
+  <text x="229" y="276" text-anchor="middle" fill="#56d364" font-size="8">Fix typo in comment</text>
+  <text x="229" y="289" text-anchor="middle" fill="#3fb950" font-size="8">Carlos Maiolino · for-next</text>
 
-  <!-- KERNEL CORE -->
-  <rect x="25" y="379" width="490" height="52" fill="#1a1f2e" stroke="#30363d" stroke-width="1" rx="4"/>
-  <text x="270" y="400" text-anchor="middle" fill="#c9d1d9" font-size="13" font-weight="bold">KERNEL CORE</text>
-  <text x="270" y="418" text-anchor="middle" fill="#6e7681" font-size="10">MM (slab/buddy/vmalloc) · CFS Scheduler · VFS · IRQ subsystem · DMA engine · RCU</text>
+  <!-- SOUND / ASoC — MERGED -->
+  <rect x="306" y="227" width="143" height="70" fill="#0f2a1a" rx="4" stroke="#238636" stroke-width="1.5"/>
+  <text x="377" y="244" text-anchor="middle" fill="#3fb950" font-size="10" font-weight="700">SOUND</text>
+  <rect x="316" y="250" width="40" height="13" fill="#238636" rx="2"/>
+  <text x="336" y="260" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">MERGED</text>
+  <text x="377" y="264" text-anchor="middle" fill="#56d364" font-size="9">ASoC — nau8825</text>
+  <text x="377" y="276" text-anchor="middle" fill="#56d364" font-size="8">Fix typos in comments</text>
+  <text x="377" y="289" text-anchor="middle" fill="#3fb950" font-size="8">broonie/sound · Linux 7.2</text>
 
-  <!-- DEVICE DRIVERS — CORE (tallest box) -->
-  <rect x="25" y="436" width="490" height="68" fill="#1a240f" stroke="#f0883e" stroke-width="2" rx="4"/>
-  <text x="270" y="459" text-anchor="middle" fill="#f0883e" font-size="13" font-weight="bold">DEVICE DRIVERS</text>
-  <text x="270" y="476" text-anchor="middle" fill="#c9d1d9" font-size="10">DRM/Accel (AMD NPU · Intel VPU) · IIO · SCSI · SCTP · PCIe · I2C · SPI · GPIO · DMA</text>
-  <text x="270" y="494" text-anchor="middle" fill="#a371f7" font-size="10" font-weight="bold">★ UPSTREAM PATCHES MERGED IN THIS LAYER ★</text>
+  <!-- IIO — IN LINUX-NEXT (3 patches) -->
+  <rect x="454" y="227" width="163" height="70" fill="#0a1f0a" rx="4" stroke="#2ea043" stroke-width="1.5"/>
+  <text x="535" y="244" text-anchor="middle" fill="#56d364" font-size="10" font-weight="700">IIO / ADC</text>
+  <rect x="464" y="250" width="66" height="13" fill="#1f4d2e" rx="2" stroke="#2ea043" stroke-width="1"/>
+  <text x="497" y="260" text-anchor="middle" fill="#56d364" font-size="8" font-weight="700">IN LINUX-NEXT</text>
+  <text x="535" y="264" text-anchor="middle" fill="#56d364" font-size="9">TI ADS1298 · 3 patches</text>
+  <text x="535" y="276" text-anchor="middle" fill="#56d364" font-size="8">Medical biopotential ADC</text>
+  <text x="535" y="289" text-anchor="middle" fill="#3fb950" font-size="8">Greg KH · char-misc-testing</text>
 
-  <!-- DEVICE TREE — CORE -->
-  <rect x="25" y="509" width="490" height="52" fill="#1a240f" stroke="#f0883e" stroke-width="2" rx="4"/>
-  <text x="270" y="532" text-anchor="middle" fill="#f0883e" font-size="13" font-weight="bold">DEVICE TREE / PLATFORM DESCRIPTION</text>
-  <text x="270" y="550" text-anchor="middle" fill="#c9d1d9" font-size="10">DT bindings · compatible strings · probe matching · IOMEM · IRQ domains · clocks</text>
+  <!-- SCSI — MERGED (2 patches) -->
+  <rect x="622" y="227" width="143" height="70" fill="#0f2a1a" rx="4" stroke="#238636" stroke-width="1.5"/>
+  <text x="693" y="244" text-anchor="middle" fill="#3fb950" font-size="10" font-weight="700">SCSI / STORAGE</text>
+  <rect x="632" y="250" width="40" height="13" fill="#238636" rx="2"/>
+  <text x="652" y="260" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">MERGED</text>
+  <text x="693" y="264" text-anchor="middle" fill="#56d364" font-size="9">2 patches</text>
+  <text x="693" y="276" text-anchor="middle" fill="#56d364" font-size="8">Core + Hyper-V storvsc</text>
+  <text x="693" y="289" text-anchor="middle" fill="#3fb950" font-size="8">Martin K. Petersen · 7.2</text>
 
-  <!-- BOOTLOADER — SOLID -->
-  <rect x="25" y="566" width="490" height="52" fill="#0d1f0f" stroke="#3fb950" stroke-width="2" rx="4"/>
-  <text x="270" y="589" text-anchor="middle" fill="#3fb950" font-size="13" font-weight="bold">BOOTLOADER / U-BOOT</text>
-  <text x="270" y="607" text-anchor="middle" fill="#c9d1d9" font-size="10">ARM Trusted Firmware · SPL · i.MX6Q patches (under review) · DTB loading · boot args</text>
+  <!-- POWER SUPPLY — IN LINUX-NEXT -->
+  <rect x="770" y="227" width="140" height="70" fill="#0a1f0a" rx="4" stroke="#2ea043" stroke-width="1.5"/>
+  <text x="840" y="244" text-anchor="middle" fill="#56d364" font-size="10" font-weight="700">POWER SUPPLY</text>
+  <rect x="780" y="250" width="66" height="13" fill="#1f4d2e" rx="2" stroke="#2ea043" stroke-width="1"/>
+  <text x="813" y="260" text-anchor="middle" fill="#56d364" font-size="8" font-weight="700">IN LINUX-NEXT</text>
+  <text x="840" y="264" text-anchor="middle" fill="#56d364" font-size="9">ab8500_fg</text>
+  <text x="840" y="276" text-anchor="middle" fill="#56d364" font-size="8">Fix typos in comments</text>
+  <text x="840" y="289" text-anchor="middle" fill="#3fb950" font-size="8">Acked-by: Linus Walleij</text>
 
-  <!-- HARDWARE -->
-  <rect x="25" y="623" width="490" height="50" fill="#0a0e1a" stroke="#58a6ff" stroke-width="2" rx="4"/>
-  <text x="270" y="645" text-anchor="middle" fill="#58a6ff" font-size="13" font-weight="bold">HARDWARE</text>
-  <text x="270" y="663" text-anchor="middle" fill="#c9d1d9" font-size="10">ARM Cortex-A/M · x86 · TI Keystone SoC · PCIe · DMA · GPIO · I2C · UART · oscilloscope</text>
+  <!-- ── PLATFORM DRIVERS SECTION ── -->
+  <text x="14" y="314" fill="#6e7681" font-size="9" font-weight="700" letter-spacing="1">PLATFORM DRIVERS</text>
 
-  <!-- ═══════════════ RIGHT PANEL — CONTRIBUTIONS ═══════════════ -->
-  <text x="820" y="105" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="bold" letter-spacing="2">MY UPSTREAM CONTRIBUTIONS</text>
+  <!-- SoC / TI Keystone — APPLIED -->
+  <rect x="10"  y="319" width="210" height="68" fill="#0f2a1a" rx="4" stroke="#238636" stroke-width="1.5"/>
+  <text x="115" y="336" text-anchor="middle" fill="#3fb950" font-size="10" font-weight="700">SoC / TI Keystone</text>
+  <rect x="20"  y="342" width="40" height="13" fill="#238636" rx="2"/>
+  <text x="40"  y="352" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">APPLIED</text>
+  <text x="115" y="356" text-anchor="middle" fill="#56d364" font-size="9">knav_qmss_queue</text>
+  <text x="115" y="368" text-anchor="middle" fill="#56d364" font-size="8">Resource cleanup in remove()</text>
+  <text x="115" y="380" text-anchor="middle" fill="#3fb950" font-size="8">Nishanth Menon · ti-drivers-soc</text>
 
-  <!-- AMD NPU -->
-  <rect x="545" y="112" width="550" height="62" fill="#1a1225" stroke="#a371f7" stroke-width="2" rx="4"/>
-  <text x="565" y="133" fill="#a371f7" font-size="12" font-weight="bold">Linux kernel — DRM/Accel · AMD Ryzen AI NPU</text>
-  <text x="565" y="150" fill="#c9d1d9" font-size="10">Implemented debugfs subsystem for amdxdna driver</text>
-  <text x="565" y="165" fill="#6e7681" font-size="10">drm/accel/amdxdna · seq_file API · thread-safe client list iteration · Under review</text>
+  <!-- MFD / Silicon Labs — IN LINUX-NEXT -->
+  <rect x="226" y="319" width="210" height="68" fill="#0a1f0a" rx="4" stroke="#2ea043" stroke-width="1.5"/>
+  <text x="331" y="336" text-anchor="middle" fill="#56d364" font-size="10" font-weight="700">MFD / Silicon Labs</text>
+  <rect x="236" y="342" width="66" height="13" fill="#1f4d2e" rx="2" stroke="#2ea043" stroke-width="1"/>
+  <text x="269" y="352" text-anchor="middle" fill="#56d364" font-size="8" font-weight="700">IN LINUX-NEXT</text>
+  <text x="331" y="356" text-anchor="middle" fill="#56d364" font-size="9">si476x-i2c · Si476x radio</text>
+  <text x="331" y="368" text-anchor="middle" fill="#56d364" font-size="8">Fix spelling in comments</text>
+  <text x="331" y="380" text-anchor="middle" fill="#3fb950" font-size="8">Lee Jones · linux-next</text>
 
-  <!-- Intel VPU -->
-  <rect x="545" y="181" width="550" height="62" fill="#1a1225" stroke="#a371f7" stroke-width="2" rx="4"/>
-  <text x="565" y="202" fill="#a371f7" font-size="12" font-weight="bold">Linux kernel — DRM/Accel · Intel VPU</text>
-  <text x="565" y="219" fill="#c9d1d9" font-size="10">Resolved IPC data_size TODO → IVPU_JSM_MSG_SIZE macro</text>
-  <text x="565" y="234" fill="#6e7681" font-size="10">drm/accel/ivpu · 25 call sites across 3 files · Zero checkpatch warnings · Under review</text>
+  <!-- DT Bindings / IIO Accel — UNDER REVIEW -->
+  <rect x="442" y="319" width="210" height="68" fill="#0d1f3a" rx="4" stroke="#388bfd" stroke-width="1.5"/>
+  <text x="547" y="336" text-anchor="middle" fill="#79c0ff" font-size="10" font-weight="700">DT Bindings / IIO</text>
+  <rect x="452" y="342" width="70" height="13" fill="#1f3358" rx="2" stroke="#388bfd" stroke-width="1"/>
+  <text x="487" y="352" text-anchor="middle" fill="#79c0ff" font-size="8" font-weight="700">UNDER REVIEW</text>
+  <text x="547" y="356" text-anchor="middle" fill="#79c0ff" font-size="9">LIS302DL accelerometer</text>
+  <text x="547" y="368" text-anchor="middle" fill="#79c0ff" font-size="8">Convert .txt → YAML schema</text>
+  <text x="547" y="380" text-anchor="middle" fill="#388bfd" font-size="8">Jonathan Cameron · linux-iio</text>
 
-  <!-- SCTP + SCSI row -->
-  <rect x="545" y="250" width="265" height="62" fill="#0d1f12" stroke="#3fb950" stroke-width="2" rx="4"/>
-  <text x="565" y="271" fill="#3fb950" font-size="12" font-weight="bold">Linux kernel — SCTP</text>
-  <text x="565" y="287" fill="#c9d1d9" font-size="10">Fix merged into netdev/net-next</text>
-  <text x="565" y="303" fill="#6e7681" font-size="10">Maintainer: Jakub Kicinski  ✓ MERGED</text>
+  <!-- Not contributed drivers -->
+  <rect x="658" y="319" width="252" height="68" fill="#1c2128" rx="4" stroke="#21262d" stroke-width="1"/>
+  <text x="784" y="356" text-anchor="middle" fill="#484f58" font-size="10">Other platform drivers</text>
+  <text x="784" y="370" text-anchor="middle" fill="#30363d" font-size="9">USB · I2C · SPI · GPIO · IOMMU</text>
 
-  <rect x="820" y="250" width="275" height="62" fill="#0d1f12" stroke="#3fb950" stroke-width="2" rx="4"/>
-  <text x="840" y="271" fill="#3fb950" font-size="12" font-weight="bold">Linux kernel — SCSI</text>
-  <text x="840" y="287" fill="#c9d1d9" font-size="10">2 patches into scsi-staging</text>
-  <text x="840" y="303" fill="#6e7681" font-size="10">Maintainer: Martin K. Petersen  ✓ MERGED</text>
+  <!-- ── DRM / ACCELERATORS ── -->
+  <text x="14" y="404" fill="#6e7681" font-size="9" font-weight="700" letter-spacing="1">DRM / AI ACCELERATORS</text>
 
-  <!-- SONiC + DPDK row -->
-  <rect x="545" y="319" width="265" height="62" fill="#0d1929" stroke="#58a6ff" stroke-width="2" rx="4"/>
-  <text x="565" y="340" fill="#58a6ff" font-size="12" font-weight="bold">SONiC — sonic-utilities</text>
-  <text x="565" y="357" fill="#c9d1d9" font-size="10">PFC Watchdog CLI crash fix</text>
-  <text x="565" y="373" fill="#6e7681" font-size="10">Datacenter NOS for GPU clusters  ✓ MERGED</text>
+  <!-- AMD XDNA NPU — UNDER REVIEW -->
+  <rect x="10"  y="409" width="295" height="68" fill="#0d1f3a" rx="4" stroke="#388bfd" stroke-width="1.5"/>
+  <text x="157" y="426" text-anchor="middle" fill="#79c0ff" font-size="10" font-weight="700">DRM Accel · AMD XDNA NPU</text>
+  <rect x="20"  y="432" width="70" height="13" fill="#1f3358" rx="2" stroke="#388bfd" stroke-width="1"/>
+  <text x="55"  y="442" text-anchor="middle" fill="#79c0ff" font-size="8" font-weight="700">UNDER REVIEW</text>
+  <text x="157" y="446" text-anchor="middle" fill="#79c0ff" font-size="9">amdxdna — add debugfs support</text>
+  <text x="157" y="458" text-anchor="middle" fill="#79c0ff" font-size="8">Implements driver TODO item</text>
+  <text x="157" y="469" text-anchor="middle" fill="#388bfd" font-size="8">Lizhi Hou · dri-devel</text>
 
-  <rect x="820" y="319" width="275" height="62" fill="#0d1929" stroke="#58a6ff" stroke-width="2" rx="4"/>
-  <text x="840" y="340" fill="#58a6ff" font-size="12" font-weight="bold">DPDK</text>
-  <text x="840" y="357" fill="#c9d1d9" font-size="10">Bus + DMA driver fixes · NXP DPAA2</text>
-  <text x="840" y="373" fill="#6e7681" font-size="10">High-throughput data plane  ✓ MERGED</text>
+  <!-- Intel VPU (ivpu) — UNDER REVIEW -->
+  <rect x="312" y="409" width="295" height="68" fill="#0d1f3a" rx="4" stroke="#388bfd" stroke-width="1.5"/>
+  <text x="459" y="426" text-anchor="middle" fill="#79c0ff" font-size="10" font-weight="700">DRM Accel · Intel VPU NPU</text>
+  <rect x="322" y="432" width="70" height="13" fill="#1f3358" rx="2" stroke="#388bfd" stroke-width="1"/>
+  <text x="357" y="442" text-anchor="middle" fill="#79c0ff" font-size="8" font-weight="700">UNDER REVIEW</text>
+  <text x="459" y="446" text-anchor="middle" fill="#79c0ff" font-size="9">ivpu — IPC exact message size</text>
+  <text x="459" y="458" text-anchor="middle" fill="#79c0ff" font-size="8">Resolves driver TODO in IPC layer</text>
+  <text x="459" y="469" text-anchor="middle" fill="#388bfd" font-size="8">Maciej Falkowski · dri-devel</text>
 
-  <!-- U-Boot + Zephyr row -->
-  <rect x="545" y="388" width="265" height="62" fill="#1f1c0a" stroke="#e3b341" stroke-width="2" rx="4"/>
-  <text x="565" y="409" fill="#e3b341" font-size="12" font-weight="bold">U-Boot</text>
-  <text x="565" y="426" fill="#c9d1d9" font-size="10">i.MX6Q bootloader patches</text>
-  <text x="565" y="442" fill="#6e7681" font-size="10">Full-stack: bootloader → OS  ⏳ Under review</text>
+  <!-- Other DRM -->
+  <rect x="614" y="409" width="296" height="68" fill="#1c2128" rx="4" stroke="#21262d" stroke-width="1"/>
+  <text x="762" y="446" text-anchor="middle" fill="#484f58" font-size="10">Other DRM subsystems</text>
+  <text x="762" y="460" text-anchor="middle" fill="#30363d" font-size="9">i915 · amdgpu · nouveau · v3d</text>
 
-  <rect x="820" y="388" width="275" height="62" fill="#1a1225" stroke="#a371f7" stroke-width="2" rx="4"/>
-  <text x="840" y="409" fill="#a371f7" font-size="12" font-weight="bold">Zephyr RTOS</text>
-  <text x="840" y="426" fill="#c9d1d9" font-size="10">MAX30101 pulse oximeter driver (complete)</text>
-  <text x="840" y="442" fill="#6e7681" font-size="10">I2C · DT · Kconfig · CI · PR #108697  ✓ MERGED</text>
+  <!-- ── ARCHITECTURE ── -->
+  <text x="14" y="494" fill="#6e7681" font-size="9" font-weight="700" letter-spacing="1">ARCHITECTURE</text>
+  <rect x="10"  y="499" width="290" height="26" fill="#161b22" rx="3" stroke="#30363d" stroke-width="1"/>
+  <text x="155" y="516" text-anchor="middle" fill="#6e7681" font-size="10">ARM Cortex-A  (Nokia 5G SoC work)</text>
+  <rect x="306" y="499" width="290" height="26" fill="#161b22" rx="3" stroke="#30363d" stroke-width="1"/>
+  <text x="451" y="516" text-anchor="middle" fill="#6e7681" font-size="10">x86 / x64</text>
+  <rect x="602" y="499" width="308" height="26" fill="#161b22" rx="3" stroke="#30363d" stroke-width="1"/>
+  <text x="756" y="516" text-anchor="middle" fill="#6e7681" font-size="10">RISC-V  (Linux Foundation certified)</text>
 
-  <!-- Nokia Box -->
-  <rect x="545" y="457" width="550" height="88" fill="#1c1f0e" stroke="#f0883e" stroke-width="2" rx="4"/>
-  <text x="565" y="478" fill="#f0883e" font-size="12" font-weight="bold">Nokia — SoC Software Engineer · Espoo, Finland · Mar 2023 → Present</text>
-  <text x="565" y="496" fill="#c9d1d9" font-size="10">PCIe peripherals · DMA engines · interrupt controllers · ARM/x86 multi-core SoCs</text>
-  <text x="565" y="513" fill="#c9d1d9" font-size="10">QEMU for kernel validation · Yocto/BSP · 5G real-time pipelines · Wind River Linux</text>
-  <text x="565" y="530" fill="#c9d1d9" font-size="10">15% latency improvement · CI/CD automation · cross-functional ASIC collaboration</text>
+  <!-- ── HARDWARE ── -->
+  <rect x="10" y="531" width="900" height="26" fill="#1c2128" rx="3" stroke="#21262d" stroke-width="1"/>
+  <text x="460" y="548" text-anchor="middle" fill="#484f58" font-size="10" letter-spacing="2">HARDWARE</text>
 
-  <!-- XFS + TI Keystone row -->
-  <rect x="545" y="552" width="265" height="62" fill="#0d1929" stroke="#58a6ff" stroke-width="2" rx="4"/>
-  <text x="565" y="573" fill="#58a6ff" font-size="12" font-weight="bold">Linux kernel — XFS</text>
-  <text x="565" y="590" fill="#c9d1d9" font-size="10">Filesystem patch</text>
-  <text x="565" y="606" fill="#6e7681" font-size="10">Reviewer: Darrick J. Wong  ✓ MERGED</text>
+  <!-- ── STATS BAR ── -->
+  <rect x="10" y="563" width="900" height="46" fill="#161b22" rx="4" stroke="#21262d" stroke-width="1"/>
 
-  <rect x="820" y="552" width="275" height="62" fill="#0d1929" stroke="#58a6ff" stroke-width="2" rx="4"/>
-  <text x="840" y="573" fill="#58a6ff" font-size="12" font-weight="bold">Linux kernel — TI Keystone SoC</text>
-  <text x="840" y="590" fill="#c9d1d9" font-size="10">Resource leak fix in platform driver</text>
-  <text x="840" y="606" fill="#6e7681" font-size="10">arch/arm/mach-keystone  ✓ MERGED</text>
+  <!-- Merged count -->
+  <rect x="25"  y="573" width="10" height="10" fill="#238636" rx="2"/>
+  <text x="40"  y="583" fill="#3fb950" font-size="11" font-weight="700">7</text>
+  <text x="52"  y="583" fill="#6e7681" font-size="10"> Merged</text>
 
-  <!-- lore link -->
-  <text x="820" y="636" text-anchor="middle" fill="#6e7681" font-size="10">Full history → lore.kernel.org/all/?q=Md+Shofiqul+Islam</text>
+  <!-- In-next count -->
+  <rect x="165" y="573" width="10" height="10" fill="#1f4d2e" rx="2" stroke="#2ea043" stroke-width="1"/>
+  <text x="180" y="583" fill="#56d364" font-size="11" font-weight="700">4</text>
+  <text x="192" y="583" fill="#6e7681" font-size="10"> In linux-next</text>
 
-  <!-- ═══════════════ STATS BAR ═══════════════ -->
-  <rect x="25" y="690" width="1070" height="58" fill="#161b22" stroke="#30363d" stroke-width="1" rx="6"/>
+  <!-- Under review count -->
+  <rect x="335" y="573" width="10" height="10" fill="#1f3358" rx="2" stroke="#388bfd" stroke-width="1"/>
+  <text x="350" y="583" fill="#79c0ff" font-size="11" font-weight="700">3</text>
+  <text x="362" y="583" fill="#6e7681" font-size="10"> Under review</text>
 
-  <!-- 14 patches -->
-  <text x="80" y="712" text-anchor="middle" fill="#8b949e" font-size="10" font-weight="bold">PATCHES</text>
-  <text x="62" y="737" fill="white" font-size="22" font-weight="bold">14</text>
-  <text x="84" y="737" fill="#6e7681" font-size="10"> submitted</text>
+  <!-- Total patches -->
+  <text x="540" y="575" fill="#8b949e" font-size="9">TOTAL</text>
+  <text x="540" y="590" fill="#f0f6fc" font-size="14" font-weight="700">14 patches</text>
 
-  <line x1="175" y1="700" x2="175" y2="742" stroke="#30363d" stroke-width="1"/>
-
-  <!-- 11 merged -->
-  <text x="240" y="712" text-anchor="middle" fill="#8b949e" font-size="10" font-weight="bold">MERGED</text>
-  <text x="218" y="737" fill="#3fb950" font-size="22" font-weight="bold">11</text>
-  <text x="241" y="737" fill="#6e7681" font-size="10"> merged / linux-next</text>
-
-  <line x1="360" y1="700" x2="360" y2="742" stroke="#30363d" stroke-width="1"/>
-
-  <!-- 9 subsystems -->
-  <text x="418" y="712" text-anchor="middle" fill="#8b949e" font-size="10" font-weight="bold">SUBSYSTEMS</text>
-  <text x="396" y="737" fill="#f0883e" font-size="22" font-weight="bold">9</text>
-  <text x="418" y="737" fill="#6e7681" font-size="10"> kernel subsystems</text>
-
-  <line x1="530" y1="700" x2="530" y2="742" stroke="#30363d" stroke-width="1"/>
-
-  <!-- 5+ years -->
-  <text x="600" y="712" text-anchor="middle" fill="#8b949e" font-size="10" font-weight="bold">EXPERIENCE</text>
-  <text x="556" y="737" fill="#58a6ff" font-size="22" font-weight="bold">5+</text>
-  <text x="583" y="737" fill="#6e7681" font-size="10"> years embedded Linux</text>
-
-  <line x1="700" y1="700" x2="700" y2="742" stroke="#30363d" stroke-width="1"/>
-
-  <!-- Languages / Stack -->
-  <text x="890" y="709" text-anchor="middle" fill="#8b949e" font-size="10" font-weight="bold">CORE STACK</text>
-  <text x="725" y="727" fill="#f0883e" font-size="11" font-weight="bold">C · C++ · Python · Bash</text>
-  <text x="725" y="742" fill="#c9d1d9" font-size="10">Linux Kernel · Yocto · Zephyr RTOS · ARM · QEMU · perf · GDB</text>
+  <!-- Maintainers -->
+  <text x="680" y="575" fill="#8b949e" font-size="9">ACCEPTED BY</text>
+  <text x="680" y="588" fill="#6e7681" font-size="9">Red Hat · Intel · Microsoft · Linaro · NXP · TI</text>
 
 </svg>
