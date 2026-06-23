@@ -26,10 +26,11 @@ Espoo, Finland — Open to Linux / embedded roles in Europe and remote
 
 ## Linux Kernel Contributions
 
-Active upstream contributor across IIO, DT bindings, networking (SCTP), sound (ASoC), SoC (TI Keystone), SCSI, power supply, XFS, MFD, and DRM/Accel — **14 kernel patches submitted, 11 in linux-next or mainline**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
+Active upstream contributor across IIO, DT bindings, networking (SCTP), sound (ASoC), SoC (TI Keystone), SCSI, power supply, XFS, MFD, and DRM/Accel — **15 kernel patches submitted, 11 in linux-next or mainline**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
 
 | Patch | Subsystem | Status |
 | --- | --- | --- |
+| [`iio: health: add MAX86150 ECG and PPG biosensor driver`](https://lore.kernel.org/linux-iio/20260623140113.12574-1-shofiqtest@gmail.com/) | IIO / Health / Biosensor (Analog Devices MAX86150) | 🔄 **Under review** — sent to linux-iio@vger.kernel.org · cc: Jonathan Cameron, David Lechner, Nuno Sa (Analog Devices), Rob Herring · NEW DRIVER: combined ECG + PPG biosensor, 3 IIO channels (PPG Red 19-bit, PPG IR 19-bit, ECG 18-bit signed), hardware FIFO triggered buffer, DT binding YAML |
 | [`iio: adc: ti-ads1298: Remove unnecessary CONFIG2 write during init`](https://www.spinics.net/lists/kernel/msg6192186.html) | IIO / Medical ADC | ✅ **In linux-next** — Greg Kroah-Hartman · char-misc-testing → linux-next · functional bug fix · `Suggested-by: Mike Looijmans` · queued for mainline |
 | [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://lore.kernel.org/linux-iio/?q=ti-ads1298+timeout+shofiqtest) | IIO / Medical ADC | ✅ **In linux-next** — Greg Kroah-Hartman · char-misc-testing → linux-next · queued for mainline |
 | [`iio: adc: ti-ads1298: Add parentheses around macro parameter`](https://www.spinics.net/lists/kernel/msg6191377.html) | IIO / Medical ADC | ✅ **In linux-next** — Greg Kroah-Hartman · char-misc-testing → linux-next · `Acked-by: Mike Looijmans` (driver author) · queued for mainline |
