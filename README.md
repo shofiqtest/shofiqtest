@@ -20,6 +20,10 @@ Espoo, Finland — Open to Linux / embedded roles in Europe and remote
 
 ---
 
+![Linux Software Stack — Full Boot Flow](linux_boot_stack.svg)
+
+---
+
 ## Linux Kernel Contributions
 
 Active upstream contributor across IIO, DT bindings, networking (SCTP), sound (ASoC), SoC (TI Keystone), SCSI, power supply, XFS, MFD, and DRM/Accel — **14 kernel patches submitted, 11 in linux-next or mainline**. Full patch history on [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam).
