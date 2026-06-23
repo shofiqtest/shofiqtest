@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 720" width="920" height="720" font-family="'Segoe UI',system-ui,sans-serif">
+
+  <!-- Background -->
+  <rect width="920" height="720" fill="#0d1117"/>
+
+  <!-- ═══ HEADER ═══ -->
+  <rect x="0" y="0" width="920" height="52" fill="#161b22" rx="8"/>
+  <rect x="0" y="44" width="920" height="8" fill="#161b22"/>
+  <text x="30" y="21" fill="#3fb950" font-size="12">●</text>
+  <text x="46" y="21" fill="#f0f6fc" font-size="15" font-weight="700">Linux Software Stack — Complete Boot Flow</text>
+  <text x="46" y="40" fill="#8b949e" font-size="10">Power-ON  ›  BootROM  ›  SPL  ›  U-Boot  ›  Linux Kernel  ›  User Space</text>
+  <text x="895" y="21" text-anchor="end" fill="#484f58" font-size="10">Md Shofiqul Islam · github.com/shofiqtest</text>
+
+  <!-- ═══ BOOT FLOW ARROW (right edge) ═══ -->
+  <line x1="907" y1="690" x2="907" y2="57" stroke="#21262d" stroke-width="1.5"/>
+  <polygon points="907,52 903,63 911,63" fill="#388bfd"/>
+  <text x="907" y="374" text-anchor="middle" fill="#388bfd" font-size="9" font-weight="700" transform="rotate(-90,907,374)">B O O T   S E Q U E N C E   ↑</text>
+
+  <!-- ═══ LAYER 7 — USER SPACE ═══ -->
+  <rect x="10" y="53" width="888" height="62" fill="#071a0a" rx="4" stroke="#1a4d1a" stroke-width="1"/>
+  <rect x="10" y="53" width="5"   height="62" fill="#22c55e" rx="2"/>
+  <circle cx="36" cy="84" r="11" fill="#14532d" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="36" y="88"  text-anchor="middle" fill="#22c55e"  font-size="10" font-weight="700">7</text>
+  <text x="56" y="73"  fill="#22c55e"  font-size="11" font-weight="700">USER SPACE</text>
+  <text x="56" y="88"  fill="#4ade80"  font-size="9">systemd / init (PID 1)  ·  glibc / libc  ·  Shell  ·  Login  ·  Daemons</text>
+  <text x="56" y="103" fill="#86efac"  font-size="8.5">Your application runs here  ·  Cannot touch hardware directly  ·  Must use system calls to request kernel services</text>
+  <rect x="714" y="59" width="130" height="16" fill="#14532d" rx="3"/>
+  <text x="779" y="70"  text-anchor="middle" fill="#4ade80" font-size="8">T = 6000 ms+</text>
+
+  <!-- ═══ LAYER 6 — SYSTEM CALL INTERFACE ═══ -->
+  <rect x="10" y="115" width="888" height="29" fill="#061520" rx="3" stroke="#164e63" stroke-width="1"/>
+  <rect x="10" y="115" width="5"   height="29" fill="#06b6d4" rx="2"/>
+  <circle cx="36" cy="129" r="9"  fill="#0c4a6e" stroke="#06b6d4" stroke-width="1.5"/>
+  <text x="36" y="133"  text-anchor="middle" fill="#06b6d4" font-size="9"  font-weight="700">6</text>
+  <text x="56" y="126"  fill="#06b6d4" font-size="10" font-weight="700">SYSTEM CALL INTERFACE</text>
+  <text x="235" y="126" fill="#67e8f9" font-size="8.5">  —  read · write · open · mmap · ioctl · socket · fork · exec</text>
+  <text x="56" y="139"  fill="#7dd3fc" font-size="8">Hard boundary — user code cannot access kernel memory. All hardware access goes through syscalls.</text>
+
+  <!-- ═══ LAYER 5 — CORE KERNEL ═══ -->
+  <rect x="10" y="144" width="888" height="82" fill="#091525" rx="4" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="10" y="144" width="5"   height="82" fill="#3b82f6" rx="2"/>
+  <circle cx="36" cy="185" r="11" fill="#1e3a5f" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="36" y="189"  text-anchor="middle" fill="#3b82f6" font-size="10" font-weight="700">5</text>
+  <text x="56" y="160"  fill="#3b82f6" font-size="10" font-weight="700">CORE KERNEL</text>
+
+  <!-- Core sub-boxes -->
+  <rect x="56"  y="164" width="155" height="54" fill="#0c1e3a" rx="3" stroke="#2563eb" stroke-width="1"/>
+  <text x="133" y="179" text-anchor="middle" fill="#60a5fa" font-size="9"  font-weight="700">Process Scheduler</text>
+  <text x="133" y="192" text-anchor="middle" fill="#93c5fd" font-size="8">CFS · RT · Deadline</text>
+  <text x="133" y="204" text-anchor="middle" fill="#93c5fd" font-size="8">SMP load balancing</text>
+  <text x="133" y="214" text-anchor="middle" fill="#93c5fd" font-size="8">kernel/sched/</text>
+
+  <rect x="216" y="164" width="155" height="54" fill="#0c1e3a" rx="3" stroke="#2563eb" stroke-width="1"/>
+  <text x="293" y="179" text-anchor="middle" fill="#60a5fa" font-size="9"  font-weight="700">Memory Management</text>
+  <text x="293" y="192" text-anchor="middle" fill="#93c5fd" font-size="8">Buddy · SLUB · vmalloc</text>
+  <text x="293" y="204" text-anchor="middle" fill="#93c5fd" font-size="8">MMU · page tables</text>
+  <text x="293" y="214" text-anchor="middle" fill="#93c5fd" font-size="8">mm/</text>
+
+  <rect x="376" y="164" width="155" height="54" fill="#0c1e3a" rx="3" stroke="#2563eb" stroke-width="1"/>
+  <text x="453" y="179" text-anchor="middle" fill="#60a5fa" font-size="9"  font-weight="700">Virtual File System</text>
+  <text x="453" y="192" text-anchor="middle" fill="#93c5fd" font-size="8">ext4 · XFS · tmpfs</text>
+  <text x="453" y="204" text-anchor="middle" fill="#93c5fd" font-size="8">mount · open · read</text>
+  <text x="453" y="214" text-anchor="middle" fill="#93c5fd" font-size="8">fs/</text>
+
+  <rect x="536" y="164" width="155" height="54" fill="#0c1e3a" rx="3" stroke="#2563eb" stroke-width="1"/>
+  <text x="613" y="179" text-anchor="middle" fill="#60a5fa" font-size="9"  font-weight="700">Network Stack</text>
+  <text x="613" y="192" text-anchor="middle" fill="#93c5fd" font-size="8">TCP/IP · UDP · SCTP ★</text>
+  <text x="613" y="204" text-anchor="middle" fill="#93c5fd" font-size="8">socket · netfilter</text>
+  <text x="613" y="214" text-anchor="middle" fill="#93c5fd" font-size="8">net/</text>
+
+  <rect x="696" y="164" width="196" height="54" fill="#0c1e3a" rx="3" stroke="#2563eb" stroke-width="1"/>
+  <text x="794" y="179" text-anchor="middle" fill="#60a5fa" font-size="9"  font-weight="700">IPC / Timers / Signals</text>
+  <text x="794" y="192" text-anchor="middle" fill="#93c5fd" font-size="8">pipes · futex · signalfd</text>
+  <text x="794" y="204" text-anchor="middle" fill="#93c5fd" font-size="8">hrtimer · clockevents</text>
+  <text x="794" y="214" text-anchor="middle" fill="#93c5fd" font-size="8">ipc/ · kernel/time/</text>
+
+  <!-- ═══ LAYER 5b — DEVICE DRIVERS ═══ -->
+  <rect x="10" y="226" width="888" height="67" fill="#07101e" rx="4" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="10" y="226" width="5"   height="67" fill="#60a5fa" rx="2"/>
+  <text x="22" y="242"  fill="#60a5fa" font-size="10" font-weight="700">    DEVICE DRIVERS  <tspan fill="#484f58" font-size="8">(kernel space — loaded at boot or on demand as modules)</tspan></text>
+
+  <!-- Driver tags -->
+  <rect x="22"  y="249" width="66" height="22" fill="#0a1a30" rx="3" stroke="#238636" stroke-width="1"/>
+  <text x="55"  y="264" text-anchor="middle" fill="#3fb950" font-size="8.5" font-weight="700">IIO ★</text>
+
+  <rect x="93"  y="249" width="66" height="22" fill="#0a1a30" rx="3" stroke="#238636" stroke-width="1"/>
+  <text x="126" y="264" text-anchor="middle" fill="#3fb950" font-size="8.5" font-weight="700">SCSI ★</text>
+
+  <rect x="164" y="249" width="66" height="22" fill="#0a1a30" rx="3" stroke="#238636" stroke-width="1"/>
+  <text x="197" y="264" text-anchor="middle" fill="#3fb950" font-size="8.5" font-weight="700">ASoC ★</text>
+
+  <rect x="235" y="249" width="66" height="22" fill="#0a1a30" rx="3" stroke="#238636" stroke-width="1"/>
+  <text x="268" y="264" text-anchor="middle" fill="#3fb950" font-size="8.5" font-weight="700">DRM ★</text>
+
+  <rect x="306" y="249" width="66" height="22" fill="#0a1a30" rx="3" stroke="#238636" stroke-width="1"/>
+  <text x="339" y="264" text-anchor="middle" fill="#3fb950" font-size="8.5" font-weight="700">MFD ★</text>
+
+  <rect x="377" y="249" width="66" height="22" fill="#0a1a30" rx="3" stroke="#238636" stroke-width="1"/>
+  <text x="410" y="264" text-anchor="middle" fill="#3fb950" font-size="8.5" font-weight="700">Power ★</text>
+
+  <rect x="448" y="249" width="66" height="22" fill="#0a1a30" rx="3" stroke="#238636" stroke-width="1"/>
+  <text x="481" y="264" text-anchor="middle" fill="#3fb950" font-size="8.5" font-weight="700">SoC ★</text>
+
+  <rect x="519" y="249" width="66" height="22" fill="#0a1a30" rx="3" stroke="#30363d" stroke-width="1"/>
+  <text x="552" y="264" text-anchor="middle" fill="#6e7681" font-size="8.5">USB</text>
+
+  <rect x="590" y="249" width="66" height="22" fill="#0a1a30" rx="3" stroke="#30363d" stroke-width="1"/>
+  <text x="623" y="264" text-anchor="middle" fill="#6e7681" font-size="8.5">PCIe</text>
+
+  <rect x="661" y="249" width="66" height="22" fill="#0a1a30" rx="3" stroke="#30363d" stroke-width="1"/>
+  <text x="694" y="264" text-anchor="middle" fill="#6e7681" font-size="8.5">GPIO</text>
+
+  <rect x="732" y="249" width="66" height="22" fill="#0a1a30" rx="3" stroke="#30363d" stroke-width="1"/>
+  <text x="765" y="264" text-anchor="middle" fill="#6e7681" font-size="8.5">I2C/SPI</text>
+
+  <text x="810" y="264" fill="#238636" font-size="8" font-weight="700">★ your patches</text>
+  <text x="22"  y="285" fill="#484f58" font-size="8">drivers/iio/  ·  drivers/scsi/  ·  sound/soc/  ·  drivers/gpu/drm/  ·  drivers/mfd/  ·  drivers/power/  ·  drivers/soc/</text>
+
+  <!-- ═══ LAYER 4 — ARCHITECTURE ═══ -->
+  <rect x="10" y="293" width="888" height="56" fill="#090e28" rx="4" stroke="#312e81" stroke-width="1"/>
+  <rect x="10" y="293" width="5"   height="56" fill="#818cf8" rx="2"/>
+  <circle cx="36" cy="321" r="11" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.5"/>
+  <text x="36" y="325"  text-anchor="middle" fill="#818cf8" font-size="10" font-weight="700">4</text>
+  <text x="56" y="310"  fill="#818cf8" font-size="11" font-weight="700">ARCHITECTURE LAYER</text>
+  <text x="56" y="324"  fill="#a5b4fc" font-size="8.5">arch/arm64/  ·  arch/x86/  ·  arch/riscv/  ·  CPU feature detection  ·  Interrupt controller (GIC / APIC)</text>
+  <text x="56" y="338"  fill="#c7d2fe" font-size="8">MMU and page table setup  ·  SMP: bring up secondary CPU cores  ·  First kernel code runs at entry point passed from U-Boot</text>
+  <rect x="714" y="298" width="130" height="16" fill="#1e1b4b" rx="3"/>
+  <text x="779" y="309"  text-anchor="middle" fill="#a5b4fc" font-size="8">T ≈ 3000 ms</text>
+
+  <!-- ═══ KERNEL ENTRY POINT DIVIDER ═══ -->
+  <rect x="10" y="349" width="888" height="20" fill="#0d1117"/>
+  <line x1="10" y1="359" x2="898" y2="359" stroke="#388bfd" stroke-width="1" stroke-dasharray="6,3"/>
+  <rect x="286" y="349" width="346" height="20" fill="#0d1117"/>
+  <text x="459" y="362" text-anchor="middle" fill="#388bfd" font-size="9" font-weight="700">▲  KERNEL ENTRY POINT  —  U-Boot jumps to kernel here  ▲</text>
+
+  <!-- ═══ LAYER 3 — U-BOOT ═══ -->
+  <rect x="10" y="369" width="888" height="116" fill="#181200" rx="4" stroke="#713f12" stroke-width="1.5"/>
+  <rect x="10" y="369" width="5"   height="116" fill="#ca8a04" rx="2"/>
+  <circle cx="36" cy="427" r="11" fill="#713f12" stroke="#ca8a04" stroke-width="1.5"/>
+  <text x="36" y="431"  text-anchor="middle" fill="#ca8a04" font-size="10" font-weight="700">3</text>
+  <text x="56" y="386"  fill="#ca8a04" font-size="11" font-weight="700">U-BOOT  <tspan font-size="9" font-weight="400" fill="#a16207">(Das U-Boot — Universal Bootloader)</tspan></text>
+  <text x="56" y="400"  fill="#fbbf24" font-size="8.5">Runs from DDR RAM  ·  Full shell: "Hit any key to stop autoboot"  ·  ~500 KB – 2 MB in size  ·  YOUR U-Boot patches live here</text>
+  <rect x="716" y="371" width="156" height="16" fill="#713f12" rx="3"/>
+  <text x="794" y="382"  text-anchor="middle" fill="#fde68a" font-size="8">T = 50 ms – 3000 ms</text>
+
+  <!-- U-Boot internal step boxes -->
+  <rect x="22"  y="404" width="129" height="72" fill="#1c1500" rx="3" stroke="#854d0e" stroke-width="1"/>
+  <text x="86"  y="418"  text-anchor="middle" fill="#fbbf24" font-size="8.5" font-weight="700">① DDR Training</text>
+  <text x="86"  y="430"  text-anchor="middle" fill="#d97706" font-size="8">Calibrate timing margins</text>
+  <text x="86"  y="441"  text-anchor="middle" fill="#d97706" font-size="8">ECC setup</text>
+  <text x="86"  y="452"  text-anchor="middle" fill="#d97706" font-size="8">Build memory map</text>
+  <text x="86"  y="463"  text-anchor="middle" fill="#d97706" font-size="8">LPDDR4/5 init</text>
+  <text x="86"  y="472"  text-anchor="middle" fill="#6b4808" font-size="7.5">board/&lt;vendor&gt;/</text>
+
+  <rect x="156" y="404" width="129" height="72" fill="#1c1500" rx="3" stroke="#854d0e" stroke-width="1"/>
+  <text x="220" y="418"  text-anchor="middle" fill="#fbbf24" font-size="8.5" font-weight="700">② Clocks &amp; Power</text>
+  <text x="220" y="430"  text-anchor="middle" fill="#d97706" font-size="8">CPU PLL config</text>
+  <text x="220" y="441"  text-anchor="middle" fill="#d97706" font-size="8">Peripheral clocks</text>
+  <text x="220" y="452"  text-anchor="middle" fill="#d97706" font-size="8">Power domains</text>
+  <text x="220" y="463"  text-anchor="middle" fill="#d97706" font-size="8">Voltage regulators</text>
+  <text x="220" y="472"  text-anchor="middle" fill="#6b4808" font-size="7.5">drivers/clk/</text>
+
+  <rect x="290" y="404" width="129" height="72" fill="#1c1500" rx="3" stroke="#854d0e" stroke-width="1"/>
+  <text x="354" y="418"  text-anchor="middle" fill="#fbbf24" font-size="8.5" font-weight="700">③ Load Kernel</text>
+  <text x="354" y="430"  text-anchor="middle" fill="#d97706" font-size="8">Read eMMC / SD / NOR</text>
+  <text x="354" y="441"  text-anchor="middle" fill="#d97706" font-size="8">Load Image / zImage</text>
+  <text x="354" y="452"  text-anchor="middle" fill="#d97706" font-size="8">Load initramfs</text>
+  <text x="354" y="463"  text-anchor="middle" fill="#d97706" font-size="8">Verify signature</text>
+  <text x="354" y="472"  text-anchor="middle" fill="#6b4808" font-size="7.5">cmd/bootm.c</text>
+
+  <rect x="424" y="404" width="129" height="72" fill="#1c1500" rx="3" stroke="#854d0e" stroke-width="1"/>
+  <text x="488" y="418"  text-anchor="middle" fill="#fbbf24" font-size="8.5" font-weight="700">④ Device Tree</text>
+  <text x="488" y="430"  text-anchor="middle" fill="#d97706" font-size="8">Load .dtb blob</text>
+  <text x="488" y="441"  text-anchor="middle" fill="#d97706" font-size="8">Pass addr to kernel</text>
+  <text x="488" y="452"  text-anchor="middle" fill="#fbbf24" font-size="8" font-weight="600">x0 = dtb_addr (arm64)</text>
+  <text x="488" y="463"  text-anchor="middle" fill="#d97706" font-size="8">Describes HW layout</text>
+  <text x="488" y="472"  text-anchor="middle" fill="#6b4808" font-size="7.5">lib/fdtdec.c</text>
+
+  <rect x="558" y="404" width="129" height="72" fill="#1c1500" rx="3" stroke="#854d0e" stroke-width="1"/>
+  <text x="622" y="418"  text-anchor="middle" fill="#fbbf24" font-size="8.5" font-weight="700">⑤ bootargs</text>
+  <text x="622" y="430"  text-anchor="middle" fill="#d97706" font-size="8">Kernel command line</text>
+  <text x="622" y="441"  text-anchor="middle" fill="#fbbf24" font-size="7.5">root=/dev/mmcblk0p2</text>
+  <text x="622" y="452"  text-anchor="middle" fill="#fbbf24" font-size="7.5">console=ttyS0,115200</text>
+  <text x="622" y="463"  text-anchor="middle" fill="#d97706" font-size="8">rw · earlycon · quiet</text>
+  <text x="622" y="472"  text-anchor="middle" fill="#6b4808" font-size="7.5">include/env.h</text>
+
+  <rect x="692" y="404" width="184" height="72" fill="#1c1500" rx="3" stroke="#ca8a04" stroke-width="1.5"/>
+  <text x="784" y="418"  text-anchor="middle" fill="#fbbf24" font-size="8.5" font-weight="700">⑥ Jump to Kernel</text>
+  <text x="784" y="430"  text-anchor="middle" fill="#fbbf24" font-size="8">ARM64:  br x1 (kernel)</text>
+  <text x="784" y="441"  text-anchor="middle" fill="#d97706" font-size="8">U-Boot is completely done</text>
+  <text x="784" y="452"  text-anchor="middle" fill="#d97706" font-size="8">Kernel takes full control</text>
+  <text x="784" y="463"  text-anchor="middle" fill="#d97706" font-size="8">No return from this jump</text>
+  <text x="784" y="472"  text-anchor="middle" fill="#6b4808" font-size="7.5">arch/arm/lib/bootm.c</text>
+
+  <!-- ═══ LAYER 2 — SPL ═══ -->
+  <rect x="10" y="485" width="888" height="62" fill="#131000" rx="4" stroke="#92400e" stroke-width="1.5"/>
+  <rect x="10" y="485" width="5"   height="62" fill="#f59e0b" rx="2"/>
+  <circle cx="36" cy="516" r="11" fill="#92400e" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="36" y="520"  text-anchor="middle" fill="#f59e0b" font-size="10" font-weight="700">2</text>
+  <text x="56" y="502"  fill="#f59e0b" font-size="11" font-weight="700">SPL — Secondary Program Loader</text>
+  <text x="56" y="517"  fill="#fcd34d" font-size="8.5">Fits in internal SRAM (32–64 KB — before DDR RAM is initialized)  ·  Part of U-Boot source tree  (common/spl/)</text>
+  <text x="56" y="531"  fill="#fde68a" font-size="8">Initializes DDR RAM controller  ·  Loads full U-Boot image from eMMC/SD/NOR Flash into DDR  ·  Jumps to U-Boot entry point</text>
+  <text x="56" y="542"  fill="#854d0e" font-size="8">Minimal driver support — only what is needed to find and load U-Boot</text>
+  <rect x="714" y="489" width="130" height="16" fill="#78350f" rx="3"/>
+  <text x="779" y="500"  text-anchor="middle" fill="#fcd34d" font-size="8">T = 5 ms – 50 ms</text>
+
+  <!-- ═══ LAYER 1 — BOOTROM ═══ -->
+  <rect x="10" y="547" width="888" height="58" fill="#100900" rx="4" stroke="#7c2d12" stroke-width="1.5"/>
+  <rect x="10" y="547" width="5"   height="58" fill="#ea580c" rx="2"/>
+  <circle cx="36" cy="576" r="11" fill="#7c2d12" stroke="#ea580c" stroke-width="1.5"/>
+  <text x="36" y="580"  text-anchor="middle" fill="#ea580c" font-size="10" font-weight="700">1</text>
+  <text x="56" y="563"  fill="#ea580c" font-size="11" font-weight="700">ROM / BootROM  <tspan font-size="9" font-weight="400" fill="#9a3412">(burned into chip at factory — cannot be changed)</tspan></text>
+  <text x="56" y="578"  fill="#fb923c" font-size="8.5">First code that runs on power-ON  ·  Reads OTP / eFuses to find boot device (eMMC, SD, USB, network)</text>
+  <text x="56" y="592"  fill="#fdba74" font-size="8">Validates SPL signature for secure boot chain of trust  ·  Loads SPL into internal SRAM  ·  Starts CPU at EL3 (ARM highest privilege)</text>
+  <rect x="714" y="551" width="130" height="16" fill="#7c2d12" rx="3"/>
+  <text x="779" y="562"  text-anchor="middle" fill="#fb923c" font-size="8">T = 0 ms – 5 ms</text>
+
+  <!-- ═══ LAYER 0 — HARDWARE ═══ -->
+  <rect x="10" y="605" width="888" height="56" fill="#0c0800" rx="4" stroke="#451a03" stroke-width="1.5"/>
+  <rect x="10" y="605" width="5"   height="56" fill="#ef4444" rx="2"/>
+  <circle cx="36" cy="633" r="11" fill="#451a03" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="36" y="637"  text-anchor="middle" fill="#ef4444" font-size="10" font-weight="700">0</text>
+  <text x="56" y="621"  fill="#ef4444" font-size="11" font-weight="700">HARDWARE</text>
+  <text x="56" y="636"  fill="#fca5a5" font-size="8.5">CPU cores (ARM Cortex-A, x86, RISC-V)  ·  DDR RAM (LPDDR4/5)  ·  eMMC / SD Card / NOR Flash  ·  PMU</text>
+  <text x="56" y="650"  fill="#fecaca" font-size="8">PCIe  ·  USB  ·  Ethernet  ·  I2C  ·  SPI  ·  UART  ·  GPIO  ·  Clock generators  ·  Interrupt controller (GIC/APIC)</text>
+  <rect x="714" y="609" width="130" height="16" fill="#451a03" rx="3"/>
+  <text x="779" y="620"  text-anchor="middle" fill="#fca5a5" font-size="8">Power-ON  T = 0</text>
+
+  <!-- ═══ FOOTER ═══ -->
+  <rect x="10" y="666" width="888" height="46" fill="#161b22" rx="4" stroke="#21262d" stroke-width="1"/>
+  <text x="22"  y="682" fill="#8b949e" font-size="9" font-weight="700">KEY:</text>
+  <text x="48"  y="682" fill="#6e7681" font-size="9">DTB = Device Tree Blob — binary file describing hardware topology, passed from U-Boot to kernel in CPU register x0 (arm64)</text>
+  <text x="22"  y="697" fill="#8b949e" font-size="9" font-weight="700">SRAM</text>
+  <text x="58"  y="697" fill="#6e7681" font-size="9">= fast on-chip RAM (available before DDR)  ·  </text>
+  <text x="265" y="697" fill="#8b949e" font-size="9" font-weight="700">EL3</text>
+  <text x="285" y="697" fill="#6e7681" font-size="9">= ARM Exception Level 3 (highest privilege, secure world)  ·  </text>
+  <text x="560" y="697" fill="#3fb950" font-size="9" font-weight="700">★</text>
+  <text x="572" y="697" fill="#6e7681" font-size="9">= Md Shofiqul Islam's merged kernel patches (14 patches, 9 subsystems)</text>
+
+</svg>
