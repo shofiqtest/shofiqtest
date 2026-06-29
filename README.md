@@ -8,7 +8,7 @@
 <a href="https://www.linkedin.com/in/mdshofiqul/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Md%20Shofiqul%20Islam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 <a href="https://lore.kernel.org/all/?q=Md+Shofiqul+Islam"><img alt="Kernel patches" src="https://img.shields.io/badge/Kernel%20Patches-lore.kernel.org-F8C517?style=for-the-badge&logo=linux&logoColor=black"></a>
 
-📍 Espoo, Finland · Open to embedded Linux / medical device roles in Europe (Finland, Ireland, Germany)
+📍 Espoo, Finland · Open to embedded Linux / medical device roles in Europe and remote
 
 </div>
 
@@ -126,9 +126,9 @@ Recognised as **Zephyr Individual Contributor**.
 
 ## Education
 
-- **M.HSc. Biomedical Engineering** — University of Oulu, Finland (2016–2021)
-- **M.Sc. Computer Science & Engineering** — Islamic University, Bangladesh (2014–2015)
-- **B.Sc. Electrical & Electronics Engineering** — IIUC, Bangladesh (2008–2013)
+- **M.HSc. Biomedical Engineering** — [University of Oulu](https://www.oulu.fi/en/), Finland (2016–2021)
+- **M.Sc. Computer Science & Engineering** — [Islamic University, Kushtia](https://www.iu.ac.bd/), Bangladesh (2014–2015)
+- **B.Sc. Electrical & Electronics Engineering** — [International Islamic University Chittagong](https://www.iiuc.ac.bd/), Bangladesh (2008–2013)
 
 ## Certifications
 
