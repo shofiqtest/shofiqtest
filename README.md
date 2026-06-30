@@ -70,7 +70,7 @@ IEC 62304-aligned documentation based on real upstream drivers — real code, re
 | [SOUP Record](https://github.com/shofiqtest/iec62304-embedded-drivers/blob/main/SOUP_Record_ADS1299_Driver.md) | IEC 62304 §8 | SOUP identification, known anomalies, risk classification, verification |
 | [FMEA](https://github.com/shofiqtest/iec62304-embedded-drivers/blob/main/FMEA_ADS1299_Driver.md) | ISO 14971:2019 | 10 failure modes for 24-bit EEG acquisition — signal integrity, lead-off, SPI errors |
 
-Repository: [iec62304-embedded-drivers](https://github.com/shofiqtest/iec62304-embedded-drivers)
+Documents: [iec62304-embedded-drivers](https://github.com/shofiqtest/iec62304-embedded-drivers) · Tool: [kernel-soup-gen](https://github.com/shofiqtest/kernel-soup-gen) — auto-generate SOUP records for any Linux kernel driver
 
 ---
 
