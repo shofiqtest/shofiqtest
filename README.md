@@ -36,14 +36,14 @@ I **own the Yocto BSP layer** for a production ARM SoC platform:
 - Kernel LTS version upgrades — API migration, Device Tree updates, hardware regression validation
 - CI/CD pipeline: automated build, boot, and regression testing across board variants
 
-### U-Boot (NXP i.MX6Q — ge_b1x5v2 board)
+### U-Boot (NXP i.MX6Q)
 
-Patches for NXP i.MX6Q LDB display clock initialisation and GE HealthCare board common code.
+Patches for NXP i.MX6Q LDB display clock initialisation and common board code.
 
 | Patch | Files | Status |
 |---|---|---|
 | [`ge: common: vpd_reader: fix errloc array size in verify_bch()`](https://lore.kernel.org/u-boot/20260630133939.1472106-1-shofiqtest@gmail.com/) | `board/ge/common/vpd_reader.c` | 🔄 Under review |
-| [`clk: imx6q: guard LDB clock init with appropriate video config`](https://lore.kernel.org/u-boot/20260630120417.1469554-2-shofiqtest@gmail.com/) | `board/ge/b1x5v2/b1x5v2.c`, `board/aristainetos/aristainetos.c`, `drivers/clk/imx/clk-imx6q.c` | 🔄 Under review |
+| [`clk: imx6q: guard LDB clock init with appropriate video config`](https://lore.kernel.org/u-boot/20260630120417.1469554-2-shofiqtest@gmail.com/) | `drivers/clk/imx/clk-imx6q.c`, `board/aristainetos/aristainetos.c` | 🔄 Under review |
 | [`imx6: clock: fix clk0/clk1 swap in select_ldb_di_clock_source()`](https://lore.kernel.org/u-boot/20260630120417.1469554-3-shofiqtest@gmail.com/) | `arch/arm/mach-imx/mx6/clock.c` | 🔄 Under review |
 
 **Root cause found during review:** `clk0`/`clk1` were written to `LDB_DI1`/`LDB_DI0` respectively — reversed. Guard mismatch: function defined for `CONFIG_SPL_VIDEO` but called for `!CONFIG_SPL_BUILD`. SPL SRAM overflow of 112 bytes. Fixed with `!CONFIG_SPL_BUILD || CONFIG_SPL_VIDEO` — saved 688 bytes in SPL.
