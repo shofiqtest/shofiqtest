@@ -36,10 +36,6 @@ I **own the Yocto BSP layer** for an ARM SoC platform at a 5G infrastructure com
 - Kernel LTS version upgrades — API migration, Device Tree updates, hardware regression validation
 - CI/CD pipeline: automated build, boot, and regression testing across board variants
 
-| Patch | Layer | Status |
-|---|---|---|
-| [`libusb1: upgrade 1.0.29 → 1.0.30`](https://lists.openembedded.org/g/openembedded-core) | `openembedded-core` · `meta/recipes-support/libusb` | 🔄 Submitted |
-
 ### U-Boot (NXP i.MX6Q — ge_b1x5v2 board)
 
 Patches for NXP i.MX6Q LDB display clock initialisation and GE HealthCare board common code.
