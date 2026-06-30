@@ -50,18 +50,27 @@ Patches for NXP i.MX6Q LDB display clock initialisation and common board code.
 
 ---
 
-## Medical Device Software Portfolio
+## IEC 62304 Compliance Documents for Embedded OSS Drivers
 
-IEC 62304-aligned artefacts based on the MAX30102 Zephyr RTOS driver (merged upstream, [PR #108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697)) — real driver, real documentation discipline.
+IEC 62304-aligned documentation based on real upstream drivers — real code, real documentation discipline.
+
+**MAX30102** (Zephyr RTOS, [merged PR #108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697)):
 
 | Document | Standard | Description |
 |---|---|---|
-| [Software Requirements Specification](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/SRS_MAX30102_Driver.md) | IEC 62304 §5.2 | 12 shall-statements: functional, performance, interface and safety requirements |
-| [Software Design Specification](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/SDS_MAX30102_Driver.md) | IEC 62304 §5.4 | Architecture, component design, interfaces, timing, concurrency |
-| [SOUP Record](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/SOUP_Record_MAX30102_Driver.md) | IEC 62304 §8 | SOUP management for Zephyr RTOS dependencies with risk classification |
-| [FMEA](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/FMEA_MAX30102_Driver.md) | ISO 14971:2019 | 8 failure modes — severity, probability, risk level, mitigations |
+| [Software Requirements Specification](https://github.com/shofiqtest/iec62304-embedded-drivers/blob/main/SRS_MAX30102_Driver.md) | IEC 62304 §5.2 | 12 shall-statements: functional, performance, interface and safety requirements |
+| [Software Design Specification](https://github.com/shofiqtest/iec62304-embedded-drivers/blob/main/SDS_MAX30102_Driver.md) | IEC 62304 §5.4 | Architecture, component design, interfaces, timing, concurrency |
+| [SOUP Record](https://github.com/shofiqtest/iec62304-embedded-drivers/blob/main/SOUP_Record_MAX30102_Driver.md) | IEC 62304 §8 | SOUP management for Zephyr RTOS dependencies with risk classification |
+| [FMEA](https://github.com/shofiqtest/iec62304-embedded-drivers/blob/main/FMEA_MAX30102_Driver.md) | ISO 14971:2019 | 8 failure modes — severity, probability, risk level, mitigations |
 
-Repository: [embedded-medical-software-portfolio](https://github.com/shofiqtest/embedded-medical-software-portfolio)
+**ADS1299** (Linux kernel IIO, [patch submitted](https://lore.kernel.org/linux-iio/20260630140311.1473031-2-shofiqtest@gmail.com/)):
+
+| Document | Standard | Description |
+|---|---|---|
+| [SOUP Record](https://github.com/shofiqtest/iec62304-embedded-drivers/blob/main/SOUP_Record_ADS1299_Driver.md) | IEC 62304 §8 | SOUP identification, known anomalies, risk classification, verification |
+| [FMEA](https://github.com/shofiqtest/iec62304-embedded-drivers/blob/main/FMEA_ADS1299_Driver.md) | ISO 14971:2019 | 10 failure modes for 24-bit EEG acquisition — signal integrity, lead-off, SPI errors |
+
+Repository: [iec62304-embedded-drivers](https://github.com/shofiqtest/iec62304-embedded-drivers)
 
 ---
 
