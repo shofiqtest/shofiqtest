@@ -19,8 +19,8 @@
 | Area | Detail |
 |---|---|
 | **Yocto BSP** | Owner of ARM SoC BSP layer at a 5G infrastructure company — machine config, BitBake recipes, kernel LTS upgrades, CI/CD pipeline |
-| **Linux kernel drivers** | 15 upstream patches across 9 subsystems — IIO, DMA, DT bindings, networking, SCSI, DRM/Accel |
-| **U-Boot** | NXP i.MX6Q patches — SPL SRAM overflow fix, LDB clock swap fix, board/ge/b1x5v2/ board file |
+| **Linux kernel drivers** | 17 upstream patches across 9 subsystems — IIO, DMA, DT bindings, networking, SCSI, DRM/Accel |
+| **U-Boot** | NXP i.MX6Q patches — SPL SRAM overflow fix, LDB clock swap fix, GE HealthCare VPD reader fix |
 | **Zephyr RTOS** | Individual Contributor — MAX30102 SpO₂/HR sensor driver merged, Arm TSC reviewed |
 | **Medical device** | IEC 62304 + ISO 14971 — Class IIb CE-marked device at Sooma Medical, M.HSc. Biomedical Engineering |
 
@@ -42,13 +42,13 @@ I **own the Yocto BSP layer** for an ARM SoC platform at a 5G infrastructure com
 
 ### U-Boot (NXP i.MX6Q — ge_b1x5v2 board)
 
-Three patches fixing LDB display clock initialization on NXP i.MX6Q. Patch 3 directly modifies `board/ge/b1x5v2/b1x5v2.c` and `board/aristainetos/aristainetos.c`.
+Patches for NXP i.MX6Q LDB display clock initialisation and GE HealthCare board common code.
 
 | Patch | Files | Status |
 |---|---|---|
-| [SPL SRAM overflow fix — guard `of_assigned_ldb_sels()` with `!CONFIG_SPL_BUILD`](https://lore.kernel.org/all/CAOMZO5De=9ECdSZ=VxvhrAJxRX7vpHu65hCueUn7VChmBnYPxQ@mail.gmail.com/) | `drivers/clk/imx/clk-imx6q.c` | ✅ Sent |
-| [`imx6: clock: fix clk0/clk1 swap in select_ldb_di_clock_source()`](https://lore.kernel.org/u-boot/20260518215445.175753-2-shofiqtest@gmail.com/) | `arch/arm/mach-imx/mx6/clock.c` | 🔄 Under review |
-| [`imx6: guard LDB clock init with appropriate video config`](https://lore.kernel.org/u-boot/20260518215445.175753-3-shofiqtest@gmail.com/) | `drivers/clk/imx/clk-imx6q.c`, `board/ge/b1x5v2/b1x5v2.c`, `board/aristainetos/aristainetos.c` | 🔄 Under review |
+| [`ge: common: vpd_reader: fix errloc array size in verify_bch()`](https://lore.kernel.org/u-boot/20260630133939.1472106-1-shofiqtest@gmail.com/) | `board/ge/common/vpd_reader.c` | 🔄 Under review |
+| [`clk: imx6q: guard LDB clock init with appropriate video config`](https://lore.kernel.org/u-boot/20260630120417.1469554-2-shofiqtest@gmail.com/) | `board/ge/b1x5v2/b1x5v2.c`, `board/aristainetos/aristainetos.c`, `drivers/clk/imx/clk-imx6q.c` | 🔄 Under review |
+| [`imx6: clock: fix clk0/clk1 swap in select_ldb_di_clock_source()`](https://lore.kernel.org/u-boot/20260630120417.1469554-3-shofiqtest@gmail.com/) | `arch/arm/mach-imx/mx6/clock.c` | 🔄 Under review |
 
 **Root cause found during review:** `clk0`/`clk1` were written to `LDB_DI1`/`LDB_DI0` respectively — reversed. Guard mismatch: function defined for `CONFIG_SPL_VIDEO` but called for `!CONFIG_SPL_BUILD`. SPL SRAM overflow of 112 bytes. Fixed with `!CONFIG_SPL_BUILD || CONFIG_SPL_VIDEO` — saved 688 bytes in SPL.
 
@@ -85,10 +85,12 @@ Recognised as **Zephyr Individual Contributor**.
 
 ## Linux Kernel Contributions
 
-15 patches across 9 subsystems. Full history: [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
+17 patches across 9 subsystems. Full history: [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
 
 | Patch | Subsystem | Status |
 |---|---|---|
+| [`iio: adc: ti-ads1298: add ADS1299 EEG ADC family support`](https://lore.kernel.org/linux-iio/20260630140311.1473031-2-shofiqtest@gmail.com/) | IIO / Medical ADC / EEG | 🔄 Under review |
+| [`dt-bindings: iio: adc: ti,ads1298: add ADS1299 EEG ADC variants`](https://lore.kernel.org/linux-iio/20260630140311.1473031-1-shofiqtest@gmail.com/) | DT Bindings / IIO | 🔄 Under review |
 | [`iio: health: add MAX86150 ECG and PPG biosensor driver`](https://lore.kernel.org/linux-iio/20260623140113.12574-1-shofiqtest@gmail.com/) | IIO / Health / Biosensor | 🔄 Under review |
 | [`iio: adc: ti-ads1298: Remove unnecessary CONFIG2 write during init`](https://www.spinics.net/lists/kernel/msg6192186.html) | IIO / Medical ADC | ✅ In linux-next |
 | [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://lore.kernel.org/linux-iio/?q=ti-ads1298+timeout+shofiqtest) | IIO / Medical ADC | ✅ In linux-next |
