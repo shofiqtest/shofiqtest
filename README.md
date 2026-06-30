@@ -18,11 +18,11 @@
 
 | Area | Detail |
 |---|---|
-| **Yocto BSP** | Owner of ARM SoC BSP layer at a 5G infrastructure company — machine config, BitBake recipes, kernel LTS upgrades, CI/CD pipeline |
+| **Yocto BSP** | Owner of ARM SoC BSP layer for production ARM SoC platform — machine config, BitBake recipes, kernel LTS upgrades, CI/CD pipeline |
 | **Linux kernel drivers** | 17 upstream patches across 9 subsystems — IIO, DMA, DT bindings, networking, SCSI, DRM/Accel |
-| **U-Boot** | NXP i.MX6Q patches — SPL SRAM overflow fix, LDB clock swap fix, GE HealthCare VPD reader fix |
+| **U-Boot** | NXP i.MX6Q patches — SPL SRAM overflow fix, LDB clock swap fix, VPD reader fix |
 | **Zephyr RTOS** | Individual Contributor — MAX30102 SpO₂/HR sensor driver merged, Arm TSC reviewed |
-| **Medical device** | IEC 62304 + ISO 14971 — Class IIb CE-marked device at Sooma Medical, M.HSc. Biomedical Engineering |
+| **Medical device** | IEC 62304 + ISO 14971 — Class IIb CE-marked device firmware, M.HSc. Biomedical Engineering |
 
 ---
 
@@ -30,7 +30,7 @@
 
 ### Yocto / OpenEmbedded (daily work)
 
-I **own the Yocto BSP layer** for an ARM SoC platform at a 5G infrastructure company:
+I **own the Yocto BSP layer** for a production ARM SoC platform:
 - Machine configuration, kernel recipes, BitBake layer hierarchy
 - Cross-compilation toolchain and sysroot management
 - Kernel LTS version upgrades — API migration, Device Tree updates, hardware regression validation
@@ -60,8 +60,6 @@ IEC 62304-aligned artefacts based on the MAX30102 Zephyr RTOS driver (merged ups
 | [Software Design Specification](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/SDS_MAX30101_Driver.md) | IEC 62304 §5.4 | Architecture, component design, interfaces, timing, concurrency |
 | [SOUP Record](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/SOUP_Record_MAX30101_Driver.md) | IEC 62304 §8 | SOUP management for Zephyr RTOS dependencies with risk classification |
 | [FMEA](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/FMEA_MAX30101_Driver.md) | ISO 14971:2019 | 8 failure modes — severity, probability, risk level, mitigations |
-
-Sooma Medical experience: Class IIb CE-marked device, full design history file, ISO 14971 hazard analysis, requirements-to-verification traceability matrix.
 
 Repository: [embedded-medical-software-portfolio](https://github.com/shofiqtest/embedded-medical-software-portfolio)
 
