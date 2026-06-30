@@ -56,10 +56,10 @@ IEC 62304-aligned artefacts based on the MAX30102 Zephyr RTOS driver (merged ups
 
 | Document | Standard | Description |
 |---|---|---|
-| [Software Requirements Specification](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/SRS_MAX30101_Driver.md) | IEC 62304 §5.2 | 12 shall-statements: functional, performance, interface and safety requirements |
-| [Software Design Specification](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/SDS_MAX30101_Driver.md) | IEC 62304 §5.4 | Architecture, component design, interfaces, timing, concurrency |
-| [SOUP Record](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/SOUP_Record_MAX30101_Driver.md) | IEC 62304 §8 | SOUP management for Zephyr RTOS dependencies with risk classification |
-| [FMEA](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/FMEA_MAX30101_Driver.md) | ISO 14971:2019 | 8 failure modes — severity, probability, risk level, mitigations |
+| [Software Requirements Specification](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/SRS_MAX30102_Driver.md) | IEC 62304 §5.2 | 12 shall-statements: functional, performance, interface and safety requirements |
+| [Software Design Specification](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/SDS_MAX30102_Driver.md) | IEC 62304 §5.4 | Architecture, component design, interfaces, timing, concurrency |
+| [SOUP Record](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/SOUP_Record_MAX30102_Driver.md) | IEC 62304 §8 | SOUP management for Zephyr RTOS dependencies with risk classification |
+| [FMEA](https://github.com/shofiqtest/embedded-medical-software-portfolio/blob/main/FMEA_MAX30102_Driver.md) | ISO 14971:2019 | 8 failure modes — severity, probability, risk level, mitigations |
 
 Repository: [embedded-medical-software-portfolio](https://github.com/shofiqtest/embedded-medical-software-portfolio)
 
