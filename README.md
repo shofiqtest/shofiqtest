@@ -2,7 +2,7 @@
 
 # Md Shofiqul Islam
 
-**Embedded Linux BSP Engineer · Nokia SoC · Yocto/U-Boot · Linux Kernel Driver Contributor · Zephyr Individual Contributor · IEC 62304 Medical**
+**Embedded Linux BSP Engineer · Yocto/U-Boot · Linux Kernel Driver Contributor · Zephyr Individual Contributor · IEC 62304 Medical**
 
 <a href="mailto:shofiqtest@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shofiqtest%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/mdshofiqul/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Md%20Shofiqul%20Islam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
@@ -18,7 +18,7 @@
 
 | Area | Detail |
 |---|---|
-| **Yocto BSP** | Owner of Nokia's ARM SoC BSP layer — machine config, BitBake recipes, kernel LTS upgrades, CI/CD pipeline |
+| **Yocto BSP** | Owner of ARM SoC BSP layer at a 5G infrastructure company — machine config, BitBake recipes, kernel LTS upgrades, CI/CD pipeline |
 | **Linux kernel drivers** | 15 upstream patches across 9 subsystems — IIO, DMA, DT bindings, networking, SCSI, DRM/Accel |
 | **U-Boot** | NXP i.MX6Q patches — SPL SRAM overflow fix, LDB clock swap fix, board/ge/b1x5v2/ board file |
 | **Zephyr RTOS** | Individual Contributor — MAX30102 SpO₂/HR sensor driver merged, Arm TSC reviewed |
@@ -28,9 +28,9 @@
 
 ## Yocto / BSP / U-Boot
 
-### Yocto / OpenEmbedded (Nokia — daily work)
+### Yocto / OpenEmbedded (daily work)
 
-At Nokia I **own the Yocto BSP layer** for an ARM SoC platform:
+I **own the Yocto BSP layer** for an ARM SoC platform at a 5G infrastructure company:
 - Machine configuration, kernel recipes, BitBake layer hierarchy
 - Cross-compilation toolchain and sysroot management
 - Kernel LTS version upgrades — API migration, Device Tree updates, hardware regression validation
