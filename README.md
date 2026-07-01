@@ -7,7 +7,7 @@
 <a href="mailto:shofiqtest@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shofiqtest%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/mdshofiqul/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Md%20Shofiqul%20Islam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 <a href="https://lore.kernel.org/all/?q=Md+Shofiqul+Islam"><img alt="Kernel patches" src="https://img.shields.io/badge/Kernel%20Patches-lore.kernel.org-F8C517?style=for-the-badge&logo=linux&logoColor=black"></a>
-<a href="https://shofiqtest.github.io/linux-medical-bsp/"><img alt="Medical BSP Service" src="https://img.shields.io/badge/IEC%2062304%20BSP%20Service-linux--medical--bsp-2ea043?style=for-the-badge&logo=linux&logoColor=white"></a>
+<a href="https://kernel-medical.github.io/linux-medical-bsp/"><img alt="Medical BSP Service" src="https://img.shields.io/badge/IEC%2062304%20BSP%20Service-linux--medical--bsp-2ea043?style=for-the-badge&logo=linux&logoColor=white"></a>
 
 📍 Espoo, Finland · Open to embedded Linux / medical device roles in Europe and remote
 
@@ -71,7 +71,7 @@ IEC 62304-aligned documentation based on real upstream drivers — real code, re
 | [SOUP Record](https://github.com/shofiqtest/iec62304-embedded-drivers/blob/main/SOUP_Record_ADS1299_Driver.md) | IEC 62304 §8 | SOUP identification, known anomalies, risk classification, verification |
 | [FMEA](https://github.com/shofiqtest/iec62304-embedded-drivers/blob/main/FMEA_ADS1299_Driver.md) | ISO 14971:2019 | 10 failure modes for 24-bit EEG acquisition — signal integrity, lead-off, SPI errors |
 
-Documents: [iec62304-embedded-drivers](https://github.com/shofiqtest/iec62304-embedded-drivers) · Tool: [kernel-soup-gen](https://github.com/shofiqtest/kernel-soup-gen) — auto-generate SOUP records for any Linux kernel driver
+Documents: [iec62304-embedded-drivers](https://github.com/shofiqtest/iec62304-embedded-drivers) · Tool: [kernel-soup-gen](https://github.com/kernel-medical/kernel-soup-gen) — auto-generate SOUP records for any Linux kernel driver
 
 ---
 
