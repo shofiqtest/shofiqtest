@@ -7,6 +7,7 @@
 <a href="mailto:shofiqtest@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shofiqtest%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/mdshofiqul/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Md%20Shofiqul%20Islam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 <a href="https://lore.kernel.org/all/?q=Md+Shofiqul+Islam"><img alt="Kernel patches" src="https://img.shields.io/badge/Kernel%20Patches-lore.kernel.org-F8C517?style=for-the-badge&logo=linux&logoColor=black"></a>
+<a href="https://shofiqtest.github.io/linux-medical-bsp/"><img alt="Medical BSP Service" src="https://img.shields.io/badge/IEC%2062304%20BSP%20Service-linux--medical--bsp-2ea043?style=for-the-badge&logo=linux&logoColor=white"></a>
 
 📍 Espoo, Finland · Open to embedded Linux / medical device roles in Europe and remote
 
