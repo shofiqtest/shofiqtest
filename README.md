@@ -2,7 +2,9 @@
 
 # Md Shofiqul Islam
 
-**Embedded Linux BSP Engineer · Yocto/U-Boot · Linux Kernel Driver Contributor · Zephyr Individual Contributor · IEC 62304 Medical**
+**Embedded Linux BSP Engineer · Yocto/U-Boot · Linux Kernel Contributor · Zephyr Individual Contributor · IEC 62304 Medical**
+
+**11 patches merged to Linus Torvalds mainline Linux kernel**
 
 <a href="mailto:shofiqtest@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shofiqtest%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/mdshofiqul/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Md%20Shofiqul%20Islam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
@@ -20,7 +22,7 @@
 | Area | Detail |
 |---|---|
 | **Yocto BSP** | Owner of ARM SoC BSP layer for production ARM SoC platform — machine config, BitBake recipes, kernel LTS upgrades, CI/CD pipeline |
-| **Linux kernel drivers** | 17 upstream patches across 9 subsystems — IIO, DMA, DT bindings, networking, SCSI, DRM/Accel |
+| **Linux kernel drivers** | **11 patches merged to mainline** (Torvalds tree) across 9 subsystems — IIO, MFD, power, SoC, SCSI, xfs, sctp, ASoC, DRM/Accel |
 | **U-Boot** | NXP i.MX6Q patches — SPL SRAM overflow fix, LDB clock swap fix, VPD reader fix |
 | **Zephyr RTOS** | Individual Contributor — MAX30102 SpO₂/HR sensor driver merged, Arm TSC reviewed |
 | **Medical device** | IEC 62304 + ISO 14971 — Class IIb CE-marked device firmware, M.HSc. Biomedical Engineering |
@@ -89,27 +91,36 @@ Recognised as **Zephyr Individual Contributor**.
 
 ## Linux Kernel Contributions
 
-17 patches across 9 subsystems. Full history: [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
+**11 patches merged to [Linus Torvalds mainline](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Shofiqul) · 6 more under review**
+
+Full history: [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
+
+### Merged to mainline ✅
+
+| Patch | Subsystem | Merged |
+|---|---|---|
+| [`iio: adc: ti-ads1298: Remove unnecessary CONFIG2 write during init`](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=01437ab5111f57005be54005f5b575dc06cb682e) | IIO / Medical ADC | 2026-05-31 |
+| [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=d0f23d8a9091f43329e79bcd29bcac6bf81205e5) | IIO / Medical ADC | 2026-05-31 |
+| [`iio: adc: ti-ads1298: Add parentheses around macro parameter`](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=5d7b3df5c1be8f46c2d3eabd1c1fd7b27294cbd3) | IIO / Medical ADC | 2026-05-31 |
+| [`mfd: si476x-i2c: Fix spelling mistakes in comments`](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a44ec8fd3839434c0c85ae68106a94081a31341f) | MFD | 2026-06-17 |
+| [`power: supply: ab8500_fg: Fix typos in comments`](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=15384402c94a55b05d06a446aedd19e242367b6f) | Power Supply | 2026-06-03 |
+| [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=10a1969353b20caa50c320717e054601631c0d3e) | SoC / TI Keystone | 2026-05-15 |
+| [`scsi: storvsc: Replace symbolic permissions with octal`](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=73322071418ec3ad5e4d9cdf783890d7f2ae9777) | SCSI / Hyper-V | 2026-05-14 |
+| [`scsi: core: scsi_scan: Fix typo in comment`](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=036218473a8467493860df84602a7825b71385af) | SCSI core | 2026-05-14 |
+| [`xfs: Fix typo in comment`](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=509fdeb3326be0db055e88d0f689a3888f147f90) | XFS Filesystem | 2026-05-11 |
+| [`sctp: Fix typo in comment`](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c7ea0d2b4d76bf70bd5f108fa07506640b78ce05) | Networking / SCTP | 2026-05-08 |
+| [`ASoC: nau8825: Fix typos in comments`](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=5f1752afb464a82bdc372281ed7313aa4663b269) | Sound / ASoC | 2026-05-06 |
+
+### Under review 🔄
 
 | Patch | Subsystem | Status |
 |---|---|---|
-| [`iio: adc: ti-ads1298: add ADS1299 EEG ADC family support`](https://lore.kernel.org/linux-iio/20260630140311.1473031-2-shofiqtest@gmail.com/) | IIO / Medical ADC / EEG | 🔄 Changes requested · v2 in progress |
-| [`dt-bindings: iio: adc: ti,ads1298: add ADS1299 EEG ADC variants`](https://lore.kernel.org/linux-iio/20260630140311.1473031-1-shofiqtest@gmail.com/) | DT Bindings / IIO | 🔄 Changes requested · v2 in progress |
-| [`iio: health: add MAX86150 ECG and PPG biosensor driver`](https://lore.kernel.org/linux-iio/20260623140113.12574-1-shofiqtest@gmail.com/) | IIO / Health / Biosensor | 🔄 Under review · v3 in progress |
-| [`iio: adc: ti-ads1298: Remove unnecessary CONFIG2 write during init`](https://www.spinics.net/lists/kernel/msg6192186.html) | IIO / Medical ADC | ✅ In linux-next |
-| [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://lore.kernel.org/linux-iio/?q=ti-ads1298+timeout+shofiqtest) | IIO / Medical ADC | ✅ In linux-next |
-| [`iio: adc: ti-ads1298: Add parentheses around macro parameter`](https://www.spinics.net/lists/kernel/msg6191377.html) | IIO / Medical ADC | ✅ In linux-next |
-| [`dt-bindings: iio: accel: Convert lis302 binding to YAML schema`](https://lore.kernel.org/linux-iio/20260609214753.4479-1-shofiqtest@gmail.com/) | DT Bindings / IIO | 🔄 Under review |
-| [`sctp: Fix typo in comment`](https://git.kernel.org/netdev/net-next/c/c7ea0d2b4d76) | Networking / SCTP | ✅ Merged — Jakub Kicinski |
-| [`ASoC: nau8825: Fix typos in comments`](https://git.kernel.org/broonie/sound/c/5f1752afb464) | Sound / ASoC | ✅ Merged |
-| [`xfs: Fix typo in comment`](https://www.spinics.net/lists/kernel/msg6190059.html) | XFS Filesystem | ✅ Accepted |
-| [`scsi: scsi_scan: Fix typo in comment`](https://lore.kernel.org/linux-scsi/20260506094504.25381-1-shofiqtest@gmail.com/) | SCSI core | ✅ Merged — Martin K. Petersen |
-| [`scsi: storvsc: Replace symbolic permissions with octal`](https://lore.kernel.org/linux-scsi/20260506004948.18017-1-shofiqtest@gmail.com/) | SCSI / Hyper-V | ✅ Merged — reviewed by Microsoft |
-| [`power: supply: ab8500_fg: Fix typos in comments`](https://www.spinics.net/lists/kernel/msg6189221.html) | Power Supply | ✅ In linux-next |
-| [`soc: ti: knav_qmss_queue: Implement resource cleanup in remove()`](https://www.spinics.net/lists/kernel/msg6189942.html) | SoC / TI Keystone | ✅ Applied — Nishanth Menon |
-| [`mfd: si476x-i2c: Fix spelling mistakes in comments`](https://lore.kernel.org/linux-mfd/20260514181954.1442-1-shofiqtest@gmail.com/) | MFD / Si476x | ✅ In linux-next |
-| [`drm/accel/amdxdna: add debugfs support`](https://lore.kernel.org/dri-devel/20260519203236.252068-1-shofiqtest@gmail.com/) | DRM Accel / AMD Ryzen AI NPU | 🔄 Under review |
-| [`drm/accel/ivpu: send exact IPC message size instead of union size`](https://lore.kernel.org/dri-devel/177922807295.254725.11654057638908709302@gmail.com/) | DRM Accel / Intel VPU NPU | 🔄 Under review |
+| [`iio: adc: ti-ads1298: add ADS1299 EEG ADC family support`](https://lore.kernel.org/linux-iio/20260630140311.1473031-2-shofiqtest@gmail.com/) | IIO / Medical ADC / EEG | v2 in progress |
+| [`dt-bindings: iio: adc: ti,ads1298: add ADS1299 EEG ADC variants`](https://lore.kernel.org/linux-iio/20260630140311.1473031-1-shofiqtest@gmail.com/) | DT Bindings / IIO | v2 in progress |
+| [`iio: health: add MAX86150 ECG and PPG biosensor driver`](https://lore.kernel.org/linux-iio/20260623140113.12574-1-shofiqtest@gmail.com/) | IIO / Health / Biosensor | v3 in progress |
+| [`dt-bindings: iio: accel: Convert lis302 binding to YAML schema`](https://lore.kernel.org/linux-iio/20260609214753.4479-1-shofiqtest@gmail.com/) | DT Bindings / IIO | Under review |
+| [`drm/accel/amdxdna: add debugfs support`](https://lore.kernel.org/dri-devel/20260519203236.252068-1-shofiqtest@gmail.com/) | DRM Accel / AMD Ryzen AI NPU | Under review |
+| [`drm/accel/ivpu: send exact IPC message size instead of union size`](https://lore.kernel.org/dri-devel/177922807295.254725.11654057638908709302@gmail.com/) | DRM Accel / Intel VPU NPU | Under review |
 
 ---
 
