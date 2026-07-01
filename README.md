@@ -42,7 +42,7 @@ Patches for NXP i.MX6Q LDB display clock initialisation and common board code.
 
 | Patch | Files | Status |
 |---|---|---|
-| [`ge: common: vpd_reader: fix errloc array size in verify_bch()`](https://lore.kernel.org/u-boot/20260630133939.1472106-1-shofiqtest@gmail.com/) | `board/ge/common/vpd_reader.c` | 🔄 Under review |
+| [`ge: common: vpd_reader: fix errloc array size in verify_bch()`](https://lore.kernel.org/u-boot/20260630133939.1472106-1-shofiqtest@gmail.com/) | `board/ge/common/vpd_reader.c` | 🔄 Reviewed — Ian Ray |
 | [`clk: imx6q: guard LDB clock init with appropriate video config`](https://lore.kernel.org/u-boot/20260630120417.1469554-2-shofiqtest@gmail.com/) | `drivers/clk/imx/clk-imx6q.c`, `board/aristainetos/aristainetos.c` | 🔄 Under review |
 | [`imx6: clock: fix clk0/clk1 swap in select_ldb_di_clock_source()`](https://lore.kernel.org/u-boot/20260630120417.1469554-3-shofiqtest@gmail.com/) | `arch/arm/mach-imx/mx6/clock.c` | 🔄 Under review |
 
@@ -92,9 +92,9 @@ Recognised as **Zephyr Individual Contributor**.
 
 | Patch | Subsystem | Status |
 |---|---|---|
-| [`iio: adc: ti-ads1298: add ADS1299 EEG ADC family support`](https://lore.kernel.org/linux-iio/20260630140311.1473031-2-shofiqtest@gmail.com/) | IIO / Medical ADC / EEG | 🔄 Under review |
-| [`dt-bindings: iio: adc: ti,ads1298: add ADS1299 EEG ADC variants`](https://lore.kernel.org/linux-iio/20260630140311.1473031-1-shofiqtest@gmail.com/) | DT Bindings / IIO | 🔄 Under review |
-| [`iio: health: add MAX86150 ECG and PPG biosensor driver`](https://lore.kernel.org/linux-iio/20260623140113.12574-1-shofiqtest@gmail.com/) | IIO / Health / Biosensor | 🔄 Under review |
+| [`iio: adc: ti-ads1298: add ADS1299 EEG ADC family support`](https://lore.kernel.org/linux-iio/20260630140311.1473031-2-shofiqtest@gmail.com/) | IIO / Medical ADC / EEG | 🔄 Changes requested · v2 in progress |
+| [`dt-bindings: iio: adc: ti,ads1298: add ADS1299 EEG ADC variants`](https://lore.kernel.org/linux-iio/20260630140311.1473031-1-shofiqtest@gmail.com/) | DT Bindings / IIO | 🔄 Changes requested · v2 in progress |
+| [`iio: health: add MAX86150 ECG and PPG biosensor driver`](https://lore.kernel.org/linux-iio/20260623140113.12574-1-shofiqtest@gmail.com/) | IIO / Health / Biosensor | 🔄 Under review · v3 in progress |
 | [`iio: adc: ti-ads1298: Remove unnecessary CONFIG2 write during init`](https://www.spinics.net/lists/kernel/msg6192186.html) | IIO / Medical ADC | ✅ In linux-next |
 | [`iio: adc: ti-ads1298: Fix incorrect timeout comment`](https://lore.kernel.org/linux-iio/?q=ti-ads1298+timeout+shofiqtest) | IIO / Medical ADC | ✅ In linux-next |
 | [`iio: adc: ti-ads1298: Add parentheses around macro parameter`](https://www.spinics.net/lists/kernel/msg6191377.html) | IIO / Medical ADC | ✅ In linux-next |
@@ -151,7 +151,7 @@ Linux for Engineers — The Linux Foundation · Introduction to RISC-V (LFD110) 
 <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white">
 <img alt="Zephyr" src="https://img.shields.io/badge/Zephyr_RTOS-Individual_Contributor-0F172A?style=flat-square">
 <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-<img alt="Git" src="https://img.shields.io/badge/git_send--email-active-orange?style=flat-square">
+<img alt="git" src="https://img.shields.io/badge/git_send--email-active-orange?style=flat-square">
 <img alt="IEC62304" src="https://img.shields.io/badge/IEC_62304-medical_device-red?style=flat-square">
 <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
 <img alt="checkpatch" src="https://img.shields.io/badge/checkpatch-passing-brightgreen?style=flat-square">
