@@ -13,6 +13,8 @@
 
 📍 Espoo, Finland · Open to embedded Linux / medical device roles in Europe and remote
 
+![Profile views](https://komarev.com/ghpvc/?username=shofiqtest&color=2ea043&style=flat&label=Profile+views)
+
 </div>
 
 ---
