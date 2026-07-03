@@ -63,19 +63,19 @@ IEC 62304-aligned documentation based on real upstream drivers — real code, re
 
 | Document | Standard | Description |
 |---|---|---|
-| [Software Requirements Specification](https://github.com/shofiqtest/iec62304-embedded-drivers/blob/main/SRS_MAX30102_Driver.md) | IEC 62304 §5.2 | 12 shall-statements: functional, performance, interface and safety requirements |
-| [Software Design Specification](https://github.com/shofiqtest/iec62304-embedded-drivers/blob/main/SDS_MAX30102_Driver.md) | IEC 62304 §5.4 | Architecture, component design, interfaces, timing, concurrency |
-| [SOUP Record](https://github.com/shofiqtest/iec62304-embedded-drivers/blob/main/SOUP_Record_MAX30102_Driver.md) | IEC 62304 §8 | SOUP management for Zephyr RTOS dependencies with risk classification |
-| [FMEA](https://github.com/shofiqtest/iec62304-embedded-drivers/blob/main/FMEA_MAX30102_Driver.md) | ISO 14971:2019 | 8 failure modes — severity, probability, risk level, mitigations |
+| [Software Requirements Specification](https://github.com/kernel-medical/iec62304-embedded-drivers/blob/main/SRS_MAX30102_Driver.md) | IEC 62304 §5.2 | 12 shall-statements: functional, performance, interface and safety requirements |
+| [Software Design Specification](https://github.com/kernel-medical/iec62304-embedded-drivers/blob/main/SDS_MAX30102_Driver.md) | IEC 62304 §5.4 | Architecture, component design, interfaces, timing, concurrency |
+| [SOUP Record](https://github.com/kernel-medical/iec62304-embedded-drivers/blob/main/SOUP_Record_MAX30102_Driver.md) | IEC 62304 §8 | SOUP management for Zephyr RTOS dependencies with risk classification |
+| [FMEA](https://github.com/kernel-medical/iec62304-embedded-drivers/blob/main/FMEA_MAX30102_Driver.md) | ISO 14971:2019 | 8 failure modes — severity, probability, risk level, mitigations |
 
 **ADS1299** (Linux kernel IIO, [patch submitted](https://lore.kernel.org/linux-iio/20260630140311.1473031-2-shofiqtest@gmail.com/)):
 
 | Document | Standard | Description |
 |---|---|---|
-| [SOUP Record](https://github.com/shofiqtest/iec62304-embedded-drivers/blob/main/SOUP_Record_ADS1299_Driver.md) | IEC 62304 §8 | SOUP identification, known anomalies, risk classification, verification |
-| [FMEA](https://github.com/shofiqtest/iec62304-embedded-drivers/blob/main/FMEA_ADS1299_Driver.md) | ISO 14971:2019 | 10 failure modes for 24-bit EEG acquisition — signal integrity, lead-off, SPI errors |
+| [SOUP Record](https://github.com/kernel-medical/iec62304-embedded-drivers/blob/main/SOUP_Record_ADS1299_Driver.md) | IEC 62304 §8 | SOUP identification, known anomalies, risk classification, verification |
+| [FMEA](https://github.com/kernel-medical/iec62304-embedded-drivers/blob/main/FMEA_ADS1299_Driver.md) | ISO 14971:2019 | 10 failure modes for 24-bit EEG acquisition — signal integrity, lead-off, SPI errors |
 
-Documents: [iec62304-embedded-drivers](https://github.com/shofiqtest/iec62304-embedded-drivers) · Tool: [kernel-soup-gen](https://github.com/kernel-medical/kernel-soup-gen) — auto-generate SOUP records for any Linux kernel driver
+Documents: [iec62304-embedded-drivers](https://github.com/kernel-medical/iec62304-embedded-drivers) · Tool: [kernel-soup-gen](https://github.com/kernel-medical/kernel-soup-gen) — auto-generate SOUP records for any Linux kernel driver
 
 ---
 
@@ -85,7 +85,7 @@ Documents: [iec62304-embedded-drivers](https://github.com/shofiqtest/iec62304-em
 
 Full acquisition stack from analog biosignal sensor to typed ROS 2 topic:
 
-![Architecture](https://raw.githubusercontent.com/shofiqtest/ros2_iio_medical/master/docs/architecture.svg)
+![Architecture](https://raw.githubusercontent.com/kernel-medical/ros2_iio_medical/master/docs/architecture.svg)
 
 | Node | Mode | Use case |
 |---|---|---|
@@ -94,7 +94,7 @@ Full acquisition stack from analog biosignal sensor to typed ROS 2 topic:
 
 Supports **ADS1299** (24-bit 8ch EEG/ECG), **MAX86150** (ECG+PPG), **MAX30102** (SpO2), **ti-ads1298** (ECG) via the standard Linux IIO sysfs interface — no device-specific userspace code.
 
-[shofiqtest/ros2_iio_medical](https://github.com/shofiqtest/ros2_iio_medical) · Apache-2.0 · CI: Ubuntu 22.04 / ROS 2 Humble
+[kernel-medical/ros2_iio_medical](https://github.com/kernel-medical/ros2_iio_medical) · Apache-2.0 · CI: Ubuntu 22.04 / ROS 2 Humble
 
 ---
 
