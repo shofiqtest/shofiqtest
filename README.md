@@ -85,7 +85,7 @@ Documents: [iec62304-embedded-drivers](https://github.com/kernel-medical/iec6230
 
 Full acquisition stack from analog biosignal sensor to typed ROS 2 topic:
 
-![Architecture](https://raw.githubusercontent.com/kernel-medical/ros2_iio_medical/master/docs/architecture.svg)
+![Architecture](https://raw.githubusercontent.com/kernel-medical/ros2_iio_medical/master/docs/architecture-stm32mp157.svg)
 
 | Node | Mode | Use case |
 |---|---|---|
