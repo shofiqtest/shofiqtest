@@ -94,6 +94,8 @@ Full acquisition stack from analog biosignal sensor to typed ROS 2 topic:
 
 Supports **ADS1299** (24-bit 8ch EEG/ECG), **MAX86150** (ECG+PPG), **MAX30102** (SpO2), **ti-ads1298** (ECG) via the standard Linux IIO sysfs interface — no device-specific userspace code.
 
+On production hardware (STM32MP157), the M4 coprocessor runs **Zephyr RTOS** — including the [MAX30102 SpO₂ driver merged to Zephyr mainline](https://github.com/zephyrproject-rtos/zephyr/pull/108697) — feeding samples to Linux via OpenAMP RPMsg, then through the IIO subsystem to ROS 2 topics.
+
 [kernel-medical/ros2_iio_medical](https://github.com/kernel-medical/ros2_iio_medical) · Apache-2.0 · CI: Ubuntu 22.04 / ROS 2 Humble
 
 ---
