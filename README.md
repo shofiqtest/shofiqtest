@@ -4,7 +4,7 @@
 
 **Embedded Linux BSP Engineer · Yocto/U-Boot · Linux Kernel Contributor · Zephyr Individual Contributor · IEC 62304 Medical**
 
-**11 patches merged to Linus Torvalds mainline Linux kernel**
+**17 patches accepted by Linux kernel maintainers — 11 merged to mainline**
 
 <a href="mailto:shofiqtest@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shofiqtest%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/mdshofiqul/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Md%20Shofiqul%20Islam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
@@ -24,7 +24,7 @@
 | Area | Detail |
 |---|---|
 | **Yocto BSP** | Owner of ARM SoC BSP layer for production ARM SoC platform — machine config, BitBake recipes, kernel LTS upgrades, CI/CD pipeline |
-| **Linux kernel drivers** | **11 patches merged to mainline** (Torvalds tree) across 9 subsystems — IIO, MFD, power, SoC, SCSI, xfs, sctp, ASoC, DRM/Accel |
+| **Linux kernel drivers** | **17 patches accepted by maintainers** — 11 merged to Linus mainline, 6 in subsystem trees — IIO, MFD, power, SoC, SCSI, xfs, sctp, ASoC, DRM/Accel |
 | **U-Boot** | NXP i.MX6Q patches — SPL SRAM overflow fix, LDB clock swap fix, VPD reader fix |
 | **Zephyr RTOS** | Individual Contributor — MAX30102 SpO₂/HR sensor driver merged, Arm TSC reviewed |
 | **Medical device** | IEC 62304 + ISO 14971 — Class IIb CE-marked device firmware, M.HSc. Biomedical Engineering |
@@ -114,7 +114,7 @@ Recognised as **Zephyr Individual Contributor**.
 
 ## Linux Kernel Contributions
 
-**11 patches merged to [Linus Torvalds mainline](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Shofiqul) · 6 more under review**
+**17 patches accepted by Linux kernel maintainers** — [11 merged to Linus mainline](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Shofiqul) · 9 more under review
 
 Full history: [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
 
@@ -138,12 +138,15 @@ Full history: [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam
 
 | Patch | Subsystem | Status |
 |---|---|---|
-| [`iio: adc: ti-ads1298: add ADS1299 EEG ADC family support`](https://lore.kernel.org/linux-iio/20260630140311.1473031-2-shofiqtest@gmail.com/) | IIO / Medical ADC / EEG | v2 in progress |
-| [`dt-bindings: iio: adc: ti,ads1298: add ADS1299 EEG ADC variants`](https://lore.kernel.org/linux-iio/20260630140311.1473031-1-shofiqtest@gmail.com/) | DT Bindings / IIO | v2 in progress |
+| [`iio: adc: ti-ads1298: add ADS1299 EEG ADC family support`](https://lore.kernel.org/linux-iio/20260630140311.1473031-2-shofiqtest@gmail.com/) | IIO / Medical ADC / EEG | v2 ready to send |
+| [`dt-bindings: iio: adc: ti,ads1298: add ADS1299 EEG ADC variants`](https://lore.kernel.org/linux-iio/20260630140311.1473031-1-shofiqtest@gmail.com/) | DT Bindings / IIO | v2 ready to send |
 | [`iio: health: add MAX86150 ECG and PPG biosensor driver`](https://lore.kernel.org/linux-iio/20260623140113.12574-1-shofiqtest@gmail.com/) | IIO / Health / Biosensor | v3 in progress |
 | [`dt-bindings: iio: accel: Convert lis302 binding to YAML schema`](https://lore.kernel.org/linux-iio/20260609214753.4479-1-shofiqtest@gmail.com/) | DT Bindings / IIO | Under review |
 | [`drm/accel/amdxdna: add debugfs support`](https://lore.kernel.org/dri-devel/20260519203236.252068-1-shofiqtest@gmail.com/) | DRM Accel / AMD Ryzen AI NPU | Under review |
 | [`drm/accel/ivpu: send exact IPC message size instead of union size`](https://lore.kernel.org/dri-devel/177922807295.254725.11654057638908709302@gmail.com/) | DRM Accel / Intel VPU NPU | Under review |
+| `dt-bindings: iio: st,st-sensors: remove lis302dl and lis3lv02d from deprecated list` | DT Bindings / IIO accelerometer | Under review |
+| `misc: lis3lv02d: set default click detection thresholds` | Misc / accelerometer | Under review |
+| `iio: accel: adxl372: Add timestamp to FIFO data` | IIO / Accelerometer | Under review |
 
 ---
 
