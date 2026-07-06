@@ -140,7 +140,7 @@ Full history: [lore.kernel.org](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam
 |---|---|---|
 | [`iio: adc: ti-ads1298: add ADS1299 EEG ADC family support`](https://lore.kernel.org/linux-iio/20260630140311.1473031-2-shofiqtest@gmail.com/) | IIO / Medical ADC / EEG | v2 ready to send |
 | [`dt-bindings: iio: adc: ti,ads1298: add ADS1299 EEG ADC variants`](https://lore.kernel.org/linux-iio/20260630140311.1473031-1-shofiqtest@gmail.com/) | DT Bindings / IIO | v2 ready to send |
-| [`iio: health: add MAX86150 ECG and PPG biosensor driver`](https://lore.kernel.org/linux-iio/20260623140113.12574-1-shofiqtest@gmail.com/) | IIO / Health / Biosensor | v3 in progress |
+| [`iio: health: add MAX86150 ECG and PPG biosensor driver`](https://lore.kernel.org/linux-iio/20260623140113.12574-1-shofiqtest@gmail.com/) | IIO / Health / Biosensor | v5 sent — Jonathan Cameron feedback July 2, v6 in progress |
 | [`dt-bindings: iio: accel: Convert lis302 binding to YAML schema`](https://lore.kernel.org/linux-iio/20260609214753.4479-1-shofiqtest@gmail.com/) | DT Bindings / IIO | Under review |
 | [`drm/accel/amdxdna: add debugfs support`](https://lore.kernel.org/dri-devel/20260519203236.252068-1-shofiqtest@gmail.com/) | DRM Accel / AMD Ryzen AI NPU | Under review |
 | [`drm/accel/ivpu: send exact IPC message size instead of union size`](https://lore.kernel.org/dri-devel/177922807295.254725.11654057638908709302@gmail.com/) | DRM Accel / Intel VPU NPU | Under review |
