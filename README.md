@@ -24,6 +24,7 @@ I develop low-level software for the places where hardware meets the operating s
 - **Medical biosensor drivers** — IIO drivers for ECG/PPG (MAX86150) and EEG precision ADC (ADS1299) under active upstream review
 - **AI accelerator kernel interface** — patches to DRM/Accel subsystem for AMD Ryzen AI NPU and Intel VPU
 - **Zephyr RTOS** — MAX30101 SpO₂/heart-rate driver merged mainline (PR [#108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697))
+- **Quantum computing** — contributor to [D-Wave Ocean SDK](https://github.com/dwavesystems/dwave-ocean-sdk) (PR [#453](https://github.com/dwavesystems/dwave-ocean-sdk/pull/453) merged); interested in quantum hardware control systems and embedded software for cryogenic platforms
 
 ---
 
@@ -89,7 +90,7 @@ Full patch history: [lore.kernel.org/all/?q=Md+Shofiqul+Islam](https://lore.kern
 ## Areas I am interested in
 
 `Linux kernel` &nbsp; `Embedded Linux` &nbsp; `BSP / Yocto` &nbsp; `Medical biosensors` &nbsp; `AI accelerators` &nbsp;
-`Real-time systems` &nbsp; `5G / 6G platform` &nbsp; `Robotics` &nbsp; `Space & defense` &nbsp; `Industrial IoT` &nbsp; `RISC-V`
+`Real-time systems` &nbsp; `5G / 6G platform` &nbsp; `Robotics` &nbsp; `Space & defense` &nbsp; `Industrial IoT` &nbsp; `RISC-V` &nbsp; `Quantum computing hardware`
 
 ---
 
