@@ -24,7 +24,7 @@ I develop low-level software for the places where hardware meets the operating s
 - **Medical biosensor drivers** — IIO drivers for ECG/PPG (MAX86150) and EEG precision ADC (ADS1299) under active upstream review
 - **AI accelerator kernel interface** — patches to DRM/Accel subsystem for AMD Ryzen AI NPU and Intel VPU
 - **Zephyr RTOS** — MAX30101 SpO₂/heart-rate driver merged mainline (PR [#108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697))
-- **Quantum computing** — contributor to [D-Wave Ocean SDK](https://github.com/dwavesystems/dwave-ocean-sdk) (PR [#453](https://github.com/dwavesystems/dwave-ocean-sdk/pull/453) merged); interested in quantum hardware control systems and embedded software for cryogenic platforms
+- **Quantum computing** — contributor to [D-Wave Ocean SDK](https://github.com/dwavesystems/dwave-ocean-sdk) (PR [#453](https://github.com/dwavesystems/dwave-ocean-sdk/pull/453) merged) and [Qiskit](https://github.com/Qiskit/qiskit) (PR [#16590](https://github.com/Qiskit/qiskit/pull/16590) — memory safety fix in C API); interested in quantum hardware control systems and embedded software for cryogenic platforms
 
 ---
 
@@ -43,6 +43,15 @@ I develop low-level software for the places where hardware meets the operating s
 | **SoC / TI** | Keystone resource management | Merged |
 
 Full patch history: [lore.kernel.org/all/?q=Md+Shofiqul+Islam](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
+
+---
+
+## Quantum Computing Contributions
+
+| Project | Contribution | Status |
+|---|---|---|
+| **[Qiskit](https://github.com/Qiskit/qiskit)** (IBM Quantum) | [PR #16590](https://github.com/Qiskit/qiskit/pull/16590) — fix UB writing to uninitialized buffers in transpile layout C API; replace `slice::from_raw_parts_mut` over uninit memory with safe `ptr.add(i).write()` | Open |
+| **[D-Wave Ocean SDK](https://github.com/dwavesystems/dwave-ocean-sdk)** | [PR #453](https://github.com/dwavesystems/dwave-ocean-sdk/pull/453) — docs: add Advantage2 mention alongside Advantage in overview | Merged |
 
 ---
 
