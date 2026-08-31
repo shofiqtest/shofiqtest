@@ -2,12 +2,13 @@
 
 # Md Shofiqul Islam
 
-**Linux Kernel Engineer · Embedded Systems · SoC Platform · Open Source Contributor**
+**Linux Kernel Engineer · DPDK Contributor · Embedded Systems · SoC Platform · Open Source Contributor**
 
 Espoo, Finland &nbsp;·&nbsp; Open to roles in Europe (Ireland · Germany · Netherlands · Sweden)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mdshofiqul-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/mdshofiqul/)
 [![Kernel Patches](https://img.shields.io/badge/Linux%20Kernel-15%20patches%20merged-F8A800?style=flat&logo=linux&logoColor=white)](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
+[![DPDK](https://img.shields.io/badge/DPDK-26.07%20new%20contributor-0A7D43?style=flat)](https://mails.dpdk.org/archives/announce/2026-July/000565.html)
 [![Website](https://img.shields.io/badge/Website-kernel--medical.github.io-4CAF50?style=flat&logo=github)](https://kernel-medical.github.io)
 
 </div>
@@ -19,6 +20,7 @@ Espoo, Finland &nbsp;·&nbsp; Open to roles in Europe (Ireland · Germany · Net
 I develop low-level software for the places where hardware meets the operating system — Linux kernel drivers, bootloaders, real-time firmware, and embedded platform software.
 
 - **Linux kernel upstream contributor** — 15 patches merged across IIO, networking, storage, audio, filesystems, DRM/Accel, power, and SoC subsystems; reviewed by engineers at Intel, Red Hat, Microsoft, and Linaro
+- **DPDK / Linux networking** — NXP DPAA2 bus/DMA fixes; listed as a new contributor in the DPDK 26.07 release announcement
 - **Embedded Linux platform engineering** — Yocto/OpenEmbedded BSP, U-Boot, Device Tree, cross-compilation toolchain ownership on ARM SoC
 - **Real-time systems** — production firmware for 5G/6G platforms under hard real-time constraints; perf, ftrace, eBPF performance analysis on ARM multi-core
 - **Medical biosensor drivers** — IIO drivers for ECG/PPG (MAX86150) and EEG precision ADC (ADS1299) under active upstream review
@@ -46,6 +48,16 @@ Full patch history: [lore.kernel.org/all/?q=Md+Shofiqul+Islam](https://lore.kern
 
 ---
 
+## DPDK / Networking Contributions
+
+| Contribution | Area | Public evidence |
+|---|---|---|
+| NXP DPAA2 bus/DMA fixes | `bus/fslmc`, `dma/dpaa2`, device removal and unplug error paths | [DPDK patch review and test thread](https://mails.dpdk.org/archives/dev/2026-August/342708.html) |
+| DPDK contributor listing | DPDK 26.07 release | [Release announcement listing new contributors](https://mails.dpdk.org/archives/announce/2026-July/000565.html) |
+| SONiC network OS tooling | PFC Watchdog CLI crash handling and partial `PFC_WD` database entries | GitHub project work |
+
+---
+
 ## Quantum Computing Contributions
 
 | Project | Contribution | Status |
@@ -69,6 +81,12 @@ Full patch history: [lore.kernel.org/all/?q=Md+Shofiqul+Islam](https://lore.kern
 ![U-Boot](https://img.shields.io/badge/U--Boot-board%20bring--up-orange?style=flat)
 ![Device Tree](https://img.shields.io/badge/Device%20Tree-YAML%20binding%20author-blue?style=flat)
 ![Zephyr](https://img.shields.io/badge/Zephyr%20RTOS-driver%20contributor-7B68EE?style=flat&logo=zephyr)
+
+**Networking**
+
+![DPDK](https://img.shields.io/badge/DPDK-NXP%20DPAA2%20contributor-0A7D43?style=flat)
+![SONiC](https://img.shields.io/badge/SONiC-network%20OS%20tooling-1F6FEB?style=flat)
+![Linux Networking](https://img.shields.io/badge/Linux%20Networking-net--next%20exposure-F8A800?style=flat&logo=linux&logoColor=white)
 
 **Architecture**
 
@@ -98,7 +116,7 @@ Full patch history: [lore.kernel.org/all/?q=Md+Shofiqul+Islam](https://lore.kern
 
 ## Areas I am interested in
 
-`Linux kernel` &nbsp; `Embedded Linux` &nbsp; `BSP / Yocto` &nbsp; `Medical biosensors` &nbsp; `AI accelerators` &nbsp;
+`Linux kernel` &nbsp; `Embedded Linux` &nbsp; `DPDK / SDN` &nbsp; `BSP / Yocto` &nbsp; `Medical biosensors` &nbsp; `AI accelerators` &nbsp;
 `Real-time systems` &nbsp; `5G / 6G platform` &nbsp; `Robotics` &nbsp; `Space & defense` &nbsp; `Industrial IoT` &nbsp; `RISC-V` &nbsp; `Quantum computing hardware`
 
 ---
