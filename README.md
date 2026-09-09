@@ -25,7 +25,7 @@ I develop low-level software for the places where hardware meets the operating s
 - **Real-time systems** — production firmware for 5G/6G platforms under hard real-time constraints; perf, ftrace, eBPF performance analysis on ARM multi-core
 - **Medical biosensor drivers** — IIO drivers for ECG/PPG (MAX86150) and EEG precision ADC (ADS1299) under active upstream review
 - **AI accelerator kernel interface** — patches to DRM/Accel subsystem for AMD Ryzen AI NPU and Intel VPU
-- **Zephyr RTOS** — MAX30101 SpO₂/heart-rate driver merged mainline (PR [#108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697))
+- **Zephyr RTOS** — MAX30101 SpO₂/heart-rate driver merged mainline (PR [#108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697)); INA237 power monitor `sample_fetch` triggered-mode fix under review (PR [#110094](https://github.com/zephyrproject-rtos/zephyr/pull/110094))
 - **Quantum computing** — contributor to [D-Wave Ocean SDK](https://github.com/dwavesystems/dwave-ocean-sdk) (PR [#453](https://github.com/dwavesystems/dwave-ocean-sdk/pull/453) merged) and [Qiskit](https://github.com/Qiskit/qiskit) (PR [#16590](https://github.com/Qiskit/qiskit/pull/16590) — memory safety fix in C API); interested in quantum hardware control systems and embedded software for cryogenic platforms
 
 ---
