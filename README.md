@@ -58,6 +58,17 @@ Full patch history: [lore.kernel.org/all/?q=Md+Shofiqul+Islam](https://lore.kern
 
 ---
 
+## Zephyr RTOS Contributions
+
+| Driver | Contribution | Status |
+|---|---|---|
+| MAX30101 | SpO₂ / heart-rate optical sensor driver | [PR #108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697) — Merged |
+| INA237 | Power monitor — fix `sample_fetch` in triggered mode | [PR #110094](https://github.com/zephyrproject-rtos/zephyr/pull/110094) — Merged |
+
+Also active reviewing open sensor driver PRs in `drivers/sensor/` — bmp581, bmp180, scd4x, lsm9ds1, sensor shell.
+
+---
+
 ## Quantum Computing Contributions
 
 | Project | Contribution | Status |
