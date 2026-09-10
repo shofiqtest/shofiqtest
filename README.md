@@ -69,6 +69,14 @@ Also active reviewing open sensor driver PRs in `drivers/sensor/` — bmp581, bm
 
 ---
 
+## U-Boot Contributions
+
+| Area | Contribution | Status |
+|---|---|---|
+| `board/ge/common/vpd_reader.c` | Fix `errloc` array size in `verify_bch()` — was allocated with `data_length` entries instead of `ecc_bits`, orders of magnitude larger than needed | [Merged](https://github.com/u-boot/u-boot/commit/d2d005a32b97) |
+
+---
+
 ## Quantum Computing Contributions
 
 | Project | Contribution | Status |
