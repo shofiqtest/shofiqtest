@@ -15,6 +15,22 @@ Espoo, Finland &nbsp;·&nbsp; Open to roles in Europe (Ireland · Germany · Net
 
 ---
 
+## Featured AI / AIOps Project
+
+### [Evidence-First Incident Agent](https://github.com/shofiqtest/evidence-first-incident-agent)
+
+[![Incident Agent CI](https://github.com/shofiqtest/evidence-first-incident-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/shofiqtest/evidence-first-incident-agent/actions/workflows/ci.yml)
+
+A personal Python/FastAPI project connecting systems debugging and automation with AI-assisted incident investigation. It collects synthetic metrics, logs, traces, deployment changes and runbooks through a fixed, read-only workflow, then produces reports with ranked hypotheses, evidence citations, uncertainty and abstention.
+
+- **Built to inspect:** CLI and API access to the observations behind each citation.
+- **Validated:** 40 automated tests, 90% local test coverage, and Docker build/API smoke checks in GitHub Actions.
+- **Optional LLM integration:** OpenAI-compatible endpoints, including Ollama. Published evaluation covers 20 synthetic scenarios using the offline heuristic; LLM response handling is tested with mocked endpoints.
+
+[Explore the project and run the demo](https://github.com/shofiqtest/evidence-first-incident-agent#quickstart)
+
+---
+
 ## What I work on
 
 I develop low-level software for the places where hardware meets the operating system — Linux kernel drivers, bootloaders, real-time firmware, and embedded platform software.
