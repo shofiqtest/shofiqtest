@@ -31,6 +31,56 @@ A personal Python/FastAPI project connecting systems debugging and automation wi
 
 ---
 
+## Project Directory
+
+Public projects across [shofiqtest](https://github.com/shofiqtest?tab=repositories) and my [kernel-medical](https://github.com/kernel-medical) organization.
+
+### Software and engineering projects
+
+| Project | Focus | What is in the repository |
+|---|---|---|
+| [Evidence-First Incident Agent](https://github.com/shofiqtest/evidence-first-incident-agent) | Python, FastAPI, AI/AIOps | Incident investigation over synthetic telemetry, optional LLM integration, evidence-cited reports, automated evaluation and Docker CI. |
+| [High-Performance Event Engine](https://github.com/shofiqtest/high-performance-event-engine) | C++, concurrency, performance | Sensor-event simulation and benchmark with multiple producers and consumers, a bounded atomic queue, and throughput/latency reporting. |
+| [Patient Monitoring Prototype](https://github.com/shofiqtest/real-time-patient-monitoring-k8s) | Python, FastAPI, containers | Patient-record APIs, PostgreSQL/Redis integration, and Docker, Kubernetes, Helm and Terraform configurations. |
+| [Linux Kernel Patch Archive](https://github.com/shofiqtest/linux-kernel-patches) | C, Linux kernel | Patch files covering driver cleanup, resource handling and a proposed MAX86150 IIO biosensor driver; upstream contribution evidence is linked below. |
+| [Route Simulator Concept](https://github.com/shofiqtest/--Route-Simulator) | Geographical simulation concept | README outlining constant-speed movement along a repeating route defined by geographical points. |
+
+### Kernel Medical projects
+
+| Project | Focus | What is in the repository |
+|---|---|---|
+| [kernel-soup-gen](https://github.com/kernel-medical/kernel-soup-gen) | Python, source analysis | Generates Markdown SOUP record drafts from Linux driver metadata, Kconfig dependencies, maintainer information and Git history. |
+| [ros2_iio_medical](https://github.com/kernel-medical/ros2_iio_medical) | C++, ROS 2, Linux IIO | ROS 2 nodes for sysfs polling and triggered-buffer acquisition, with configurable topics, a synthetic sensor simulator and channel-parser tests. |
+| [iec62304-embedded-drivers](https://github.com/kernel-medical/iec62304-embedded-drivers) | Software lifecycle documentation | Reference requirements, design, SOUP, FMEA and lifecycle documents for embedded biosensor drivers and ROS 2 integration. |
+| [linux-medical-bsp](https://github.com/kernel-medical/linux-medical-bsp) | Embedded Linux portfolio | Landing page describing medical Linux BSP services, related projects and driver case studies. |
+| [kernel-medical.github.io](https://github.com/kernel-medical/kernel-medical.github.io) | Interactive engineering portfolio | Project and contribution links, with synthetic biosignal visualizations and system architecture. [Visit the site](https://kernel-medical.github.io). |
+
+### Profile and earlier portfolio work
+
+| Repository | Purpose |
+|---|---|
+| [GitHub Profile](https://github.com/shofiqtest/shofiqtest) | This profile README and project directory. |
+| [Earlier Linux Medical BSP Page](https://github.com/shofiqtest/linux-medical-bsp) | Earlier static landing page for the Linux medical software initiative; current projects are maintained under kernel-medical. |
+
+<details>
+<summary><strong>Upstream forks and learning repositories</strong></summary>
+
+These repositories are forks of their respective upstream projects. Specific contributions and review links are documented in the contribution sections below.
+
+| Fork | Upstream project | Area |
+|---|---|---|
+| [linux](https://github.com/shofiqtest/linux) | [Linux](https://github.com/torvalds/linux) | Kernel source and driver development. |
+| [zephyr](https://github.com/shofiqtest/zephyr) | [Zephyr RTOS](https://github.com/zephyrproject-rtos/zephyr) | Embedded RTOS and sensor drivers. |
+| [u-boot](https://github.com/shofiqtest/u-boot) | [U-Boot](https://github.com/u-boot/u-boot) | Bootloader and platform software. |
+| [qiskit](https://github.com/shofiqtest/qiskit) | [Qiskit](https://github.com/Qiskit/qiskit) | Quantum computing SDK. |
+| [sonic-utilities](https://github.com/shofiqtest/sonic-utilities) | [SONiC Utilities](https://github.com/sonic-net/sonic-utilities) | Network operating-system command-line tools. |
+| [SlicerIGT](https://github.com/shofiqtest/SlicerIGT) | [SlicerIGT](https://github.com/SlicerIGT/SlicerIGT) | Image-guided intervention modules for 3D Slicer. |
+| [Medical-Shop-Management](https://github.com/shofiqtest/Medical-Shop-Management) | [Medical-Shop-Management](https://github.com/sanghis96/Medical-Shop-Management) | C++ medical-shop management example. |
+
+</details>
+
+---
+
 ## What I work on
 
 I develop low-level software for the places where hardware meets the operating system — Linux kernel drivers, bootloaders, real-time firmware, and embedded platform software.
@@ -107,7 +157,7 @@ Also active reviewing open sensor driver PRs in `drivers/sensor/` — bmp581, bm
 **Languages**
 
 ![C](https://img.shields.io/badge/C-expert%20%7C%20kernel%20%26%20bare--metal-555?style=flat&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-17%2F20%20production-00599C?style=flat&logo=cplusplus&logoColor=white)
+![C++](https://img.shields.io/badge/C++-production-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-automation%20%26%20tooling-3776AB?style=flat&logo=python&logoColor=white)
 
 **Embedded Linux Platform**
