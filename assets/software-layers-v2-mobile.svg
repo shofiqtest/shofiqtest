@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1650" viewBox="0 0 720 1650" role="img" aria-labelledby="title description" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">From board bring-up to application software</title>
+  <desc id="description">A mobile-friendly vertical map of Md Shofiqul Islam's work. Board and SoC hardware connects through alternative Embedded Linux and Zephyr RTOS paths to C and C++ libraries, real-time software, ROS 2 and Python services, then applications. System design, integration, debugging and validation span the stack.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f9fc"/>
+      <stop offset="1" stop-color="#eef4f8"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#102f49"/>
+      <stop offset="1" stop-color="#145c63"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#16324a" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#557387"/>
+    </marker>
+  </defs>
+
+  <rect width="720" height="1650" rx="22" fill="url(#background)"/>
+  <text x="28" y="49" font-size="34" font-weight="700" fill="#102a43">From board to application software</text>
+  <text x="28" y="84" font-size="24" fill="#526779">Embedded platforms, real-time software and services</text>
+
+  <!-- Hardware -->
+  <rect x="28" y="113" width="664" height="189" rx="17" fill="#ffffff" stroke="#afc2d0" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="28" y="113" width="9" height="189" rx="4.5" fill="#27689b"/>
+  <circle cx="75" cy="160" r="24" fill="#e5f0f8"/>
+  <path d="M64 151 H86 V169 H64 Z M59 155 H64 M59 161 H64 M59 167 H64 M86 155 H91 M86 161 H91 M86 167 H91" fill="none" stroke="#27689b" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="115" y="165" font-size="34" font-weight="700" fill="#173b5a">Board / SoC and peripherals</text>
+  <text x="56" y="213" font-size="25" fill="#40586b">Board bring-up, ARM / x86 SoCs</text>
+  <text x="56" y="250" font-size="25" fill="#40586b">I2C, SPI, ADC, interrupts and DMA</text>
+  <text x="56" y="283" font-size="24" fill="#526779">Hardware interfaces and target debugging</text>
+
+  <path d="M360 302 V337" fill="none" stroke="#557387" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Alternative platform paths -->
+  <rect x="28" y="347" width="664" height="518" rx="18" fill="#f8fafc" stroke="#9fb7c8" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="360" y="381" text-anchor="middle" font-size="21" font-weight="700" letter-spacing="1.5" fill="#667d8d">ALTERNATIVE PLATFORM PATHS</text>
+
+  <rect x="54" y="401" width="612" height="184" rx="16" fill="#edf5fb" stroke="#9fbdd1" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="54" y="401" width="9" height="184" rx="4.5" fill="#27689b"/>
+  <text x="84" y="445" font-size="34" font-weight="700" fill="#173b5a">Embedded Linux</text>
+  <text x="84" y="490" font-size="25" fill="#36566f">U-Boot and Device Tree</text>
+  <text x="84" y="528" font-size="25" fill="#36566f">Yocto / OpenEmbedded BSP</text>
+  <text x="84" y="566" font-size="25" fill="#36566f">Kernel, drivers and upstream patches</text>
+
+  <rect x="310" y="602" width="100" height="45" rx="22.5" fill="#e4ebf1"/>
+  <text x="360" y="632" text-anchor="middle" font-size="24" font-weight="700" fill="#607789">OR</text>
+
+  <rect x="54" y="665" width="612" height="177" rx="16" fill="#eaf6f2" stroke="#99c8ba" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="54" y="665" width="9" height="177" rx="4.5" fill="#15806b"/>
+  <text x="84" y="709" font-size="34" font-weight="700" fill="#11594d">Zephyr RTOS</text>
+  <text x="84" y="754" font-size="25" fill="#32675d">Sensor interfaces and drivers</text>
+  <text x="84" y="792" font-size="25" fill="#32675d">MAX30102 support</text>
+  <text x="84" y="830" font-size="25" fill="#32675d">INA237 triggered-mode fix</text>
+
+  <path d="M360 865 V898" fill="none" stroke="#557387" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Shared C/C++ layer -->
+  <rect x="28" y="904" width="664" height="190" rx="17" fill="#ffffff" stroke="#afc2d0" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="28" y="904" width="9" height="190" rx="4.5" fill="#27689b"/>
+  <text x="56" y="944" font-size="32" font-weight="700" fill="#173b5a">C / C++ libraries and</text>
+  <text x="56" y="979" font-size="32" font-weight="700" fill="#173b5a">real-time software</text>
+  <text x="56" y="1021" font-size="24" fill="#40586b">Component interfaces and signal processing</text>
+  <text x="56" y="1063" font-size="24" font-weight="600" fill="#2a536f">Nokia: channel estimation and real-time 5G RF/L1</text>
+
+  <path d="M360 1094 V1127" fill="none" stroke="#557387" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Services -->
+  <rect x="28" y="1133" width="664" height="141" rx="17" fill="#f0f4fa" stroke="#afc1d0" stroke-width="2" filter="url(#shadow)"/>
+  <text x="56" y="1177" font-size="34" font-weight="700" fill="#173b5a">Services</text>
+  <text x="56" y="1223" font-size="25" fill="#40586b">ROS 2 integration, Python / FastAPI and APIs</text>
+  <text x="56" y="1257" font-size="24" fill="#526779">Data flow between platform software and applications</text>
+
+  <path d="M360 1274 V1307" fill="none" stroke="#557387" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Applications -->
+  <rect x="28" y="1313" width="664" height="141" rx="17" fill="#eaf6f2" stroke="#99c8ba" stroke-width="2" filter="url(#shadow)"/>
+  <text x="56" y="1357" font-size="34" font-weight="700" fill="#11594d">Applications and tools</text>
+  <text x="56" y="1403" font-size="25" fill="#32675d">Monitoring applications and engineering tools</text>
+  <text x="56" y="1437" font-size="24" fill="#526779">Personal prototypes and validation tooling</text>
+
+  <!-- Responsibilities spanning the stack -->
+  <rect x="28" y="1483" width="664" height="139" rx="17" fill="url(#band)"/>
+  <text x="53" y="1519" font-size="18" font-weight="700" letter-spacing="1.3" fill="#9ed9cf">ACROSS EVERY LAYER</text>
+  <text x="53" y="1561" font-size="24" font-weight="700" fill="#ffffff">System design</text>
+  <circle cx="220" cy="1554" r="3.5" fill="#76b8b0"/>
+  <text x="241" y="1561" font-size="24" font-weight="700" fill="#ffffff">Integration</text>
+  <circle cx="374" cy="1554" r="3.5" fill="#76b8b0"/>
+  <text x="395" y="1561" font-size="24" font-weight="700" fill="#ffffff">Debugging</text>
+  <circle cx="541" cy="1554" r="3.5" fill="#76b8b0"/>
+  <text x="562" y="1561" font-size="24" font-weight="700" fill="#ffffff">Validation</text>
+  <text x="53" y="1603" font-size="24" fill="#d3e5e8">Interfaces, timing, failure handling and test evidence</text>
+</svg>

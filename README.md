@@ -2,16 +2,21 @@
 
 # Md Shofiqul Islam
 
-**Embedded Linux and SoC Software Engineer | System Design**
+**Embedded Linux and SoC Software Engineer**
 
-Espoo, Finland &nbsp;·&nbsp; Open to roles in Europe (Ireland · Germany · Netherlands · Sweden)
+`C/C++` &nbsp;·&nbsp; `Embedded Linux` &nbsp;·&nbsp; `RTOS` &nbsp;·&nbsp; `SoC` &nbsp;·&nbsp; `System Design`
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-mdshofiqul-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/mdshofiqul/)
-[![Kernel Patches](https://img.shields.io/badge/Linux%20Kernel-15%20patches%20merged-F8A800?style=flat&logo=linux&logoColor=white)](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
-[![DPDK](https://img.shields.io/badge/DPDK-26.07%20new%20contributor-0A7D43?style=flat)](https://mails.dpdk.org/archives/announce/2026-July/000565.html)
-[![Website](https://img.shields.io/badge/Website-kernel--medical.github.io-4CAF50?style=flat&logo=github)](https://kernel-medical.github.io)
+Espoo, Finland &nbsp;·&nbsp; Finnish permanent resident &nbsp;·&nbsp; Open to embedded and systems software roles in Europe
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-245A86?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mdshofiqul/)
+[![Linux Kernel](https://img.shields.io/badge/Linux%20Kernel-Contributor-245A86?style=flat&logo=linux&logoColor=white)](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
+[![Zephyr RTOS](https://img.shields.io/badge/Zephyr%20RTOS-Contributor-245A86?style=flat)](https://github.com/zephyrproject-rtos/zephyr/pulls?q=author%3Ashofiqtest)
+[![DPDK](https://img.shields.io/badge/DPDK-Contributor-245A86?style=flat)](https://mails.dpdk.org/archives/announce/2026-July/000565.html)
 
 **[Embedded Linux and Software Portfolio](https://kernel-medical.github.io/linux-medical-bsp/)**
+
+**4+ years at Nokia** &nbsp;|&nbsp; **11 mainline Linux commits**<br>
+**2 merged Zephyr changes** &nbsp;|&nbsp; **Merged U-Boot and DPDK fixes**
 
 </div>
 
@@ -19,84 +24,72 @@ Espoo, Finland &nbsp;·&nbsp; Open to roles in Europe (Ireland · Germany · Net
 
 ## What I work on
 
-I am an embedded Linux and SoC software engineer based in Espoo, Finland. At Nokia, I worked on C/C++ platform and signal-processing software for real-time 5G RF/L1 systems. My work included a channel-estimation library, hardware integration, RTOS/Linux debugging and Python tools for validation.
-
-I also contribute to Linux, Zephyr RTOS, U-Boot and DPDK, with patches covering drivers, error handling and resource cleanup. My open-source work extends to quantum software through Qiskit and D-Wave Ocean. Alongside this, I build personal projects in C++ concurrency, ROS 2, Python services and AI-assisted incident investigation. You can find the repositories and contribution links further down this page.
+- **Embedded platforms:** I work from board bring-up and kernel/RTOS integration to C/C++ components and application services.
+- **Real-time product software:** At Nokia, I worked on 5G RF/L1 and SoC platform software, including channel estimation, hardware integration, target debugging and Python validation tools.
+- **Public engineering work:** I contribute to Linux, Zephyr RTOS, U-Boot and DPDK, and build projects in C++ concurrency, ROS 2, Python services and AI-assisted incident investigation.
 
 ---
 
 ## Tech Stack
 
-I mainly write C and C++, with Python and Bash for automation and tooling.
-
-- **Platforms and drivers:** Embedded Linux, Yocto/OpenEmbedded, U-Boot, Device Tree, Linux IIO and Zephyr RTOS.
-- **Networking:** DPDK, NXP DPAA2, SONiC tooling and Linux network drivers.
-- **Architecture:** ARM64; RISC-V coursework through the Linux Foundation.
-- **Debugging:** GDB, JTAG/SWD, perf, ftrace and eBPF.
-- **Build and validation:** Git, GitHub Actions, Jenkins and Python.
-- **Application projects:** ROS 2, FastAPI and Docker.
+- **Core:** C, C++, Python and Bash; Embedded Linux, RTOS and real-time software.
+- **Platforms and drivers:** Yocto/OpenEmbedded, U-Boot, Device Tree, Linux IIO, Zephyr RTOS and ARM64 SoCs.
+- **Integration and debugging:** Hardware/software interfaces, GDB, JTAG, logs, traces, perf and ftrace.
+- **Networking and applications:** DPDK, NXP DPAA2, SONiC tooling, ROS 2, FastAPI and Docker.
+- **Build and validation:** Git, CMake, BitBake, Jenkins, GitHub Actions, Robot Framework and automated regression testing.
+- **Additional work:** RISC-V coursework and quantum-software contributions through Qiskit and D-Wave Ocean.
 
 ---
 
 ## From Board Bring-Up to Application Software
 
-My work covers software from board bring-up to the application layer. On embedded Linux, I work with U-Boot, Device Tree, Yocto/OpenEmbedded BSPs, the kernel and device drivers. I also contribute to Zephyr RTOS sensor drivers, including MAX30101 and INA237. Above the platform, I work with C/C++ libraries, real-time software, system services and the interfaces between components.
+My work covers the full path from board bring-up to application software. At the platform layer, I work with U-Boot, Device Tree, Yocto/OpenEmbedded, Linux kernel drivers and Zephyr RTOS sensor interfaces. Above that, I develop C/C++ libraries, real-time software, system services and the interfaces between components.
 
-System design connects these layers: how data moves, where timing matters, how components handle failures and how to test the system. My Nokia experience includes platform and signal-processing software for real-time 5G RF/L1 systems. My personal projects cover ROS 2 integration, Python/FastAPI services, monitoring prototypes and incident-investigation tools.
+System design connects these layers: how data moves, where timing matters, how failures are handled and how the result is tested. My Nokia work provides the production foundation; my open-source and personal projects extend it into sensor drivers, ROS 2 integration, Python/FastAPI services and engineering tools.
 
-My DPDK contributions focus on NXP DPAA2 bus and DMA device-removal paths and error handling. DPDK provides user-space libraries and drivers for fast packet processing in [data center, cloud, edge and telecom networking](https://www.dpdk.org/ecosystem/use-cases/).
+<picture>
+  <source media="(max-width: 700px)" srcset="assets/software-layers-mobile.png">
+  <img src="assets/software-layers-v2.png" alt="Board-to-application software map showing hardware, alternative Embedded Linux and Zephyr RTOS paths, C/C++ real-time software, services and applications. System design, integration, debugging and validation span every layer.">
+</picture>
 
-My quantum software contributions include a proposed C API memory-safety fix for Qiskit and a merged documentation update for D-Wave Ocean. The contribution links below show the scope and status of this work.
+---
 
-![Software layers from board bring-up through parallel Linux and Zephyr platform paths to C/C++ libraries, middleware and applications. System design, integration, debugging and validation span the layers. DPDK user-space networking for data centers and quantum software contributions in Qiskit and D-Wave Ocean are shown alongside the stack.](assets/software-layers.svg)
+## Selected Projects
 
-The diagram reads from top to bottom and maps my work across different projects. Linux and Zephyr are alternative platform paths; the application examples come from my Linux and Python projects.
+- **[Linux Medical BSP](https://kernel-medical.github.io/linux-medical-bsp/):** Embedded Linux portfolio connecting BSP, driver, sensor-integration and lifecycle-documentation work.
+- **[ROS 2 IIO Medical](https://github.com/kernel-medical/ros2_iio_medical):** C++ ROS 2 nodes for Linux IIO polling and triggered-buffer acquisition, with a synthetic sensor simulator and parser tests.
+- **[Evidence-First Incident Agent](https://github.com/shofiqtest/evidence-first-incident-agent):** Python/FastAPI incident investigation over synthetic telemetry, with evidence-linked reports and a CI-backed automated test suite.
+- **[High-Performance Event Engine](https://github.com/shofiqtest/high-performance-event-engine):** C++ concurrency and performance project with a bounded atomic queue and throughput/latency reporting.
 
 ---
 
 ## Linux Kernel Contributions
 
-| Subsystem | Area | Status |
-|---|---|---|
-| **IIO** | MAX86150 ECG/PPG biosensor driver (512 lines) | Under review |
-| **IIO** | ADS1299 8-channel EEG ADC driver | Under review |
-| **DRM/Accel** | AMD Ryzen AI NPU · Intel VPU | Merged |
-| **net-next** | Intel igb · iwlwifi driver fixes | Merged |
-| **ASoC** | Audio codec driver fixes (nau8825, Atmel) | Merged |
-| **SCSI** | Hyper-V storvsc (Microsoft) | Merged |
-| **XFS / GFS2** | Filesystem fixes (Red Hat) | Merged |
-| **Power supply** | Driver fixes | Merged |
-| **SoC / TI** | Keystone resource management | Merged |
+- **Sensor and ADC work:** Three merged TI ADS1298 fixes; MAX86150 ECG/PPG and ADS1299 biopotential ADC drivers under review.
+- **Platform and data-path fixes:** Merged resource cleanup for TI Keystone SoC and a permissions fix for Hyper-V storage.
+- **Additional mainline work:** ASoC, SCSI, XFS, SCTP, MFD and power-supply maintenance fixes.
 
-Full patch history: [lore.kernel.org/all/?q=Md+Shofiqul+Islam](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
+[Mainline commits](https://github.com/torvalds/linux/commits/master/?author=shofiqtest) · [Patch archive](https://github.com/shofiqtest/linux-kernel-patches) · [Mailing-list history](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
 
 ---
 
 ## Zephyr RTOS Contributions
 
-| Driver | Contribution | Status |
-|---|---|---|
-| MAX30101 | SpO₂ / heart-rate optical sensor driver | [PR #108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697): Merged |
-| INA237 | Power monitor: fix `sample_fetch` in triggered mode | [PR #110094](https://github.com/zephyrproject-rtos/zephyr/pull/110094): Merged |
-
-Also active reviewing open sensor driver PRs in `drivers/sensor/`: bmp581, bmp180, scd4x, lsm9ds1, sensor shell.
+- **[MAX30102 support](https://github.com/zephyrproject-rtos/zephyr/pull/108697):** Added MAX30102 support to the existing MAX30101-family optical sensor driver. Merged.
+- **[INA237 sampling fix](https://github.com/zephyrproject-rtos/zephyr/pull/110094):** Made triggered-mode `sample_fetch` wait for conversion readiness before returning data. Merged.
 
 ---
 
 ## U-Boot Contributions
 
-| Area | Contribution | Status |
-|---|---|---|
-| `board/ge/common/vpd_reader.c` | Fix `errloc` array size in `verify_bch()`: was allocated with `data_length` entries instead of `ecc_bits`, orders of magnitude larger than needed | [Merged](https://github.com/u-boot/u-boot/commit/d2d005a32b97) |
+- **[`board/ge/common/vpd_reader.c`](https://github.com/u-boot/u-boot/commit/d2d005a32b97):** Corrected the `errloc` allocation in `verify_bch()` to use `ecc_bits` rather than the much larger `data_length`. Merged.
 
 ---
 
 ## Quantum Computing Contributions
 
-| Project | Contribution | Status |
-|---|---|---|
-| **[Qiskit](https://github.com/Qiskit/qiskit)** (IBM Quantum) | [PR #16590](https://github.com/Qiskit/qiskit/pull/16590): fix UB writing to uninitialized buffers in transpile layout C API; replace `slice::from_raw_parts_mut` over uninit memory with safe `ptr.add(i).write()` | Open |
-| **[D-Wave Ocean SDK](https://github.com/dwavesystems/dwave-ocean-sdk)** | [PR #453](https://github.com/dwavesystems/dwave-ocean-sdk/pull/453): docs: add Advantage2 mention alongside Advantage in overview | Merged |
+- **[Qiskit PR #16590](https://github.com/Qiskit/qiskit/pull/16590):** Proposed a memory-safety fix for writes to uninitialized buffers in the transpile-layout C API. Open.
+- **[D-Wave Ocean SDK PR #453](https://github.com/dwavesystems/dwave-ocean-sdk/pull/453):** Added Advantage2 to the SDK overview documentation. Merged.
 
 ---
 
@@ -104,17 +97,21 @@ Also active reviewing open sensor driver PRs in `drivers/sensor/`: bmp581, bmp18
 
 My DPDK work covers NXP DPAA2 bus and DMA code, including device-removal and error-handling fixes. This is part of my open-source work on the platform software behind high-performance networking.
 
-| Contribution | Area | Public evidence |
-|---|---|---|
-| NXP DPAA2 bus/DMA fixes | `bus/fslmc`, `dma/dpaa2`, device removal and unplug error paths | [DPDK patch review and test thread](https://mails.dpdk.org/archives/dev/2026-August/342708.html) |
-| DPDK contributor listing | DPDK 26.07 release | [Release announcement listing new contributors](https://mails.dpdk.org/archives/announce/2026-July/000565.html) |
-| SONiC network OS tooling | PFC Watchdog CLI crash handling and partial `PFC_WD` database entries | GitHub project work |
+- **[DPAA2 DMA removal](https://github.com/DPDK/dpdk/commit/611ef29e2c768bcede197996ddd9c5a37cf1a243):** Propagates device-removal failures so callers can handle them.
+- **[FSLMC bus unplug](https://github.com/DPDK/dpdk/commit/180b4c70c422580d1dd4b8094366c2186b3a04a9):** Clears driver references only after successful removal.
+- **[DPDK 26.07 contributor listing](https://mails.dpdk.org/archives/announce/2026-July/000565.html):** Listed among the release's new contributors.
+- **SONiC PFC Watchdog:** [Handled incomplete `PFC_WD` database entries](https://github.com/shofiqtest/sonic-utilities/commit/705b59313b42b18c0dbd047536d08819015034df) and [fixed the related regression assertion](https://github.com/shofiqtest/sonic-utilities/commit/8371bbe45e03e9fbb3fa22cdf74a4e29d17be84a).
+
+<details>
+<summary><strong>View how DPDK supports data-center packet processing</strong></summary>
+
+<br>
 
 ![How DPDK helps a data center: traffic passes through NIC receive queues, a DPDK user-space application and transmit queues to workloads. Polling, packet bursts, assigned CPU cores and local buffers can reduce overhead and improve capacity. My NXP DPAA2 fixes propagate device-removal failures through the DMA and bus layers so callers can handle them.](assets/dpdk-data-center.svg)
 
-This example shows how DPDK can support data center network services. My DPAA2 fixes address device lifecycle reliability: removal failures reach the caller, and driver references are cleared only after successful removal.
+Technical background: [DPDK poll-mode drivers](https://doc.dpdk.org/guides/prog_guide/ethdev/ethdev.html) and [data center use cases](https://www.dpdk.org/ecosystem/use-cases/). [Download the diagram](assets/dpdk-data-center.png).
 
-[Download the image](assets/dpdk-data-center.png). Technical background: [DPDK poll-mode drivers](https://doc.dpdk.org/guides/prog_guide/ethdev/ethdev.html) and [data center use cases](https://www.dpdk.org/ecosystem/use-cases/). My patches: [DPAA2 DMA removal](https://github.com/DPDK/dpdk/commit/611ef29e2c768bcede197996ddd9c5a37cf1a243) and [FSLMC bus unplug](https://github.com/DPDK/dpdk/commit/180b4c70c422580d1dd4b8094366c2186b3a04a9).
+</details>
 
 ---
 
@@ -126,31 +123,14 @@ This example shows how DPDK can support data center network services. My DPAA2 f
 
 ---
 
-## Areas I am interested in
+## Full Project Directory
 
-I am interested in embedded and systems software, real-time communications, networking, robotics and application development. I also follow work on AI accelerators, RISC-V and quantum software.
+I keep my public projects under [shofiqtest](https://github.com/shofiqtest?tab=repositories) and [kernel-medical](https://github.com/kernel-medical). Every project remains listed here without making the main profile harder to scan.
 
----
+<details>
+<summary><strong>View all projects and repositories</strong></summary>
 
-## Featured AI / AIOps Project
-
-### [Evidence-First Incident Agent](https://github.com/shofiqtest/evidence-first-incident-agent)
-
-[![Incident Agent CI](https://github.com/shofiqtest/evidence-first-incident-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/shofiqtest/evidence-first-incident-agent/actions/workflows/ci.yml)
-
-I built this project to explore how an incident-investigation tool can explain a diagnosis using the evidence it collected. It reads synthetic metrics, logs, traces, deployment records and runbooks through a fixed, read-only workflow. The report ranks possible causes, links them to evidence and identifies uncertainty. It can also abstain when there is not enough evidence.
-
-The project has a FastAPI API, a CLI and a Docker setup. It has 40 automated tests and 90% local test coverage. GitHub Actions also builds the container and checks the API.
-
-The default reasoner uses an offline heuristic. There is an optional OpenAI-compatible interface for models served by Ollama or another endpoint. The published evaluation covers 20 synthetic fixtures using the heuristic; the LLM response handling is tested with mocked endpoints.
-
-[Run the demo](https://github.com/shofiqtest/evidence-first-incident-agent#quickstart)
-
----
-
-## Project Directory
-
-I keep my public projects under [shofiqtest](https://github.com/shofiqtest?tab=repositories) and [kernel-medical](https://github.com/kernel-medical). The list below includes working prototypes, documentation, portfolio pages and earlier ideas.
+<br>
 
 ### Software and engineering projects
 
@@ -193,6 +173,8 @@ These are my forks of upstream projects. Links to my patches and reviews are in 
 | [sonic-utilities](https://github.com/shofiqtest/sonic-utilities) | [SONiC Utilities](https://github.com/sonic-net/sonic-utilities) | Network operating-system command-line tools. |
 | [SlicerIGT](https://github.com/shofiqtest/SlicerIGT) | [SlicerIGT](https://github.com/SlicerIGT/SlicerIGT) | Image-guided intervention modules for 3D Slicer. |
 | [Medical-Shop-Management](https://github.com/shofiqtest/Medical-Shop-Management) | [Medical-Shop-Management](https://github.com/sanghis96/Medical-Shop-Management) | C++ medical-shop management example. |
+
+</details>
 
 </details>
 
