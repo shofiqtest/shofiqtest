@@ -15,8 +15,8 @@ Espoo, Finland &nbsp;·&nbsp; Finnish permanent resident &nbsp;·&nbsp; Open to 
 
 **[Embedded Linux and Software Portfolio](https://kernel-medical.github.io/linux-medical-bsp/)**
 
-**4+ years at Nokia** &nbsp;|&nbsp; **11 mainline Linux commits**<br>
-**2 merged Zephyr changes** &nbsp;|&nbsp; **Merged U-Boot and DPDK fixes**
+**5+ years in embedded software** &nbsp;|&nbsp; **11 commits in mainline Linux**<br>
+**Nokia and Etteplan experience** &nbsp;|&nbsp; **Merged Zephyr, U-Boot and DPDK contributions**
 
 </div>
 
@@ -25,7 +25,7 @@ Espoo, Finland &nbsp;·&nbsp; Finnish permanent resident &nbsp;·&nbsp; Open to 
 ## What I work on
 
 - **Embedded platforms:** I work from board bring-up and kernel/RTOS integration to C/C++ components and application services.
-- **Real-time product software:** At Nokia, I worked on 5G RF/L1 and SoC platform software, including channel estimation, hardware integration, target debugging and Python validation tools.
+- **Production engineering:** At Nokia, I worked on 5G RF/L1 and SoC platform software, including channel estimation, hardware integration, target debugging and Python validation tools. At Etteplan, I developed Python and Robot Framework test automation for embedded systems.
 - **Public engineering work:** I contribute to Linux, Zephyr RTOS, U-Boot and DPDK, and build projects in C++ concurrency, ROS 2, Python services and AI-assisted incident investigation.
 
 ---
