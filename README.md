@@ -11,7 +11,7 @@ Espoo, Finland &nbsp;·&nbsp; Open to roles in Europe (Ireland · Germany · Net
 [![DPDK](https://img.shields.io/badge/DPDK-26.07%20new%20contributor-0A7D43?style=flat)](https://mails.dpdk.org/archives/announce/2026-July/000565.html)
 [![Website](https://img.shields.io/badge/Website-kernel--medical.github.io-4CAF50?style=flat&logo=github)](https://kernel-medical.github.io)
 
-**[Embedded Linux & Medical Software Portfolio](https://kernel-medical.github.io/linux-medical-bsp/)**
+**[Embedded Linux and Software Portfolio](https://kernel-medical.github.io/linux-medical-bsp/)**
 
 </div>
 
@@ -21,15 +21,21 @@ Espoo, Finland &nbsp;·&nbsp; Open to roles in Europe (Ireland · Germany · Net
 
 I am an embedded Linux and SoC software engineer based in Espoo, Finland. At Nokia, I worked on C/C++ platform and signal-processing software for real-time 5G RF/L1 systems. My work included a channel-estimation library, hardware integration, RTOS/Linux debugging and Python tools for validation.
 
-I also contribute to Linux, Zephyr, U-Boot and DPDK. My patches cover sensor drivers, error handling and resource cleanup. Alongside this, I build personal projects around medical sensors, ROS 2 and Python applications. You can find the repositories and contribution links further down this page.
+I also contribute to Linux, Zephyr RTOS, U-Boot and DPDK, with patches covering drivers, error handling and resource cleanup. My open-source work extends to quantum software through Qiskit and D-Wave Ocean. Alongside this, I build personal projects in C++ concurrency, ROS 2, Python services and AI-assisted incident investigation. You can find the repositories and contribution links further down this page.
 
 ---
 
 ## From Board Bring-Up to Application Software
 
-My work spans the path from a board starting up to the application using its data. At the platform level, that means board bring-up, U-Boot, Device Tree, Yocto/OpenEmbedded BSPs and device drivers. Above that, I work with C/C++ libraries, real-time software, system services and the interfaces between components.
+My work covers software from board bring-up to the application layer. On embedded Linux, I work with U-Boot, Device Tree, Yocto/OpenEmbedded BSPs, the kernel and device drivers. I also contribute to Zephyr RTOS sensor drivers, including MAX30101 and INA237. Above the platform, I work with C/C++ libraries, real-time software, system services and the interfaces between components.
 
-System design is part of this work: deciding how data moves, where timing matters, what happens when a component fails and how to test the result. My Nokia experience is in platform software and system debugging. My personal ROS 2 and Python/FastAPI projects extend that work into sensor integration and application services.
+System design connects these layers: how data moves, where timing matters, how components handle failures and how to test the system. My Nokia experience includes platform and signal-processing software for real-time 5G RF/L1 systems. My personal projects cover ROS 2 integration, Python/FastAPI services, monitoring prototypes and incident-investigation tools.
+
+My quantum software contributions include a proposed C API memory-safety fix for Qiskit and a merged documentation update for D-Wave Ocean. The contribution links below show the scope and status of this work.
+
+![Software layers from board bring-up through parallel Linux and Zephyr platform paths to C/C++ libraries, middleware and applications. System design, integration, debugging and validation span the layers. Quantum software contributions in Qiskit and D-Wave Ocean are shown alongside the stack.](assets/software-layers.svg)
+
+The diagram reads from top to bottom and maps my work across different projects. Linux and Zephyr are alternative platform paths; the application examples come from my Linux and Python projects.
 
 ---
 
@@ -112,7 +118,7 @@ I mainly write C and C++, with Python and Bash for automation and tooling.
 
 ## Areas I am interested in
 
-I am interested in work where software has to interact closely with hardware: embedded Linux, medical sensors, real-time communications, robotics and networking. I also follow work on AI accelerators, RISC-V and quantum computing hardware.
+I am interested in embedded and systems software, real-time communications, networking, robotics and application development. I also follow work on AI accelerators, RISC-V and quantum software.
 
 ---
 

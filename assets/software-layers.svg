@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1280" viewBox="0 0 1080 1280" role="img" aria-labelledby="title description" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">From board bring-up to application software</title>
+  <desc id="description">A map of Md Shofiqul Islam's work across different projects. Read from top to bottom: board bring-up, alternative Linux and Zephyr platform paths, C/C++ libraries and real-time software, then Linux and host middleware, services and applications. System design, integration, debugging and validation span the layers. Quantum software contributions to Qiskit and D-Wave Ocean appear in a separate panel.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 8 4 L 0 8 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1080" height="1280" rx="20" fill="#f3f6fb"/>
+  <text x="32" y="49" fill="#12233e" font-size="32" font-weight="700">From board to application</text>
+  <text x="32" y="82" fill="#526178" font-size="19">My software work, layer by layer, across different projects</text>
+
+  <!-- Layer 1: board bring-up -->
+  <rect x="32" y="116" width="716" height="112" rx="12" fill="#ffffff" stroke="#cad5e4"/>
+  <rect x="32" y="116" width="6" height="112" rx="3" fill="#2465a5"/>
+  <circle cx="67" cy="151" r="17" fill="#e9f1fc"/>
+  <text x="67" y="158" text-anchor="middle" font-size="19" font-weight="700" fill="#245c96">1</text>
+  <text x="98" y="159" font-size="23" font-weight="700" fill="#12233e">Hardware and board bring-up</text>
+  <text x="56" y="191" font-size="19" fill="#42546d">SoC platforms, peripherals and hardware integration</text>
+  <text x="56" y="216" font-size="19" fill="#42546d">Target debugging with GDB and JTAG/SWD</text>
+
+  <!-- Alternative platform routes, not stacked operating systems -->
+  <path d="M390 228 V249 H202 V276 M390 249 H578 V276" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M202 260 V276" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="32" y="280" width="340" height="202" rx="12" fill="#edf4ff" stroke="#acc4e5"/>
+  <circle cx="66" cy="316" r="17" fill="#d8e7fc"/>
+  <text x="66" y="323" text-anchor="middle" font-size="19" font-weight="700" fill="#245c96">2</text>
+  <text x="97" y="324" font-size="23" font-weight="700" fill="#173f72">Embedded Linux</text>
+  <text x="54" y="359" font-size="19" fill="#304f77">U-Boot and Device Tree</text>
+  <text x="54" y="389" font-size="19" fill="#304f77">Yocto/OpenEmbedded BSPs</text>
+  <text x="54" y="419" font-size="19" fill="#304f77">Linux kernel and device drivers</text>
+  <text x="54" y="456" font-size="17" fill="#4e6788">Platform work and upstream patches</text>
+
+  <rect x="408" y="280" width="340" height="202" rx="12" fill="#f3eeff" stroke="#c7b5e8"/>
+  <circle cx="442" cy="316" r="17" fill="#e5d9fb"/>
+  <text x="442" y="323" text-anchor="middle" font-size="19" font-weight="700" fill="#624094">2</text>
+  <text x="473" y="324" font-size="23" font-weight="700" fill="#543583">Zephyr RTOS</text>
+  <text x="430" y="359" font-size="19" fill="#5d477b">RTOS and sensor-driver interfaces</text>
+  <text x="430" y="389" font-size="19" fill="#5d477b">MAX30101 sensor driver</text>
+  <text x="430" y="419" font-size="19" fill="#5d477b">INA237 triggered-mode fix</text>
+  <text x="430" y="456" font-size="17" fill="#735d91">My upstream driver contributions</text>
+
+  <!-- Common software concerns across the alternative platforms -->
+  <path d="M202 482 V505 H390 V531 M578 482 V505 H390" fill="none" stroke="#64748b" stroke-width="2"/>
+  <path d="M390 517 V531" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="32" y="535" width="716" height="115" rx="12" fill="#ffffff" stroke="#cad5e4"/>
+  <circle cx="67" cy="570" r="17" fill="#e9f1fc"/>
+  <text x="67" y="577" text-anchor="middle" font-size="19" font-weight="700" fill="#245c96">3</text>
+  <text x="98" y="578" font-size="23" font-weight="700" fill="#12233e">Libraries and real-time software</text>
+  <text x="56" y="612" font-size="19" fill="#42546d">C/C++ libraries, signal processing and component interfaces</text>
+  <text x="56" y="638" font-size="18" fill="#526178">Nokia experience: channel estimation and 5G RF/L1 platforms</text>
+
+  <path d="M390 650 V704" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="238" y="666" width="304" height="25" fill="#f3f6fb"/>
+  <text x="390" y="684" text-anchor="middle" font-size="17" fill="#526178">Linux and host application projects</text>
+
+  <rect x="32" y="708" width="716" height="112" rx="12" fill="#ffffff" stroke="#cad5e4"/>
+  <circle cx="67" cy="743" r="17" fill="#e6f4f0"/>
+  <text x="67" y="750" text-anchor="middle" font-size="19" font-weight="700" fill="#166e60">4</text>
+  <text x="98" y="751" font-size="23" font-weight="700" fill="#12233e">Middleware and services</text>
+  <text x="56" y="785" font-size="19" fill="#42546d">ROS 2 integration, Python services and networking tools</text>
+  <text x="56" y="810" font-size="19" fill="#42546d">Data flow between drivers, libraries and application APIs</text>
+
+  <path d="M390 820 V858" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="32" y="862" width="716" height="126" rx="12" fill="#eaf6f2" stroke="#a9cfc2"/>
+  <circle cx="67" cy="897" r="17" fill="#d5eee4"/>
+  <text x="67" y="904" text-anchor="middle" font-size="19" font-weight="700" fill="#166e60">5</text>
+  <text x="98" y="905" font-size="23" font-weight="700" fill="#154c42">Applications and software tools</text>
+  <text x="56" y="939" font-size="19" fill="#315f54">FastAPI applications, monitoring and incident investigation</text>
+  <text x="56" y="971" font-size="18" fill="#496c63">Personal prototypes, automated evaluation and Docker</text>
+
+  <!-- Engineering responsibilities across all layers -->
+  <rect x="780" y="116" width="268" height="872" rx="12" fill="#142c46"/>
+  <text x="802" y="154" font-size="22" font-weight="700" fill="#ffffff">System design</text>
+  <text x="802" y="185" font-size="18" fill="#bad2e9">Across every layer</text>
+  <line x1="802" y1="209" x2="1026" y2="209" stroke="#37526c"/>
+
+  <text x="802" y="249" font-size="20" font-weight="600" fill="#ffffff">Interfaces and data</text>
+  <text x="802" y="280" font-size="18" fill="#c7d8e8">Component boundaries</text>
+  <text x="802" y="306" font-size="18" fill="#c7d8e8">Data flow and APIs</text>
+
+  <text x="802" y="372" font-size="20" font-weight="600" fill="#ffffff">Timing and resources</text>
+  <text x="802" y="403" font-size="18" fill="#c7d8e8">Latency and scheduling</text>
+  <text x="802" y="429" font-size="18" fill="#c7d8e8">Memory and performance</text>
+
+  <text x="802" y="495" font-size="20" font-weight="600" fill="#ffffff">Integration</text>
+  <text x="802" y="526" font-size="18" fill="#c7d8e8">Hardware and software</text>
+  <text x="802" y="552" font-size="18" fill="#c7d8e8">Failure and error handling</text>
+
+  <text x="802" y="618" font-size="20" font-weight="600" fill="#ffffff">Debugging</text>
+  <text x="802" y="649" font-size="18" fill="#c7d8e8">GDB, JTAG and logs</text>
+  <text x="802" y="675" font-size="18" fill="#c7d8e8">Tracing and profiling</text>
+
+  <text x="802" y="741" font-size="20" font-weight="600" fill="#ffffff">Validation</text>
+  <text x="802" y="772" font-size="18" fill="#c7d8e8">Python automation</text>
+  <text x="802" y="798" font-size="18" fill="#c7d8e8">Regression checks and CI</text>
+
+  <line x1="802" y1="856" x2="1026" y2="856" stroke="#37526c"/>
+  <text x="802" y="895" font-size="18" fill="#bad2e9">Follow an issue from</text>
+  <text x="802" y="922" font-size="18" fill="#bad2e9">the hardware interaction</text>
+  <text x="802" y="949" font-size="18" fill="#bad2e9">to application behaviour.</text>
+
+  <!-- Quantum contributions are an adjacent software area -->
+  <rect x="32" y="1020" width="1016" height="176" rx="12" fill="#ffffff" stroke="#c7b5e8"/>
+  <rect x="32" y="1020" width="6" height="176" rx="3" fill="#8860b5"/>
+  <text x="56" y="1061" font-size="23" font-weight="700" fill="#543583">Quantum software contributions</text>
+  <text x="56" y="1092" font-size="18" fill="#6c5a83">Related SDK work alongside the embedded and application stack</text>
+  <text x="56" y="1131" font-size="19" fill="#42546d">Qiskit: proposed C API memory-safety fix</text>
+  <text x="56" y="1164" font-size="19" fill="#42546d">D-Wave Ocean: merged documentation update</text>
+
+  <text x="32" y="1242" font-size="18" fill="#526178">Md Shofiqul Islam</text>
+  <text x="1048" y="1242" text-anchor="end" font-size="18" fill="#526178">github.com/shofiqtest</text>
+</svg>
