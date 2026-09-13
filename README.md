@@ -2,7 +2,7 @@
 
 # Md Shofiqul Islam
 
-**Embedded Linux & SoC Software Engineer · System Design · Kernel, Platform & Application Software**
+**Embedded Linux and SoC Software Engineer | System Design**
 
 Espoo, Finland &nbsp;·&nbsp; Open to roles in Europe (Ireland · Germany · Netherlands · Sweden)
 
@@ -19,33 +19,17 @@ Espoo, Finland &nbsp;·&nbsp; Open to roles in Europe (Ireland · Germany · Net
 
 ## What I work on
 
-My work combines system design, embedded platform engineering, upstream contributions and application integration.
+I am an embedded Linux and SoC software engineer based in Espoo, Finland. At Nokia, I worked on C/C++ platform and signal-processing software for real-time 5G RF/L1 systems. My work included a channel-estimation library, hardware integration, RTOS/Linux debugging and Python tools for validation.
 
-- **Linux kernel upstream contributor** — 15 patches merged across IIO, networking, storage, audio, filesystems, DRM/Accel, power, and SoC subsystems; reviewed by engineers at Intel, Red Hat, Microsoft, and Linaro
-- **DPDK / Linux networking** — NXP DPAA2 bus/DMA fixes; listed as a new contributor in the DPDK 26.07 release announcement
-- **Embedded Linux platform engineering** — Yocto/OpenEmbedded BSP, U-Boot, Device Tree, cross-compilation toolchain ownership on ARM SoC
-- **Real-time systems** — production firmware for 5G/6G platforms under hard real-time constraints; perf, ftrace, eBPF performance analysis on ARM multi-core
-- **Medical biosensor drivers** — IIO drivers for ECG/PPG (MAX86150) and EEG precision ADC (ADS1299) under active upstream review
-- **AI accelerator kernel interface** — patches to DRM/Accel subsystem for AMD Ryzen AI NPU and Intel VPU
-- **Zephyr RTOS** — MAX30101 SpO₂/heart-rate driver merged mainline (PR [#108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697)); INA237 power monitor `sample_fetch` triggered-mode fix merged mainline (PR [#110094](https://github.com/zephyrproject-rtos/zephyr/pull/110094))
-- **Quantum computing** — contributor to [D-Wave Ocean SDK](https://github.com/dwavesystems/dwave-ocean-sdk) (PR [#453](https://github.com/dwavesystems/dwave-ocean-sdk/pull/453) merged) and [Qiskit](https://github.com/Qiskit/qiskit) (PR [#16590](https://github.com/Qiskit/qiskit/pull/16590) — memory safety fix in C API); interested in quantum hardware control systems and embedded software for cryogenic platforms
+I also contribute to Linux, Zephyr, U-Boot and DPDK. My patches cover sensor drivers, error handling and resource cleanup. Alongside this, I build personal projects around medical sensors, ROS 2 and Python applications. You can find the repositories and contribution links further down this page.
 
 ---
 
 ## From Board Bring-Up to Application Software
 
-My expertise spans the embedded software stack, from board bring-up and hardware integration through bootloaders, Linux BSPs and device drivers to real-time middleware, system services and application software. I bring Nokia experience in C/C++ platform development, system design and hardware/software debugging, alongside personal projects in ROS 2 sensor integration, Python/FastAPI applications and AI-assisted incident investigation.
+My work spans the path from a board starting up to the application using its data. At the platform level, that means board bring-up, U-Boot, Device Tree, Yocto/OpenEmbedded BSPs and device drivers. Above that, I work with C/C++ libraries, real-time software, system services and the interfaces between components.
 
-| Layer or design area | My work |
-|---|---|
-| Board and hardware interfaces | Board bring-up, peripheral integration and debugging on target hardware with GDB/JTAG. |
-| Bootloader and Linux platform | U-Boot, Device Tree, Yocto/OpenEmbedded BSPs, cross-compilation and root filesystem configuration. |
-| Kernel and device drivers | Linux driver development and upstream fixes, IIO sensor interfaces and Zephyr driver contributions. |
-| Real-time software and middleware | C/C++ libraries, SoC and RF/L1 platform software, RTOS/Linux integration, timing analysis and system services. |
-| Applications and services | Personal ROS 2 sensor projects, Python/FastAPI services, monitoring prototypes and incident-investigation tools. |
-| System design and validation | Component boundaries, interface contracts, data flow, timing and resource constraints, failure analysis, Python automation and CI regression testing. |
-
-I connect these layers through clear interfaces and testable designs, following an issue from a hardware interaction to its effect on application behaviour.
+System design is part of this work: deciding how data moves, where timing matters, what happens when a component fails and how to test the result. My Nokia experience is in platform software and system debugging. My personal ROS 2 and Python/FastAPI projects extend that work into sensor integration and application services.
 
 ---
 
@@ -107,40 +91,14 @@ Also active reviewing open sensor driver PRs in `drivers/sensor/` — bmp581, bm
 
 ## Tech Stack
 
-**Languages**
+I mainly write C and C++, with Python and Bash for automation and tooling.
 
-![C](https://img.shields.io/badge/C-expert%20%7C%20kernel%20%26%20bare--metal-555?style=flat&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-production-00599C?style=flat&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-automation%20%26%20tooling-3776AB?style=flat&logo=python&logoColor=white)
-
-**Embedded Linux Platform**
-
-![Yocto](https://img.shields.io/badge/Yocto%2FOE-BSP%20owner-5E9E3A?style=flat)
-![U-Boot](https://img.shields.io/badge/U--Boot-board%20bring--up-orange?style=flat)
-![Device Tree](https://img.shields.io/badge/Device%20Tree-YAML%20binding%20author-blue?style=flat)
-![Zephyr](https://img.shields.io/badge/Zephyr%20RTOS-driver%20contributor-7B68EE?style=flat&logo=zephyr)
-
-**Networking**
-
-![DPDK](https://img.shields.io/badge/DPDK-NXP%20DPAA2%20contributor-0A7D43?style=flat)
-![SONiC](https://img.shields.io/badge/SONiC-network%20OS%20tooling-1F6FEB?style=flat)
-![Linux Networking](https://img.shields.io/badge/Linux%20Networking-net--next%20exposure-F8A800?style=flat&logo=linux&logoColor=white)
-
-**Architecture**
-
-![ARM64](https://img.shields.io/badge/ARM64-ISA%20%7C%20cache%20%7C%20barriers-0091BD?style=flat&logo=arm&logoColor=white)
-![RISC-V](https://img.shields.io/badge/RISC--V-LFD110%20certified-283593?style=flat)
-
-**Debugging & Performance**
-
-![perf](https://img.shields.io/badge/perf-kernel%20profiling-black?style=flat&logo=linux&logoColor=white)
-![eBPF](https://img.shields.io/badge/eBPF-tracing-F06529?style=flat)
-![JTAG](https://img.shields.io/badge/JTAG%2FSWD-hardware%20debug-red?style=flat)
-
-**CI/CD**
-
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-pipeline%20owner-2088FF?style=flat&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-CI%20pipeline-D24939?style=flat&logo=jenkins&logoColor=white)
+- **Platforms and drivers:** Embedded Linux, Yocto/OpenEmbedded, U-Boot, Device Tree, Linux IIO and Zephyr RTOS.
+- **Networking:** DPDK, NXP DPAA2, SONiC tooling and Linux network drivers.
+- **Architecture:** ARM64; RISC-V coursework through the Linux Foundation.
+- **Debugging:** GDB, JTAG/SWD, perf, ftrace and eBPF.
+- **Build and validation:** Git, GitHub Actions, Jenkins and Python.
+- **Application projects:** ROS 2, FastAPI and Docker.
 
 ---
 
@@ -154,8 +112,7 @@ Also active reviewing open sensor driver PRs in `drivers/sensor/` — bmp581, bm
 
 ## Areas I am interested in
 
-`Linux kernel` &nbsp; `Embedded Linux` &nbsp; `DPDK / SDN` &nbsp; `BSP / Yocto` &nbsp; `Medical biosensors` &nbsp; `AI accelerators` &nbsp;
-`Real-time systems` &nbsp; `5G / 6G platform` &nbsp; `Robotics` &nbsp; `Space & defense` &nbsp; `Industrial IoT` &nbsp; `RISC-V` &nbsp; `Quantum computing hardware`
+I am interested in work where software has to interact closely with hardware: embedded Linux, medical sensors, real-time communications, robotics and networking. I also follow work on AI accelerators, RISC-V and quantum computing hardware.
 
 ---
 
@@ -165,19 +122,19 @@ Also active reviewing open sensor driver PRs in `drivers/sensor/` — bmp581, bm
 
 [![Incident Agent CI](https://github.com/shofiqtest/evidence-first-incident-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/shofiqtest/evidence-first-incident-agent/actions/workflows/ci.yml)
 
-A personal Python/FastAPI project connecting systems debugging and automation with AI-assisted incident investigation. It collects synthetic metrics, logs, traces, deployment changes and runbooks through a fixed, read-only workflow, then produces reports with ranked hypotheses, evidence citations, uncertainty and abstention.
+I built this project to explore how an incident-investigation tool can explain a diagnosis using the evidence it collected. It reads synthetic metrics, logs, traces, deployment records and runbooks through a fixed, read-only workflow. The report ranks possible causes, links them to evidence and identifies uncertainty. It can also abstain when there is not enough evidence.
 
-- **Built to inspect:** CLI and API access to the observations behind each citation.
-- **Validated:** 40 automated tests, 90% local test coverage, and Docker build/API smoke checks in GitHub Actions.
-- **Optional LLM integration:** OpenAI-compatible endpoints, including Ollama. Published evaluation covers 20 synthetic scenarios using the offline heuristic; LLM response handling is tested with mocked endpoints.
+The project has a FastAPI API, a CLI and a Docker setup. It has 40 automated tests and 90% local test coverage. GitHub Actions also builds the container and checks the API.
 
-[Explore the project and run the demo](https://github.com/shofiqtest/evidence-first-incident-agent#quickstart)
+The default reasoner uses an offline heuristic. There is an optional OpenAI-compatible interface for models served by Ollama or another endpoint. The published evaluation covers 20 synthetic fixtures using the heuristic; the LLM response handling is tested with mocked endpoints.
+
+[Run the demo](https://github.com/shofiqtest/evidence-first-incident-agent#quickstart)
 
 ---
 
 ## Project Directory
 
-Public projects across [shofiqtest](https://github.com/shofiqtest?tab=repositories) and my [kernel-medical](https://github.com/kernel-medical) organization.
+I keep my public projects under [shofiqtest](https://github.com/shofiqtest?tab=repositories) and [kernel-medical](https://github.com/kernel-medical). The list below includes working prototypes, documentation, portfolio pages and earlier ideas.
 
 ### Software and engineering projects
 
@@ -209,7 +166,7 @@ Public projects across [shofiqtest](https://github.com/shofiqtest?tab=repositori
 <details>
 <summary><strong>Upstream forks and learning repositories</strong></summary>
 
-These repositories are forks of their respective upstream projects. Specific contributions and review links are documented in the contribution sections.
+These are my forks of upstream projects. Links to my patches and reviews are in the contribution sections above.
 
 | Fork | Upstream project | Area |
 |---|---|---|
@@ -226,6 +183,6 @@ These repositories are forks of their respective upstream projects. Specific con
 ---
 
 <div align="center">
-<sub>Always open to discuss kernel patches, embedded systems challenges, or new opportunities in Europe.</sub><br>
+<sub>For embedded software roles or questions about my projects, you can reach me at:</sub><br>
 <a href="mailto:shofiqtest@gmail.com">shofiqtest@gmail.com</a>
 </div>
