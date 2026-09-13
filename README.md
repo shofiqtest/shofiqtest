@@ -31,9 +31,11 @@ My work covers software from board bring-up to the application layer. On embedde
 
 System design connects these layers: how data moves, where timing matters, how components handle failures and how to test the system. My Nokia experience includes platform and signal-processing software for real-time 5G RF/L1 systems. My personal projects cover ROS 2 integration, Python/FastAPI services, monitoring prototypes and incident-investigation tools.
 
+My DPDK contributions focus on NXP DPAA2 bus and DMA device-removal paths and error handling. DPDK provides user-space libraries and drivers for fast packet processing in [data center, cloud, edge and telecom networking](https://www.dpdk.org/ecosystem/use-cases/).
+
 My quantum software contributions include a proposed C API memory-safety fix for Qiskit and a merged documentation update for D-Wave Ocean. The contribution links below show the scope and status of this work.
 
-![Software layers from board bring-up through parallel Linux and Zephyr platform paths to C/C++ libraries, middleware and applications. System design, integration, debugging and validation span the layers. Quantum software contributions in Qiskit and D-Wave Ocean are shown alongside the stack.](assets/software-layers.svg)
+![Software layers from board bring-up through parallel Linux and Zephyr platform paths to C/C++ libraries, middleware and applications. System design, integration, debugging and validation span the layers. DPDK user-space networking for data centers and quantum software contributions in Qiskit and D-Wave Ocean are shown alongside the stack.](assets/software-layers.svg)
 
 The diagram reads from top to bottom and maps my work across different projects. Linux and Zephyr are alternative platform paths; the application examples come from my Linux and Python projects.
 
@@ -58,6 +60,8 @@ Full patch history: [lore.kernel.org/all/?q=Md+Shofiqul+Islam](https://lore.kern
 ---
 
 ## DPDK / Networking Contributions
+
+My DPDK work covers NXP DPAA2 bus and DMA code, including device-removal and error-handling fixes. This is part of my open-source work on the platform software behind high-performance networking.
 
 | Contribution | Area | Public evidence |
 |---|---|---|

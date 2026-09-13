@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1280" viewBox="0 0 1080 1280" role="img" aria-labelledby="title description" font-family="Segoe UI, Arial, sans-serif">
   <title id="title">From board bring-up to application software</title>
-  <desc id="description">A map of Md Shofiqul Islam's work across different projects. Read from top to bottom: board bring-up, alternative Linux and Zephyr platform paths, C/C++ libraries and real-time software, then Linux and host middleware, services and applications. System design, integration, debugging and validation span the layers. Quantum software contributions to Qiskit and D-Wave Ocean appear in a separate panel.</desc>
+  <desc id="description">A map of Md Shofiqul Islam's work across different projects. Read from top to bottom: board bring-up, alternative Linux and Zephyr platform paths, C/C++ libraries and real-time software, then Linux and host middleware, services and applications. System design, integration, debugging and validation span the layers. Adjacent panels show DPDK user-space networking libraries and drivers used in data centers, with NXP DPAA2 bus/DMA contributions, and quantum software contributions to Qiskit and D-Wave Ocean.</desc>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="userSpaceOnUse">
       <path d="M 0 0 L 8 4 L 0 8 Z" fill="#64748b"/>
@@ -100,13 +100,20 @@
   <text x="802" y="922" font-size="18" fill="#bad2e9">the hardware interaction</text>
   <text x="802" y="949" font-size="18" fill="#bad2e9">to application behaviour.</text>
 
-  <!-- Quantum contributions are an adjacent software area -->
-  <rect x="32" y="1020" width="1016" height="176" rx="12" fill="#ffffff" stroke="#c7b5e8"/>
-  <rect x="32" y="1020" width="6" height="176" rx="3" fill="#8860b5"/>
-  <text x="56" y="1061" font-size="23" font-weight="700" fill="#543583">Quantum software contributions</text>
-  <text x="56" y="1092" font-size="18" fill="#6c5a83">Related SDK work alongside the embedded and application stack</text>
-  <text x="56" y="1131" font-size="19" fill="#42546d">Qiskit: proposed C API memory-safety fix</text>
-  <text x="56" y="1164" font-size="19" fill="#42546d">D-Wave Ocean: merged documentation update</text>
+  <!-- Networking and quantum contributions alongside the software stack -->
+  <rect x="32" y="1020" width="494" height="176" rx="12" fill="#ffffff" stroke="#a9cfc2"/>
+  <rect x="32" y="1020" width="6" height="176" rx="3" fill="#238674"/>
+  <text x="56" y="1061" font-size="22" font-weight="700" fill="#154c42">DPDK and data center networking</text>
+  <text x="56" y="1092" font-size="19" fill="#496c63">User-space libraries and drivers</text>
+  <text x="56" y="1131" font-size="18" fill="#42546d">Use: fast packet processing</text>
+  <text x="56" y="1164" font-size="18" fill="#42546d">My work: NXP DPAA2 bus/DMA fixes</text>
+
+  <rect x="554" y="1020" width="494" height="176" rx="12" fill="#ffffff" stroke="#c7b5e8"/>
+  <rect x="554" y="1020" width="6" height="176" rx="3" fill="#8860b5"/>
+  <text x="578" y="1061" font-size="23" font-weight="700" fill="#543583">Quantum software contributions</text>
+  <text x="578" y="1092" font-size="19" fill="#6c5a83">SDK code and documentation</text>
+  <text x="578" y="1131" font-size="18" fill="#42546d">Qiskit: proposed C API memory-safety fix</text>
+  <text x="578" y="1164" font-size="18" fill="#42546d">D-Wave Ocean: merged docs update</text>
 
   <text x="32" y="1242" font-size="18" fill="#526178">Md Shofiqul Islam</text>
   <text x="1048" y="1242" text-anchor="end" font-size="18" fill="#526178">github.com/shofiqtest</text>
