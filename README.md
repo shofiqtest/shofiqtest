@@ -65,10 +65,10 @@ Full patch history: [lore.kernel.org/all/?q=Md+Shofiqul+Islam](https://lore.kern
 
 | Driver | Contribution | Status |
 |---|---|---|
-| MAX30101 | SpO₂ / heart-rate optical sensor driver | [PR #108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697) — Merged |
-| INA237 | Power monitor — fix `sample_fetch` in triggered mode | [PR #110094](https://github.com/zephyrproject-rtos/zephyr/pull/110094) — Merged |
+| MAX30101 | SpO₂ / heart-rate optical sensor driver | [PR #108697](https://github.com/zephyrproject-rtos/zephyr/pull/108697): Merged |
+| INA237 | Power monitor: fix `sample_fetch` in triggered mode | [PR #110094](https://github.com/zephyrproject-rtos/zephyr/pull/110094): Merged |
 
-Also active reviewing open sensor driver PRs in `drivers/sensor/` — bmp581, bmp180, scd4x, lsm9ds1, sensor shell.
+Also active reviewing open sensor driver PRs in `drivers/sensor/`: bmp581, bmp180, scd4x, lsm9ds1, sensor shell.
 
 ---
 
@@ -76,7 +76,7 @@ Also active reviewing open sensor driver PRs in `drivers/sensor/` — bmp581, bm
 
 | Area | Contribution | Status |
 |---|---|---|
-| `board/ge/common/vpd_reader.c` | Fix `errloc` array size in `verify_bch()` — was allocated with `data_length` entries instead of `ecc_bits`, orders of magnitude larger than needed | [Merged](https://github.com/u-boot/u-boot/commit/d2d005a32b97) |
+| `board/ge/common/vpd_reader.c` | Fix `errloc` array size in `verify_bch()`: was allocated with `data_length` entries instead of `ecc_bits`, orders of magnitude larger than needed | [Merged](https://github.com/u-boot/u-boot/commit/d2d005a32b97) |
 
 ---
 
@@ -84,8 +84,8 @@ Also active reviewing open sensor driver PRs in `drivers/sensor/` — bmp581, bm
 
 | Project | Contribution | Status |
 |---|---|---|
-| **[Qiskit](https://github.com/Qiskit/qiskit)** (IBM Quantum) | [PR #16590](https://github.com/Qiskit/qiskit/pull/16590) — fix UB writing to uninitialized buffers in transpile layout C API; replace `slice::from_raw_parts_mut` over uninit memory with safe `ptr.add(i).write()` | Open |
-| **[D-Wave Ocean SDK](https://github.com/dwavesystems/dwave-ocean-sdk)** | [PR #453](https://github.com/dwavesystems/dwave-ocean-sdk/pull/453) — docs: add Advantage2 mention alongside Advantage in overview | Merged |
+| **[Qiskit](https://github.com/Qiskit/qiskit)** (IBM Quantum) | [PR #16590](https://github.com/Qiskit/qiskit/pull/16590): fix UB writing to uninitialized buffers in transpile layout C API; replace `slice::from_raw_parts_mut` over uninit memory with safe `ptr.add(i).write()` | Open |
+| **[D-Wave Ocean SDK](https://github.com/dwavesystems/dwave-ocean-sdk)** | [PR #453](https://github.com/dwavesystems/dwave-ocean-sdk/pull/453): docs: add Advantage2 mention alongside Advantage in overview | Merged |
 
 ---
 
@@ -104,9 +104,9 @@ I mainly write C and C++, with Python and Bash for automation and tooling.
 
 ## Certifications
 
-- Introduction to RISC-V (LFD110) — The Linux Foundation
-- Linux for Engineers — The Linux Foundation
-- Generative AI and LLMs — Coursera
+- Introduction to RISC-V (LFD110): The Linux Foundation
+- Linux for Engineers: The Linux Foundation
+- Generative AI and LLMs: Coursera
 
 ---
 
