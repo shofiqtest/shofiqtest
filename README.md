@@ -25,6 +25,19 @@ I also contribute to Linux, Zephyr RTOS, U-Boot and DPDK, with patches covering 
 
 ---
 
+## Tech Stack
+
+I mainly write C and C++, with Python and Bash for automation and tooling.
+
+- **Platforms and drivers:** Embedded Linux, Yocto/OpenEmbedded, U-Boot, Device Tree, Linux IIO and Zephyr RTOS.
+- **Networking:** DPDK, NXP DPAA2, SONiC tooling and Linux network drivers.
+- **Architecture:** ARM64; RISC-V coursework through the Linux Foundation.
+- **Debugging:** GDB, JTAG/SWD, perf, ftrace and eBPF.
+- **Build and validation:** Git, GitHub Actions, Jenkins and Python.
+- **Application projects:** ROS 2, FastAPI and Docker.
+
+---
+
 ## From Board Bring-Up to Application Software
 
 My work covers software from board bring-up to the application layer. On embedded Linux, I work with U-Boot, Device Tree, Yocto/OpenEmbedded BSPs, the kernel and device drivers. I also contribute to Zephyr RTOS sensor drivers, including MAX30101 and INA237. Above the platform, I work with C/C++ libraries, real-time software, system services and the interfaces between components.
@@ -59,24 +72,6 @@ Full patch history: [lore.kernel.org/all/?q=Md+Shofiqul+Islam](https://lore.kern
 
 ---
 
-## DPDK / Networking Contributions
-
-My DPDK work covers NXP DPAA2 bus and DMA code, including device-removal and error-handling fixes. This is part of my open-source work on the platform software behind high-performance networking.
-
-| Contribution | Area | Public evidence |
-|---|---|---|
-| NXP DPAA2 bus/DMA fixes | `bus/fslmc`, `dma/dpaa2`, device removal and unplug error paths | [DPDK patch review and test thread](https://mails.dpdk.org/archives/dev/2026-August/342708.html) |
-| DPDK contributor listing | DPDK 26.07 release | [Release announcement listing new contributors](https://mails.dpdk.org/archives/announce/2026-July/000565.html) |
-| SONiC network OS tooling | PFC Watchdog CLI crash handling and partial `PFC_WD` database entries | GitHub project work |
-
-![How DPDK helps a data center: traffic passes through NIC receive queues, a DPDK user-space application and transmit queues to workloads. Polling, packet bursts, assigned CPU cores and local buffers can reduce overhead and improve capacity. My NXP DPAA2 fixes propagate device-removal failures through the DMA and bus layers so callers can handle them.](assets/dpdk-data-center.svg)
-
-This example shows how DPDK can support data center network services. My DPAA2 fixes address device lifecycle reliability: removal failures reach the caller, and driver references are cleared only after successful removal.
-
-[Download the image](assets/dpdk-data-center.png). Technical background: [DPDK poll-mode drivers](https://doc.dpdk.org/guides/prog_guide/ethdev/ethdev.html) and [data center use cases](https://www.dpdk.org/ecosystem/use-cases/). My patches: [DPAA2 DMA removal](https://github.com/DPDK/dpdk/commit/611ef29e2c768bcede197996ddd9c5a37cf1a243) and [FSLMC bus unplug](https://github.com/DPDK/dpdk/commit/180b4c70c422580d1dd4b8094366c2186b3a04a9).
-
----
-
 ## Zephyr RTOS Contributions
 
 | Driver | Contribution | Status |
@@ -105,16 +100,21 @@ Also active reviewing open sensor driver PRs in `drivers/sensor/`: bmp581, bmp18
 
 ---
 
-## Tech Stack
+## DPDK / Networking Contributions
 
-I mainly write C and C++, with Python and Bash for automation and tooling.
+My DPDK work covers NXP DPAA2 bus and DMA code, including device-removal and error-handling fixes. This is part of my open-source work on the platform software behind high-performance networking.
 
-- **Platforms and drivers:** Embedded Linux, Yocto/OpenEmbedded, U-Boot, Device Tree, Linux IIO and Zephyr RTOS.
-- **Networking:** DPDK, NXP DPAA2, SONiC tooling and Linux network drivers.
-- **Architecture:** ARM64; RISC-V coursework through the Linux Foundation.
-- **Debugging:** GDB, JTAG/SWD, perf, ftrace and eBPF.
-- **Build and validation:** Git, GitHub Actions, Jenkins and Python.
-- **Application projects:** ROS 2, FastAPI and Docker.
+| Contribution | Area | Public evidence |
+|---|---|---|
+| NXP DPAA2 bus/DMA fixes | `bus/fslmc`, `dma/dpaa2`, device removal and unplug error paths | [DPDK patch review and test thread](https://mails.dpdk.org/archives/dev/2026-August/342708.html) |
+| DPDK contributor listing | DPDK 26.07 release | [Release announcement listing new contributors](https://mails.dpdk.org/archives/announce/2026-July/000565.html) |
+| SONiC network OS tooling | PFC Watchdog CLI crash handling and partial `PFC_WD` database entries | GitHub project work |
+
+![How DPDK helps a data center: traffic passes through NIC receive queues, a DPDK user-space application and transmit queues to workloads. Polling, packet bursts, assigned CPU cores and local buffers can reduce overhead and improve capacity. My NXP DPAA2 fixes propagate device-removal failures through the DMA and bus layers so callers can handle them.](assets/dpdk-data-center.svg)
+
+This example shows how DPDK can support data center network services. My DPAA2 fixes address device lifecycle reliability: removal failures reach the caller, and driver references are cleared only after successful removal.
+
+[Download the image](assets/dpdk-data-center.png). Technical background: [DPDK poll-mode drivers](https://doc.dpdk.org/guides/prog_guide/ethdev/ethdev.html) and [data center use cases](https://www.dpdk.org/ecosystem/use-cases/). My patches: [DPAA2 DMA removal](https://github.com/DPDK/dpdk/commit/611ef29e2c768bcede197996ddd9c5a37cf1a243) and [FSLMC bus unplug](https://github.com/DPDK/dpdk/commit/180b4c70c422580d1dd4b8094366c2186b3a04a9).
 
 ---
 
