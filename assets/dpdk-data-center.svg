@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1320" viewBox="0 0 1280 1320" role="img" aria-labelledby="title description" font-family="Segoe UI, Arial, sans-serif">
+  <title id="title">How DPDK helps a data center</title>
+  <desc id="description">An illustrative forwarding path from clients through NIC receive queues, a DPDK user-space application, and transmit queues to data center workloads. Poll-mode drivers, packet bursts, assigned CPU cores and local buffers can reduce packet overhead and improve capacity. A separate contribution panel shows Md Shofiqul Islam's NXP DPAA2 fixes: removal failures propagate through the DMA and bus layers so callers can detect and handle them. These fixes concern device lifecycle reliability.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#41739b"/>
+    </marker>
+    <marker id="purple-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#7856a3"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="1320" rx="22" fill="#f3f6fb"/>
+  <text x="32" y="61" font-size="38" font-weight="700" fill="#12233e">How DPDK helps a data center</text>
+  <text x="32" y="99" font-size="22" fill="#526178">An example packet path, the benefits, and where my contributions fit</text>
+
+  <!-- A forwarding example, with the DPDK process inside a server -->
+  <rect x="264" y="160" width="760" height="466" rx="16" fill="#ffffff" stroke="#acc4e5" stroke-width="2"/>
+  <text x="284" y="199" font-size="26" font-weight="700" fill="#173f72">Server running a DPDK network service</text>
+  <text x="284" y="233" font-size="20" fill="#526178">Example: a virtual switch, firewall or load balancer</text>
+
+  <rect x="32" y="270" width="216" height="186" rx="12" fill="#eaf0f9" stroke="#b6c9e0"/>
+  <rect x="57" y="290" width="37" height="25" rx="4" fill="none" stroke="#41739b" stroke-width="2"/>
+  <path d="M75 315 V324 M65 324 H85" fill="none" stroke="#41739b" stroke-width="2"/>
+  <rect x="102" y="302" width="29" height="20" rx="3" fill="none" stroke="#41739b" stroke-width="2"/>
+  <text x="56" y="360" font-size="24" font-weight="700" fill="#173f72">Traffic</text>
+  <text x="56" y="396" font-size="21" fill="#42546d">Clients and</text>
+  <text x="56" y="425" font-size="21" fill="#42546d">other services</text>
+
+  <path d="M249 366 H280" fill="none" stroke="#41739b" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="284" y="270" width="216" height="186" rx="12" fill="#edf4ff" stroke="#acc4e5"/>
+  <text x="304" y="306" font-size="21" fill="#42546d">Network card</text>
+  <text x="304" y="339" font-size="25" font-weight="700" fill="#173f72">RX queues</text>
+  <rect x="306" y="368" width="24" height="16" rx="3" fill="#7ba5d8"/>
+  <rect x="336" y="368" width="24" height="16" rx="3" fill="#7ba5d8"/>
+  <rect x="366" y="368" width="24" height="16" rx="3" fill="#7ba5d8"/>
+  <rect x="306" y="392" width="24" height="16" rx="3" fill="#a9c7e8"/>
+  <rect x="336" y="392" width="24" height="16" rx="3" fill="#a9c7e8"/>
+  <text x="304" y="440" font-size="19" fill="#526178">Incoming packets</text>
+
+  <path d="M501 366 H532" fill="none" stroke="#41739b" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="536" y="270" width="216" height="186" rx="12" fill="#166b5c"/>
+  <text x="556" y="306" font-size="28" font-weight="700" fill="#ffffff">DPDK</text>
+  <text x="556" y="339" font-size="25" font-weight="600" fill="#ffffff">application</text>
+  <text x="556" y="378" font-size="20" fill="#d8eee8">Receive, process,</text>
+  <text x="556" y="407" font-size="20" fill="#d8eee8">transmit in bursts</text>
+  <text x="556" y="440" font-size="19" fill="#b9ddd3">Runs in user space</text>
+
+  <path d="M753 366 H784" fill="none" stroke="#41739b" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="788" y="270" width="216" height="186" rx="12" fill="#edf4ff" stroke="#acc4e5"/>
+  <text x="808" y="306" font-size="21" fill="#42546d">Output interface</text>
+  <text x="808" y="339" font-size="25" font-weight="700" fill="#173f72">TX queues</text>
+  <text x="808" y="378" font-size="20" fill="#42546d">Network card</text>
+  <text x="808" y="407" font-size="20" fill="#42546d">or virtual port</text>
+  <text x="808" y="440" font-size="19" fill="#526178">Forwarded packets</text>
+
+  <path d="M1005 366 H1036" fill="none" stroke="#41739b" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="1040" y="270" width="216" height="186" rx="12" fill="#eaf0f9" stroke="#b6c9e0"/>
+  <rect x="1063" y="289" width="54" height="14" rx="3" fill="none" stroke="#41739b" stroke-width="2"/>
+  <rect x="1063" y="308" width="54" height="14" rx="3" fill="none" stroke="#41739b" stroke-width="2"/>
+  <circle cx="1106" cy="296" r="2" fill="#41739b"/>
+  <circle cx="1106" cy="315" r="2" fill="#41739b"/>
+  <text x="1060" y="360" font-size="24" font-weight="700" fill="#173f72">Workloads</text>
+  <text x="1060" y="396" font-size="21" fill="#42546d">VMs, containers</text>
+  <text x="1060" y="425" font-size="21" fill="#42546d">and servers</text>
+  <text x="1040" y="491" font-size="18" fill="#526178">Via the network fabric</text>
+  <text x="1040" y="516" font-size="18" fill="#526178">or a virtual connection</text>
+
+  <rect x="284" y="478" width="720" height="65" rx="9" fill="#eaf6f2"/>
+  <text x="304" y="505" font-size="21" font-weight="600" fill="#166b5c">Poll-mode drivers, CPU cores and local packet buffers</text>
+  <text x="304" y="531" font-size="19" fill="#496c63">Configured packet traffic follows a user-space fast path.</text>
+  <rect x="284" y="558" width="720" height="48" rx="9" fill="#f0f3f7"/>
+  <text x="304" y="588" font-size="19" fill="#526178">Linux: device setup, memory mapping and process management</text>
+
+  <!-- Mechanisms and practical benefits -->
+  <text x="32" y="683" font-size="28" font-weight="700" fill="#12233e">Why this helps a data center</text>
+  <rect x="32" y="712" width="392" height="168" rx="12" fill="#ffffff" stroke="#cad5e4"/>
+  <text x="56" y="754" font-size="24" font-weight="700" fill="#173f72">Less packet overhead</text>
+  <text x="56" y="795" font-size="20" fill="#42546d">Polling reduces interrupt work.</text>
+  <text x="56" y="826" font-size="20" fill="#42546d">Bursts share work across packets.</text>
+
+  <rect x="448" y="712" width="392" height="168" rx="12" fill="#ffffff" stroke="#cad5e4"/>
+  <text x="472" y="754" font-size="24" font-weight="700" fill="#173f72">More processing capacity</text>
+  <text x="472" y="795" font-size="20" fill="#42546d">Assigned cores and local buffers</text>
+  <text x="472" y="826" font-size="20" fill="#42546d">can improve packet throughput.</text>
+
+  <rect x="864" y="712" width="392" height="168" rx="12" fill="#ffffff" stroke="#cad5e4"/>
+  <text x="888" y="754" font-size="24" font-weight="700" fill="#173f72">Flexible network services</text>
+  <text x="888" y="795" font-size="20" fill="#42546d">Build virtual switches, firewalls</text>
+  <text x="888" y="826" font-size="20" fill="#42546d">and load balancers in software.</text>
+  <text x="32" y="918" font-size="20" fill="#526178">Results depend on hardware, workload and tuning. Busy polling uses CPU time.</text>
+
+  <!-- The user's fixes concern device lifecycle, not packet-rate measurements -->
+  <rect x="32" y="959" width="1224" height="261" rx="14" fill="#f3eeff" stroke="#c7b5e8"/>
+  <text x="56" y="1003" font-size="28" font-weight="700" fill="#543583">Where my DPAA2 contributions fit</text>
+  <text x="56" y="1040" font-size="21" fill="#5d477b">NXP DPAA2 bus/DMA fixes: make device-removal failures visible to the caller.</text>
+
+  <rect x="56" y="1067" width="336" height="80" rx="9" fill="#ffffff" stroke="#c7b5e8"/>
+  <text x="80" y="1114" font-size="23" font-weight="600" fill="#543583">Device removal fails</text>
+  <path d="M395 1107 H448" fill="none" stroke="#7856a3" stroke-width="3" marker-end="url(#purple-arrow)"/>
+  <rect x="452" y="1067" width="364" height="80" rx="9" fill="#ffffff" stroke="#c7b5e8"/>
+  <text x="474" y="1101" font-size="21" font-weight="600" fill="#543583">DMA and bus layers</text>
+  <text x="474" y="1129" font-size="21" font-weight="600" fill="#543583">return the error</text>
+  <path d="M819 1107 H872" fill="none" stroke="#7856a3" stroke-width="3" marker-end="url(#purple-arrow)"/>
+  <rect x="876" y="1067" width="356" height="80" rx="9" fill="#ffffff" stroke="#c7b5e8"/>
+  <text x="898" y="1101" font-size="21" font-weight="600" fill="#543583">Caller can detect</text>
+  <text x="898" y="1129" font-size="21" font-weight="600" fill="#543583">and handle the failure</text>
+  <text x="56" y="1188" font-size="20" fill="#5d477b">This supports correct cleanup and recovery decisions on affected NXP platforms.</text>
+
+  <text x="32" y="1260" font-size="18" fill="#526178">Illustrative packet path. DPDK documentation and upstream patch links are in the profile.</text>
+  <text x="32" y="1293" font-size="18" fill="#526178">Md Shofiqul Islam</text>
+  <text x="1256" y="1293" text-anchor="end" font-size="18" fill="#526178">github.com/shofiqtest</text>
+</svg>
