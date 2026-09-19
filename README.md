@@ -53,6 +53,17 @@ System design connects these layers: how data moves, where timing matters, how f
   <img src="assets/software-layers-v2.png" alt="Board-to-application software map showing hardware, alternative Embedded Linux and Zephyr RTOS paths, C/C++ real-time software, services and applications. System design, integration, debugging and validation span every layer.">
 </picture>
 
+<details>
+<summary><strong>View the full path from chip IP to board bring-up</strong></summary>
+
+<br>
+
+![From chip IP to board bring-up: silicon, board and software lanes with hands-on, exposure and upstream-context markers, and one issue traced across six layers from RF functionality and middleware through low-level SoC software, the SoC controller and PHY to the board interface.](assets/chip-to-board-bring-up.png)
+
+My path started with RF middleware and moved down the stack to low-level SoC software, register-level configuration and SoC subsystem debugging, with exposure to silicon and board-level bring-up. [Download the diagram](assets/chip-to-board-bring-up.svg).
+
+</details>
+
 ---
 
 ## Selected Projects
