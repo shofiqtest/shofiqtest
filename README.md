@@ -11,6 +11,7 @@ Espoo, Finland &nbsp;·&nbsp; Finnish permanent resident &nbsp;·&nbsp; Open to 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-245A86?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mdshofiqul/)
 [![Linux Kernel](https://img.shields.io/badge/Linux%20Kernel-Contributor-245A86?style=flat&logo=linux&logoColor=white)](https://lore.kernel.org/all/?q=Md+Shofiqul+Islam)
 [![Zephyr RTOS](https://img.shields.io/badge/Zephyr%20RTOS-Contributor-245A86?style=flat)](https://github.com/zephyrproject-rtos/zephyr/pulls?q=author%3Ashofiqtest)
+[![U-Boot](https://img.shields.io/badge/U--Boot-Contributor-245A86?style=flat)](https://github.com/u-boot/u-boot/commits/master/?author=shofiqtest)
 [![DPDK](https://img.shields.io/badge/DPDK-Contributor-245A86?style=flat)](https://mails.dpdk.org/archives/announce/2026-July/000565.html)
 
 **[Embedded Linux and Software Portfolio](https://kernel-medical.github.io/linux-medical-bsp/)**
