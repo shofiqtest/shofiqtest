@@ -77,7 +77,7 @@ My path started with RF middleware and moved down the stack to low-level SoC sof
 
 ## Linux Kernel Contributions
 
-- **Sensor and ADC work:** Three merged TI ADS1298 fixes; MAX86150 ECG/PPG and ADS1299 biopotential ADC drivers under review.
+- **Sensor and ADC work:** Three merged TI ADS1298 fixes; MAX86150 ECG/PPG driver (v11) — dt-bindings patch Reviewed-by Rob Herring (Arm, devicetree maintainer), driver patch under review; ADS1299 biopotential ADC driver under review.
 - **Platform and data-path fixes:** Merged resource cleanup for TI Keystone SoC and a permissions fix for Hyper-V storage.
 - **Additional mainline work:** ASoC, SCSI, XFS, SCTP, MFD and power-supply maintenance fixes.
 
